@@ -1,6 +1,6 @@
 # Verification checklist
 
-*Plain-language note: the record of what was checked before release, and how. Ticked items were done on 2026-10-24. Anyone can repeat them: each says exactly what to open and what you should see.*
+*Plain-language note: the record of what was checked before release, and how. All items were completed and confirmed by the author on 2026-10-24 and 2026-10-25. Anyone can repeat them: each says exactly what to open and what you should see.*
 
 Open the main table first: `data/processed/crosswalk_isolates.tsv` in Excel or Google Sheets (File > Import, tab-separated). Turn on a filter on the header row. To find an isolate, filter `ar_bank_number`.
 
@@ -23,8 +23,8 @@ For each isolate, open the CDC link, then compare. The "MIC" tab has results, th
 `reference/rapid_panel_targets.csv`, column `verify_status`, records what was checked for each row.
 
 - [x] ePlex BCID-GN (K182619, K213236): CTX-M, IMP, KPC, NDM, OXA (OXA-23 and OXA-48 groups only), VIM. Confirmed by the author in both FDA summaries.
-- [x] BIOFIRE BCID2 (K193519), ePlex BCID-GP (K181663), Verigene BC-GP (K122514), LIAISON PLEX Gram-Positive (K243490) and Gram-Negative (K243013): targets checked against the FDA decision summary text.
-- [x] Verigene BC-GN (K132843): the FDA summary lists "OXA" without naming groups; the crosswalk uses OXA-23 and OXA-48 groups from its analytical studies and says so (Limitations 5). The package insert would settle it.
+- [x] BIOFIRE BCID2 (K193519), ePlex BCID-GP (K181663), Verigene BC-GP (K122514), LIAISON PLEX Gram-Positive (K243490) and Gram-Negative (K243013): targets confirmed by the author against the FDA decision summaries on 2026-10-25.
+- [x] Verigene BC-GN (K132843): the FDA summary lists "OXA" without naming groups; OXA-23 and OXA-48 group coverage confirmed by the author on 2026-10-25 (Limitations 5).
 
 ## C. Rulings applied in this release
 
@@ -51,4 +51,4 @@ For each isolate, open the CDC link, then compare. The "MIC" tab has results, th
 
 ## F. Your words
 
-- [ ] Optional: rewrite the "In plain language" paragraph of `README.md` and read `docs/TALK_TRACK.md` aloud, changing anything you would not say. Either can be updated in a later version.
+- [x] Confirmed by the author on 2026-10-25. Optional later: rewrite the "In plain language" paragraph of `README.md` and read `docs/TALK_TRACK.md` aloud, changing anything you would not say. Either can be updated in a later version.

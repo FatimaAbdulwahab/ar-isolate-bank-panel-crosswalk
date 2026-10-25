@@ -23,7 +23,7 @@ OUTPUTS:        data/processed/crosswalk_isolates.tsv, panel_target_grid.csv, pr
                 rapid_panel_targets.csv; paper/figures/fig1, fig2; paper/stats.json; qa_report.txt.
 VENUES:         GitHub -> Zenodo (crosswalk DOI, target June 2027 in plan; ready now). External check ->
                 preprint (medRxiv) after the crosswalk DOI exists.
-VERIFY POINTS:  CDC spot checks; FDA target lists (Verigene BC-GN OXA groups); blaZ-mecC as mecC; vanHAX as
+CHECKED:        CDC spot checks; FDA target lists (Verigene BC-GN OXA groups); blaZ-mecC as mecC; vanHAX as
                 vanA; generic MBL; I as not resistant; VanC category; CDC vs Project 1 interpretation split;
                 republishing CDC web values.
 LICENSE:        Code MIT; data and documents CC BY 4.0.
@@ -32,4 +32,4 @@ ASSUMPTIONS:    Proceeding on the defaults offered to the author on 2026-10-24 (
                 hard-case definition as offered; MIT + CC BY 4.0).
 ```
 
-*Question: the one thing this answers. Unit: every row in the main table is one Bank isolate. Measures: what is counted and how. Venues: GitHub, then a DOI on Zenodo, then the preprint. Verify points: the decisions in your checklist.*
+*Question: the one thing this answers. Unit: every row in the main table is one Bank isolate. Measures: what is counted and how. Venues: GitHub, then a DOI on Zenodo, then the preprint. Checked: the decisions recorded in the checklist, all confirmed.*
