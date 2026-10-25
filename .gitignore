@@ -4,3 +4,9 @@ __pycache__/
 .DS_Store
 data/raw/isolates/
 data/raw/panels/
+paper/manuscript/*.aux
+paper/manuscript/*.log
+paper/manuscript/*.out
+paper/manuscript/*.fls
+paper/manuscript/*.fdb_latexmk
+paper/manuscript/build.log

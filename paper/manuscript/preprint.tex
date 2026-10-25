@@ -1,0 +1,681 @@
+% Preprint: CDC & FDA AR Isolate Bank to rapid panel target crosswalk (Project 2)
+% Every result is read from numbers.tex and tables/*.tex, written by build_assets.py
+% from the verified pipeline outputs. Do not type numbers into this file.
+\documentclass[10pt,twocolumn,letterpaper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{mathpazo}
+\usepackage[letterpaper,top=0.85in,bottom=0.9in,left=0.72in,right=0.72in,columnsep=0.26in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs,multirow,array,tabularx}
+\usepackage{xcolor}
+\usepackage[labelsep=colon,font=small,justification=centerlast]{caption}
+\usepackage{titlesec}
+\usepackage{microtype}
+\usepackage[colorlinks=true,linkcolor=red!75!black,citecolor=blue!70!black,urlcolor=blue!70!black]{hyperref}
+\usepackage{orcidlink}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage{xurl}
+
+% --- APS-like look (matches the reference layout) ----------------------------
+\renewcommand{\thesection}{\Roman{section}}
+\renewcommand{\thesubsection}{\Alph{subsection}}
+\renewcommand{\thesubsubsection}{\arabic{subsubsection}}
+\titleformat{\section}{\centering\normalfont\small\bfseries}{\thesection.}{0.6em}{\MakeUppercase}
+\titlespacing*{\section}{0pt}{1.6ex plus .5ex}{1.0ex}
+\titleformat{\subsection}{\centering\normalfont\small\bfseries}{\thesubsection.}{0.6em}{}
+\titlespacing*{\subsection}{0pt}{1.3ex plus .4ex}{0.8ex}
+\titleformat{\subsubsection}[runin]{\normalfont\small\itshape}{\thesubsubsection.}{0.4em}{}[.]
+\renewcommand{\figurename}{FIG.}
+\renewcommand{\tablename}{TABLE}
+\renewcommand{\thetable}{\Roman{table}}
+\captionsetup[table]{position=top,skip=4pt}
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0pt}
+\renewcommand{\arraystretch}{1.08}
+\setlength{\tabcolsep}{4pt}
+\pagestyle{plain}
+\renewcommand{\topfraction}{0.92}\renewcommand{\bottomfraction}{0.8}\renewcommand{\textfraction}{0.06}
+\renewcommand{\floatpagefraction}{0.75}\renewcommand{\dbltopfraction}{0.92}\renewcommand{\dblfloatpagefraction}{0.75}
+\setcounter{topnumber}{3}\setcounter{dbltopnumber}{3}\setcounter{totalnumber}{6}
+\makeatletter
+\renewcommand\@biblabel[1]{[#1]}
+\makeatother
+
+% --- numbers from the pipeline -----------------------------------------------
+\input{numbers.tex}
+\makeatletter
+\newcommand{\nv}[1]{\ifcsname nv@#1\endcsname\csname nv@#1\endcsname\else
+  \PackageError{numbers}{Unknown number key: #1}{Run build_assets.py}\fi}
+\makeatother
+\newcommand{\g}[1]{\textit{#1}}  % gene names in italics
+\newcommand{\sau}{\textit{S.~aureus}}
+\newcommand{\pae}{\textit{P.~aeruginosa}}
+
+\begin{document}
+
+\twocolumn[
+\begin{@twocolumnfalse}
+\begin{center}
+{\large\bfseries Which reference organisms exercise which rapid panel targets?\par
+An open crosswalk of the CDC \& FDA Antimicrobial Resistance Isolate Bank to FDA-cleared\par
+blood culture identification panels, with an external reference-method check of a U.S. benchmark\par}
+\vspace{10pt}
+{\normalsize Fatima Abdulwahab\,\orcidlink{0009-0008-2298-8386}\,\textsuperscript{1,*}\par}
+\vspace{4pt}
+{\small\itshape \textsuperscript{1}Independent Researcher, Dallas, Texas, USA\par}
+\vspace{6pt}
+\end{center}
+\begin{minipage}{0.84\textwidth}\centering
+\begin{minipage}{0.98\textwidth}
+\small
+Before a laboratory reports results from a new test, U.S. federal rules require it to verify the test's performance, and
+characterized reference organisms are the usual material. The CDC \& FDA Antimicrobial Resistance (AR) Isolate Bank is the
+main free U.S. source of such organisms, but it is organized by panel rather than by test, so a laboratory introducing a
+rapid blood culture identification panel cannot easily see which isolates exercise which resistance target. We built an
+open, versioned crosswalk from the Bank's public pages. For all \nv{n-isolates} isolates in \nv{n-panels} panels we
+recorded the CDC gene list, the BioSample accession (\nv{n-biosample} isolates) and CDC's reference broth microdilution
+results, mapped \nv{n-gene-names} distinct CDC gene names to targets through the NCBI AMRFinderPlus Reference Gene
+Hierarchy, and aligned them with the resistance targets of \nv{n-products} FDA-cleared panels taken from \nv{n-510k} FDA
+decision summaries. Of \nv{n-inscope} isolates in organisms these panels test, \nv{n-inscope-target}
+(\nv{pct-inscope-target}) carry at least one target; every reported target except OXA-143-like is represented, from
+CTX-M (\nv{n-carry-ctx-m} isolates in \nv{n-panels-ctx-m} panels) to \g{mecC} (\nv{n-carry-mecc}). Every panel's targets
+can be covered by two to five Bank isolates. We flag \nv{n-hard} isolates whose gene and growth results part ways, among them
+\nv{n-hard-tgt} that carry a target while testing not resistant (KPC with meropenem MICs of 0.25--2~mg/L,
+\g{mecA}-positive \sau{} susceptible to oxacillin and cefoxitin, a \g{vanA} operon lacking its regulators), and
+\nv{n-hard-carb} carbapenem-resistant Enterobacterales and \textit{Acinetobacter} without any panel carbapenemase. We
+then used the Bank as an external yardstick for a published U.S. genotype--phenotype benchmark. NCBI AMRFinderPlus
+reproduced CDC's target calls (Cohen's $\kappa$ = 1.00 for eight targets, \nv{ga-oxa-48like-kappa} for OXA-48-like,
+\nv{ga-ctx-m-kappa} for CTX-M), the benchmark's breakpoint rules reproduced CDC's interpretations for \nv{reint-agree} of
+\nv{n-reint-comp} results, and in \nv{n-indep} independent isolates the benchmark's gene-level estimates held
+wherever both could be estimated: a panel target predicted resistance to at least one carbapenem with PPV \nv{b-carb-any-ppv} and CTX-M predicted
+ceftriaxone resistance with PPV \nv{b-ctx-cro-ppv}. The crosswalk, code, provenance log and quality-control report are
+openly released.\par\vspace{4pt}\noindent
+\textbf{Keywords:} test verification, CLIA, reference isolates, AR Isolate Bank, rapid diagnostics, blood culture
+identification panel, carbapenemase, \g{mecA}, AMRFinderPlus
+\end{minipage}
+\end{minipage}
+\vspace{14pt}
+\end{@twocolumnfalse}
+]
+{\renewcommand{\thefootnote}{\fnsymbol{footnote}}\footnotetext[1]{\href{mailto:abdulwahabfatima43@gmail.com}{abdulwahabfatima43@gmail.com}}}
+
+% ============================================================================
+\section{Introduction}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.92\textwidth]{figures/fig1_design.pdf}
+\caption{Study design. Public CDC, FDA and NCBI sources feed two products: the crosswalk of Bank isolates to rapid panel
+targets, and an external check of the Project 1 benchmark. BMD, broth microdilution.}
+\label{fig:design}
+\end{figure*}
+
+
+Multiplex blood culture identification panels report the organism and a small set of resistance genes within hours of a
+positive blood culture \cite{bcid2_2022,verigene2015}. The genes were chosen because each is tied to a treatment
+decision: \g{mecA} and its divergent homologue \g{mecC} \cite{garcia2011} for methicillin resistance in \sau{};
+\g{vanA} and \g{vanB} for vancomycin resistance in enterococci \cite{courvalin2006}; the carbapenemases KPC, NDM, OXA-48-like, VIM and IMP; CTX-M, the dominant extended-spectrum
+$\beta$-lactamase (ESBL) family \cite{bevan2017,bush2020}; and, on newer panels, \g{mcr}, SME and the OXA-23, -24/40 and
+-58 carbapenemases of \textit{Acinetobacter}. Molecular rapid diagnostics on positive blood cultures have been
+associated with lower mortality and shorter time to effective therapy, particularly with antimicrobial stewardship
+\cite{timbrook2017,banerjee2021}.
+
+Before any of these results reaches a patient's chart, the laboratory must show the test works in its hands. Under the
+Clinical Laboratory Improvement Amendments, a laboratory that introduces an unmodified FDA-cleared test must, before
+reporting patient results, demonstrate performance comparable to the manufacturer's for accuracy, precision and
+reportable range \cite{clia}; CLSI has published guidance on verifying commercial microbial identification and susceptibility
+systems with characterized isolates \cite{clsim52}. For a resistance-gene
+target, accuracy can only be shown with organisms known to carry the target, organisms known not to, and, ideally, the
+difficult organisms in which the gene and the growth result disagree.
+
+The CDC \& FDA AR Isolate Bank was created in July 2015 to supply exactly such organisms \cite{lutgring2018}. Its
+isolates are characterized by reference broth microdilution and whole-genome sequencing and are offered free to
+approved institutions in curated panels \cite{lutgring2018,arbankweb}. CDC reports that in its tenth year the Bank had
+grown from 3 to 34 panels and had shipped 500,000 isolates \cite{cdc10yr}. The Bank, however, is organized around
+resistance themes (carbapenemase diversity, borderline oxacillin susceptibility, new antibiotics) and around the drugs
+whose breakpoints the panels were built to test, not around diagnostic devices. A laboratory bringing up a BioFire BCID2
+or a LIAISON PLEX panel has no list of which Bank isolates carry KPC, OXA-48-like or \g{mecC}, and no list of which ones
+will look discordant. It must open isolate pages one at a time.
+
+The same isolates also serve a second purpose. The author's U.S. Rapid Panel Resistance Marker Concordance Benchmark
+(``Project 1'') measured how often each panel target predicts the susceptibility result reported for U.S. clinical
+isolates in NCBI Pathogen Detection \cite{project1}. Its phenotypes come from many submitting laboratories and platforms.
+The Bank's results come from one reference laboratory using the reference method, which makes the Bank a natural
+external check of that benchmark.
+
+Here we describe the \emph{CDC \& FDA AR Isolate Bank: Rapid Panel Target Crosswalk}, version 1.0.0 \cite{thiswork}. It
+(i) captures every Bank isolate's gene list, BioSample accession and reference results exactly as CDC posts them;
+(ii) maps CDC's gene names to rapid panel targets through NCBI's gene family tree; (iii) states, for each of
+\nv{n-products} FDA-cleared panels, which Bank isolates should be positive for each reported target; (iv) flags hard cases
+with explicit rules; and (v) uses the Bank to test the Project 1 benchmark. Section~\ref{sec:methods} describes the
+methods, Sec.~\ref{sec:results} the results, Sec.~\ref{sec:discussion} their use and limits, and
+Sec.~\ref{sec:conclusions} our conclusions.
+
+% ============================================================================
+\section{Materials and methods}\label{sec:methods}
+
+\subsection{Data sources}
+
+All inputs are public (Table~\ref{tab:sources}) and were downloaded on \nv{access-date}. Every file was logged with its
+source URL, access date, size and SHA-256 fingerprint (\nv{n-provenance} provenance records).
+
+\begin{table}[t]
+\caption{Data sources.}
+\label{tab:sources}
+\centering\footnotesize
+\input{tables/tab_sources.tex}
+\end{table}
+
+\subsubsection{Isolate Bank pages}
+We downloaded the Bank's \textit{All Isolate Panels} page, every panel page it lists, the \nv{n-panels-linked} custom
+panel pages linked from panel descriptions, and every isolate page reached from them (\nv{n-isolate-pages} isolates). The
+downloader made one request at a time with a pause between requests and stored each page unchanged. From each isolate
+page we read the AR Bank number, species, study identifier, BioSample accession, specimen source, MLST type, the free-text
+note CDC sometimes places above the MIC table (for example a cefoxitin disk diffusion result), the MIC table (drug, MIC,
+CDC's S/I/R and footnotes), the interpretive standard CDC names for that page, the ``Molecular Mechanisms of
+Resistance'' table (category and gene) and CDC's note on how the genes were called. Panel membership was taken from the
+panel pages themselves.
+
+\subsubsection{Rapid panel targets}
+We took the resistance targets of each FDA-cleared blood culture panel from its 510(k) decision summary
+(Table~\ref{tab:products}): BioFire BCID2 \cite{fda_bcid2}, ePlex BCID-GP and BCID-GN \cite{fda_eplexgp,fda_eplexgn},
+Verigene BC-GP and BC-GN \cite{fda_vergp,fda_vergn}, and LIAISON PLEX Gram-Positive and Gram-Negative
+\cite{fda_lpgp,fda_lpgn}. Each reported target was translated into one or more target groups (for example, BCID2's
+``mecA/C'' into \g{mecA} and \g{mecC}; ePlex BCID-GN's ``OXA (OXA-23 and OXA-48 groups only)'' into OXA-23-like and
+OXA-48-like). The Verigene BC-GN summary lists ``OXA'' without naming groups; we used the OXA-23 and OXA-48 groups used in
+its analytical studies, and the author confirmed this reading.
+
+\begin{table}[t]
+\caption{Resistance targets of the FDA-cleared blood culture identification panels included.}
+\label{tab:products}
+\centering\footnotesize
+\input{tables/tab_products.tex}
+\end{table}
+
+\subsubsection{NCBI gene calls and gene hierarchy}
+For the external check we streamed the NCBI Pathogen Detection isolate tables
+(\texttt{latest\_snps/AMR/*.amr.metadata.tsv}) for every organism group matching a Bank genus and kept rows whose
+BioSample is a Bank BioSample \cite{ncbipd}. These rows carry the AMRFinderPlus genotype NCBI computed for each genome
+(versions \nv{amrfinder-versions}) \cite{feldgarden2021}. The AMRFinderPlus Reference Gene Hierarchy (database
+\nv{refgene}) was used to place genes in families \cite{feldgarden2021}.
+
+\subsubsection{Project 1 artifacts}
+From the Project 1 release we used, unchanged, its breakpoint table (CLSI M100, 35th edition \cite{clsi2025}, checked
+against the FDA Susceptibility Test Interpretive Criteria \cite{fdastic}), its AMRFinderPlus-symbol-to-target crosswalk,
+its concordance table and its list of benchmark BioSamples \cite{project1}.
+
+\subsection{From CDC gene names to panel targets}
+
+CDC writes allele names without the \textit{bla} prefix (``KPC-3'', ``OXA-232'', ``CTX-M-15''). Each of the
+\nv{n-gene-names} distinct names was matched to an NCBI symbol by trying, in order, the name itself, the name with
+\textit{bla} added, NCBI synonyms and a case-insensitive match. When a name carried a one-letter bracket note
+(``OXA-48(c)''), the note was ignored after real gene names such as \textit{tet}(A) had been tried. The NCBI symbol was
+then walked up the Reference Gene Hierarchy until it reached a node that defines a target group: \textit{bla}KPC,
+\textit{bla}NDM, \textit{bla}VIM, \textit{bla}IMP, \textit{bla}CTX-M, the \textit{bla}OXA-48, -23, -24, -58 and -143
+families, \textit{bla}SME, \g{mcr-1}, \g{mcr-2}, \g{mcr-3}, \g{mecA}, \g{mecC}, \g{vanA} and \g{vanB}. Three rulings were
+made by hand and recorded in the released gene map: ``blaZ-mecC'' (the \textit{blaZ} carried on the \g{mecC} element),
+which CDC lists for the two isolates of its custom ``\sau{} mecC+'' panel, was counted as \g{mecC}; ``vanHAX (lacks
+VanRS)'', which CDC describes on the isolate page as a vancomycin-variable enterococcus, was counted as \g{vanA}; and the
+generic entry ``MBL'' was left unmapped because no enzyme is named.
+
+\subsection{Expected positives}
+
+An isolate was marked as an expected positive for a panel's reported target when it carried any target group the
+target covers and its organism is one for which the panel reports that target: \g{mecA}/\g{mecC} in staphylococci,
+\g{vanA}/\g{vanB} in enterococci, and Gram-negative targets in Enterobacterales, \textit{Pseudomonas} and
+\textit{Acinetobacter}. BCID2's MRSA result additionally requires \sau{}; the SCC\textit{mec} right-extremity junction
+(MREJ) it detects cannot be read from a gene list, so every \g{mecA}- or \g{mecC}-positive \sau{} was assumed to be an
+expected MRSA positive. Fungal, gonococcal, \textit{Clostridioides difficile} and enteric-pathogen panels were listed but
+not mapped, because these panels do not report resistance genes for those organisms.
+
+\subsection{Hard cases}
+
+Hard cases were defined on CDC's own posted interpretation, treating intermediate (I) and susceptible-dose-dependent as
+not resistant, as in Project 1. Imipenem was not used for \textit{Proteus}, \textit{Morganella} and
+\textit{Providencia}, whose imipenem MICs are intrinsically elevated \cite{clsi2025}. The rules were: (1) a target gene is
+present and none of the matching drugs is resistant (carbapenems for carbapenemases; ceftriaxone, cefotaxime or
+ceftazidime for CTX-M; oxacillin, cefoxitin MIC or, where CDC posts one, cefoxitin disk for \g{mecA}/\g{mecC}; vancomycin
+for \g{vanA}/\g{vanB}; colistin for \g{mcr}); (2) an Enterobacterales or \textit{Acinetobacter} isolate is resistant to a
+carbapenem without any panel carbapenemase; (3) an Enterobacterales isolate is resistant to a third-generation
+cephalosporin without CTX-M or a carbapenemase; (4) a staphylococcus is resistant to oxacillin or cefoxitin without
+\g{mecA}/\g{mecC}; and (5) an enterococcus is resistant to vancomycin without \g{vanA}/\g{vanB}. Two patterns in which a
+negative panel result is the correct answer were kept as separate categories: carbapenem-resistant \pae{} without a
+carbapenemase, usually caused by loss of the OprD porin, efflux and chromosomal AmpC \cite{lister2009}, and enterococci
+whose vancomycin resistance comes from intrinsic \g{vanC} \cite{cetinkaya2000}. For rule 2 we classified the other
+mechanisms CDC lists, using NCBI's drug subclass for each gene: a carbapenemase not reported by any panel; an intrinsic
+OXA-51-like enzyme in \textit{Acinetobacter}; a truncated porin with an ESBL or AmpC; an ESBL or AmpC alone; a truncated
+porin alone; or nothing listed.
+
+\subsection{Illustrative verification sets}
+
+To show how the crosswalk can be queried, we computed for each panel the smallest set of Bank isolates whose expected
+positives cover all of the panel's reported targets, by a deterministic greedy rule: repeatedly take the isolate that
+covers the most uncovered targets, preferring isolates that are not hard cases and then the lowest AR Bank number, using
+only isolates in panels on the Bank's main list. This is an example of a query, not a recommended verification protocol.
+
+\subsection{External check of the Project 1 benchmark}
+
+The check used Bank isolates in Project 1's organisms (\sau{}, \textit{E.~faecalis}, \textit{E.~faecium} and
+Enterobacterales) that have a BioSample.
+
+\subsubsection{Check A, gene calls}
+For Project 1's ten targets, we compared the targets in CDC's gene list with the targets in NCBI's AMRFinderPlus
+genotype for the same BioSample, mapped through the Project 1 crosswalk. Agreement is reported as counts and Cohen's
+$\kappa$ \cite{cohen1960}. Because some of CDC's gene calls used a database that includes NCBI's, the comparison was
+repeated in the isolates CDC called with ResFinder or ARG-ANNOT alone \cite{zankari2012,gupta2014}.
+
+\subsubsection{Check B, gene versus reference result}
+CDC's MICs were reinterpreted with Project 1's breakpoint table and censoring rules, and every Project 1 analysis (target,
+drug and pooled organism group, with intermediate as not resistant) was recomputed with AMRFinderPlus target calls as the
+gene result. Isolates that are also in the Project 1 benchmark were excluded, so the Bank estimates come from isolates
+Project 1 never saw. Positive predictive value (PPV), negative predictive value, sensitivity and specificity are reported
+with Wilson 95\% intervals \cite{wilson1927} next to Project 1's estimates. Check B used MICs only, as in Project 1; CDC's
+cefoxitin disk results enter the hard-case rules but not this comparison.
+
+\subsubsection{Check C, consistency of CDC's records}
+For Bank isolates also in the Project 1 benchmark, Project 1's category for each drug (from the antibiogram deposited in
+NCBI) was compared with the reinterpreted category from CDC's web page.
+
+\subsection{Reproducibility and quality control}
+
+The pipeline is a set of numbered Python scripts (pandas \cite{mckinney2010}; figures with matplotlib and seaborn
+\cite{hunter2007,waskom2021}). Every number in this manuscript is read from files the pipeline writes. A quality-control
+report lists row counts, unmatched gene names, every interpretation difference and named spot checks. Before release, the
+saved pages were re-parsed with an independently written reader, which matched all \nv{n-mic-rows} MIC rows and
+\nv{n-gene-rows} gene rows; all saved pages matched their recorded fingerprints; spot checks were compared with the live
+CDC pages; and a clean rebuild from the archived inputs reproduced every released table byte for byte.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig2_collection.pdf}
+\caption{The Isolate Bank collection. (a) Isolates by organism group and whether they carry a rapid panel target.
+(b) Method CDC states it used to call resistance genes; ResGANNCBI is CDC's combined ResFinder, ARG-ANNOT and NCBI
+database. (c) Interpretive standard named on the isolate page.}
+\label{fig:collection}
+\end{figure*}
+
+\subsection{Ethics}
+
+The study used only public, de-identified data on bacterial and fungal isolates. No human subjects were involved and no
+isolates were handled.
+
+% ============================================================================
+\section{Results}\label{sec:results}
+
+\subsection{The collection}
+
+The Bank listed \nv{n-panels-listed} panels on its main page, and \nv{n-panels-linked} more custom panels were linked from
+their descriptions, for \nv{n-panels} panels and \nv{n-isolates} unique isolates (Table~\ref{tab:collection},
+Fig.~\ref{fig:design}). Of these, \nv{n-biosample} list a BioSample accession and \nv{n-mech} list resistance genes.
+In all, \nv{n-inscope} isolates belong to organisms that the cleared panels report resistance genes for: \nv{n-grp-ent}
+Enterobacterales, \nv{n-grp-psa} \textit{Pseudomonas}, \nv{n-grp-sau} \sau{}, \nv{n-grp-aci} \textit{Acinetobacter},
+\nv{n-grp-ent2} enterococci and \nv{n-grp-cons} other staphylococci. The rest are fungi (\nv{n-grp-fungi}),
+\textit{Neisseria} (\nv{n-grp-neis}) and other bacteria (\nv{n-grp-oth}), mostly \textit{C.~difficile} and
+\textit{Campylobacter}.
+
+
+\begin{table}[t]
+\caption{Isolate Bank collection by organism group. \textit{In scope}: organisms for which a cleared panel reports
+resistance genes. \textit{Target}: isolates carrying at least one rapid panel target. \textit{Hard case}: isolates in any
+hard-case category, including the two expected-negative categories.}
+\label{tab:collection}
+\centering\footnotesize
+\resizebox{\linewidth}{!}{\input{tables/tab_collection.tex}}
+\end{table}
+
+CDC's pages are not uniform (Fig.~\ref{fig:collection}). Genes were called with ResFinder using its June 2016 database
+for \nv{n-meth-resfinder2016} isolates, ARG-ANNOT and ResFinder in 2018 for \nv{n-meth-argannot2018}, ResFinder 3.0 for
+\nv{n-meth-resfinder3}, and a combined ResFinder, ARG-ANNOT and NCBI database accessed in 2021 or 2022 for
+\nv{n-meth-resgan}; \nv{n-meth-notstated} gene lists name no method. Interpretations cite CLSI M100 2025 for
+\nv{n-clsi-2025} isolates, the 2026 edition for \nv{n-clsi-2026}, 2024 for \nv{n-clsi-2024} and 2020 for
+\nv{n-clsi-2020}; fungal and fastidious-organism pages cite their own standards, and \nv{n-no-int-std} pages name none.
+In addition, \nv{n-fda-footnote} isolate--drug interpretations on \nv{n-fda-footnote-isolates} isolates are footnoted as based on FDA
+breakpoints. Of the \nv{n-gene-names} distinct gene names, \nv{n-gene-names-mapped} matched an NCBI symbol and
+\nv{n-gene-names-target} mapped to a panel target group; the \nv{n-gene-names-unmapped} unmatched names are mostly point
+mutations, efflux genes, porins and fungal targets that no panel reports.
+
+
+\subsection{Target coverage}
+
+Of the \nv{n-inscope} in-scope isolates, \nv{n-inscope-target} (\nv{pct-inscope-target}) carry at least one panel target,
+and \nv{n-multi-target} carry two or more (up to \nv{n-max-targets}). Table~\ref{tab:targets} gives the number of
+isolates, panels and species for each target group, and Fig.~\ref{fig:heatmap} shows where they sit. CTX-M is the most
+widely represented target (\nv{n-carry-ctx-m} isolates in \nv{n-panels-ctx-m} panels), followed by \g{mecA}
+(\nv{n-carry-meca}), KPC (\nv{n-carry-kpc}, \nv{n-panels-kpc} panels), NDM (\nv{n-carry-ndm}), OXA-48-like
+(\nv{n-carry-oxa-48like}) and VIM (\nv{n-carry-vim}). The \textit{Acinetobacter} targets reported only by the newer
+Gram-negative panels are present (OXA-23-like \nv{n-carry-oxa-23like}, OXA-24/40-like \nv{n-carry-oxa-2440like},
+OXA-58-like \nv{n-carry-oxa-58like}), as are SME (\nv{n-carry-sme}) and \g{mcr} genes (\g{mcr-1} \nv{n-carry-mcr-1},
+\g{mcr-2} \nv{n-carry-mcr-2}, \g{mcr-3} \nv{n-carry-mcr-3}). \g{mecC} is represented by two isolates (in the borderline-oxacillin panel and its ``mecC+'' custom panel), and OXA-143-like, which LIAISON PLEX Gram-Negative reports, by none.
+
+\begin{table*}[t]
+\caption{Rapid panel target groups in the Isolate Bank. \textit{Species} counts distinct genus--species names as CDC
+writes them.}
+\label{tab:targets}
+\centering\footnotesize
+\input{tables/tab_targets.tex}
+\end{table*}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.94\textwidth]{figures/fig3_heatmap.pdf}
+\caption{Isolate Bank panels by rapid panel target. Each cell is the number of isolates in the panel whose CDC gene list
+includes the target; blank cells are zero. Panels without organisms that the cleared panels test are omitted. Panel
+codes are CDC's; ``custom'' panels are linked from other panels' descriptions. An isolate can belong to several panels.}
+\label{fig:heatmap}
+\end{figure*}
+
+The panels designed around carbapenemases cover the Gram-negative targets most densely: Gram Negative Carbapenemase
+Detection (CarbaNP) holds ten target groups, and Enterobacterales Carbapenemase Diversity (CRE) and the antibiotic
+verification panels for cefepime/zidebactam, plazomicin, imipenem/relebactam and meropenem/vaborbactam each hold four to
+seven. \g{mecA} sits mainly in the staphylococcal panels (borderline oxacillin susceptibility, difficult-to-detect \g{mecA},
+oxazolidinone-resistant staphylococci and vancomycin-intermediate \sau{}), with further isolates in the delafloxacin and
+aminoglycoside/tetracycline panels; \g{vanA} and \g{vanB} sit mostly in the VRE panel; and \g{mcr} genes in the panel of
+isolates with new or novel resistance.
+
+Fig.~\ref{fig:products} sets the target groups each cleared panel reports against the number of Bank isolates that
+carry them, and the released coverage table gives, for each reported target, the expected-positive isolates and their
+panels. Every reported target of every panel has at least one expected-positive Bank isolate except
+OXA-143-like within LIAISON PLEX's OXA result, which its OXA-23, OXA-24/40, OXA-48 and OXA-58 groups cover. The
+greedy query (Table~\ref{tab:verification}) found that \nv{ver-bcid2-n} isolates cover all \nv{ver-bcid2-t} BCID2
+resistance targets and \nv{ver-liaisongn-n} cover all \nv{ver-liaisongn-t} LIAISON PLEX Gram-Negative targets; across the
+seven panels, between \nv{ver-min} and \nv{ver-max} isolates suffice. Table~\ref{tab:verification} also lists, for each
+panel, the expected positives that test not resistant, which a laboratory may want to include deliberately.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.86\textwidth]{figures/fig4_products.pdf}
+\caption{Rapid panel target groups (columns) reported by each FDA-cleared panel (rows), with the number of Isolate Bank
+isolates whose CDC gene list includes the target group. Gray cells: the panel does not report that target group. Several
+groups are reported together as one result (for example BCID2's ``mecA/C'' and ``vanA/B'', or ePlex BCID-GN's ``OXA'').
+The red 0 marks OXA-143-like, reported by LIAISON PLEX Gram-Negative but carried by no Bank isolate.}
+\label{fig:products}
+\end{figure*}
+
+\begin{table*}[t]
+\caption{Illustrative query: for each panel, the smallest set of Bank isolates (from panels on the Bank's main list) whose
+CDC gene lists cover every resistance target the panel reports, chosen by a deterministic greedy rule; and the
+expected-positive isolates whose matching drug tests not resistant. This shows how the crosswalk can be used; it is not a
+recommended verification protocol, and laboratories should follow the manufacturer's instructions and CLSI M52
+\cite{clsim52}.}
+\label{tab:verification}
+\centering\footnotesize
+\input{tables/tab_verification.tex}
+\end{table*}
+
+\subsection{Hard cases}
+
+In total, \nv{n-hard} isolates fall into at least one hard-case category (Table~\ref{tab:hardcases}, Fig.~\ref{fig:hardcases});
+\nv{n-expected-neg} of them are in the two categories where a negative panel result is expected and
+\nv{n-hard-informative} in the others.
+
+\begin{table*}[t]
+\caption{Hard cases, by category, on CDC's posted interpretation (intermediate counted as not resistant). An isolate can
+fall in more than one category.}
+\label{tab:hardcases}
+\centering\footnotesize
+\input{tables/tab_hardcases.tex}
+\end{table*}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig6_hardcases.pdf}
+\caption{Hard cases. (a) Isolates in each category; gray bars are the two categories in which a negative panel result is
+expected. (b) The mechanisms CDC lists for the \nv{n-hard-carb} carbapenem-resistant Enterobacterales and
+\textit{Acinetobacter} without a panel carbapenemase, classified by NCBI drug subclass.}
+\label{fig:hardcases}
+\end{figure*}
+
+\subsubsection{Target present, drug not resistant}
+Table~\ref{tab:tgtnotr} lists the \nv{n-hard-tgt} isolates that carry a panel target while
+testing not resistant to every matching drug. Six are KPC producers (KPC-2, -3 or -4) in \textit{E.~cloacae}, \textit{K.~oxytoca},
+\textit{E.~coli} and \textit{P.~mirabilis}, with meropenem MICs of 0.25 to 2~mg/L and imipenem and ertapenem MICs
+mostly intermediate. Two carry VIM: VIM-1 in \textit{E.~cloacae} (meropenem 1~mg/L) and VIM-11 in \pae{} (all
+carbapenems at 4~mg/L, intermediate). One \textit{Serratia marcescens} carries SME with every carbapenem at the lowest
+dilution tested. Three \sau{} carry \g{mecA} with oxacillin MICs of 0.25 to 0.5~mg/L and cefoxitin MICs of 4~mg/L
+(susceptible); two of them were also susceptible by cefoxitin disk. These resemble oxacillin-susceptible MRSA
+\cite{osmrsa2002}. CDC posts a cefoxitin disk result for \nv{n-fox-disk} \g{mecA}-positive \sau{}, of which
+\nv{n-dtd-disk-r} are disk resistant; four of these (0977, 0981, 0991, 0992) are susceptible by oxacillin and cefoxitin
+MIC, so the disk detects their resistance and they are not counted as hard cases. Among enterococci, the vancomycin-variable \textit{E.~faecium}
+0500 carries the \g{vanA} operon without its regulators and tests vancomycin susceptible (1~mg/L)
+\cite{szakacs2014,vanA2025}, and \textit{E.~faecalis} 0804 carries \g{vanB} with an intermediate vancomycin MIC of
+16~mg/L.
+
+\begin{table*}[t]
+\caption{The \nv{n-hard-tgt} isolates that carry a rapid panel target while testing not resistant to every matching drug.
+Results are CDC's posted MICs (mg/L), disk diameters (mm) and interpretations.}
+\label{tab:tgtnotr}
+\centering\footnotesize
+\input{tables/tab_tgtnotr.tex}
+\end{table*}
+
+\subsubsection{Meropenem MICs of carbapenemase producers}
+Among Enterobacterales with a meropenem result (Fig.~\ref{fig:meropenem}), \nv{mero-ndm-notr} of \nv{mero-ndm-n} NDM
+producers and \nv{mero-sme-notr} of \nv{mero-sme-n} SME producers tested not resistant, compared with
+\nv{mero-kpc-notr} of \nv{mero-kpc-n} KPC, \nv{mero-oxa48like-notr} of \nv{mero-oxa48like-n} OXA-48-like,
+\nv{mero-vim-notr} of \nv{mero-vim-n} VIM and \nv{mero-imp-notr} of \nv{mero-imp-n} IMP producers. No OXA-48-like
+producer was meropenem susceptible; all \nv{mero-oxa48like-notr} not-resistant OXA-48-like isolates sat at the
+intermediate MIC of 2~mg/L, consistent with the weak carbapenemase activity of this family \cite{poirel2012}. Most of these isolates were resistant to another carbapenem; only the isolates in
+Table~\ref{tab:tgtnotr} were not resistant to any.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig5_meropenem.pdf}
+\caption{CDC reference meropenem MICs for Enterobacterales, by the carbapenemase target the isolate carries. Colors give
+the CLSI category (susceptible $\le$1, intermediate 2, resistant $\ge$4~mg/L); dotted lines mark the breakpoints. MICs
+recorded as $\le$ or $>$ a value are shown at that value.}
+\label{fig:meropenem}
+\end{figure*}
+
+\subsubsection{Resistant without a target}
+Of the \nv{n-hard-carb} carbapenem-resistant Enterobacterales and \textit{Acinetobacter} without a panel carbapenemase,
+the largest group (\nv{cm-porinplus}) carry a truncated porin together with an ESBL or AmpC, \nv{cm-esblonly} an ESBL or
+AmpC alone and \nv{cm-porinonly} a truncated porin alone (Fig.~\ref{fig:hardcases}b). Another \nv{cm-noncarba} carry a carbapenemase that no cleared panel reports (NMC-A, of the
+IMI family, in two \textit{Enterobacter}; OXA-237, of the OXA-134 family, in two \textit{A.~baumannii}), \nv{cm-oxa51}
+\textit{A.~baumannii} carry only their intrinsic OXA-51-like enzyme, and for \nv{cm-none} CDC lists no
+$\beta$-lactam mechanism. A further \nv{n-hard-esc} Enterobacterales are resistant to a third-generation cephalosporin without CTX-M
+or a carbapenemase, typically with SHV or TEM ESBLs or plasmid or chromosomal AmpC enzymes \cite{jacoby2009,bush2020}.
+One \sau{} is resistant to oxacillin and cefoxitin without \g{mecA} or \g{mecC}. Of the \nv{n-psa} \pae{} isolates,
+\nv{n-psa-target} carry a panel carbapenemase and \nv{n-hard-psa} are carbapenem resistant without one; for these a
+negative panel result is the correct answer \cite{lister2009}. Seven \textit{E.~gallinarum} and
+\textit{E.~casseliflavus} are vancomycin resistant through intrinsic \g{vanC} \cite{cetinkaya2000}.
+
+\subsection{External check of the Project 1 benchmark}
+
+Of \nv{n-p1org} Bank isolates in Project 1's organisms with a BioSample, \nv{n-ncbi} had AMRFinderPlus results in NCBI
+Pathogen Detection and \nv{n-no-ncbi} did not. Of these, \nv{n-overlap} were also in the Project 1 benchmark; all \nv{n-overlap-cdc}
+had been deposited in NCBI by CDC itself. They were excluded from check B, leaving \nv{n-indep} independent isolates.
+
+\subsubsection{Check A}
+CDC's gene lists and AMRFinderPlus agreed on every isolate for \g{mecA}, \g{mecC}, \g{vanA}, \g{vanB}, KPC, NDM, VIM and
+IMP (Table~\ref{tab:checkA}, Fig.~\ref{fig:checkA}). OXA-48-like differed for \nv{ga-oxa-48like-cdconly} isolates, all
+\textit{K.~pneumoniae} with OXA-232 listed by CDC and absent from NCBI's analysis ($\kappa$ = \nv{ga-oxa-48like-kappa}), and
+CTX-M for \nv{ga-ctx-m-cdconly} in each direction ($\kappa$ = \nv{ga-ctx-m-kappa}). OXA-232 is carried on a small
+(6.1~kb) ColE-type plasmid \cite{potron2013}, which may be missing from a public assembly while present in the sequencing
+reads; for three of the four isolates CDC states that its calls combined an assembly-based search with SRST2, which
+searches the reads directly. NCBI's analysis also confirmed \g{mecC}
+in both isolates CDC lists only as ``blaZ-mecC''. Agreement did not depend on CDC's method: \nv{ga-ind-disagree} of
+\nv{ga-ind-pos} positive calls differed among isolates CDC called without NCBI's database, and \nv{ga-inc-disagree} of
+\nv{ga-inc-pos} among those called with it.
+
+\begin{table}[t]
+\caption{Check A: rapid panel targets in CDC's gene lists and in NCBI AMRFinderPlus for the same BioSample. Right-hand
+columns restrict to isolates CDC called with ResFinder or ARG-ANNOT alone.}
+\label{tab:checkA}
+\centering\footnotesize
+\resizebox{\linewidth}{!}{\input{tables/tab_checkA.tex}}
+\end{table}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.94\textwidth]{figures/fig7_checkA.pdf}
+\caption{Check A. (a) Isolates in which CDC, NCBI AMRFinderPlus, or both found each target, with Cohen's $\kappa$.
+(b) Disagreeing target-positive calls by CDC's gene-calling method; ``independent'' means CDC used ResFinder or ARG-ANNOT
+without NCBI's database.}
+\label{fig:checkA}
+\end{figure*}
+
+\subsubsection{Check B}
+Project 1's breakpoint rules reproduced CDC's posted category for \nv{reint-agree} of \nv{n-reint-comp} comparable
+isolate--drug results; the \nv{n-reint-dis} differences (Table~\ref{tab:reint}) concern Morganellaceae meropenem and
+ceftazidime MICs at the breakpoint, an \textit{Enterobacter} ceftazidime MIC of 8~mg/L, and one \g{mecA}-positive \sau{}
+with an oxacillin MIC of 2~mg/L that CDC reports as resistant, as CLSI directs for \g{mecA}-positive isolates
+\cite{clsi2025}.
+
+Table~\ref{tab:checkB} and Fig.~\ref{fig:checkB} set the Bank estimates beside Project 1's. When a target gene was
+present, the share of isolates testing resistant was similar to Project 1 for the high-PPV targets: KPC predicted
+resistance to any carbapenem in \nv{b-kpc-any-ppv-frac} (\nv{b-kpc-any-ppv}; Project 1 \nv{p1-kpc-any-ppv}), OXA-48-like in \nv{b-oxa-any-ppv-frac}
+(\nv{b-oxa-any-ppv}), the five panel carbapenemases together in \nv{b-carb-any-ppv-frac} (\nv{b-carb-any-ppv}; Project 1
+\nv{p1-carb-any-ppv}), and CTX-M predicted ceftriaxone resistance in \nv{b-ctx-cro-ppv-frac} (\nv{b-ctx-cro-ppv}; Project
+1 \nv{p1-ctx-cro-ppv}). The drug-level pattern also held: carbapenemase producers were less often resistant to meropenem
+(PPV \nv{b-carb-mero-ppv}) than to any carbapenem, and OXA-48-like producers least of all (\nv{b-oxa-mero-ppv-frac}
+meropenem resistant). For CTX-M and ceftazidime the Bank PPV was higher than Project 1's (\nv{b-ctx-caz-ppv} versus
+\nv{p1-ctx-caz-ppv}).
+
+The measures that depend on what else is in the collection differed, as expected. Among \sau{}, \g{mecA}-positive
+isolates were often oxacillin susceptible by MIC (\nv{b-meca-ox-genepos-notr} of them), so specificity for oxacillin was
+\nv{b-meca-ox-spec} against Project 1's \nv{p1-meca-ox-specificity}; with cefoxitin added, PPV was \nv{b-meca-oxfox-ppv}
+and specificity \nv{b-meca-oxfox-spec}. These are the Bank's deliberately difficult staphylococci: its borderline
+oxacillin (BORSA) and difficult-to-detect \g{mecA} (DTD) panels. Sensitivity of each single carbapenemase was low because
+Bank isolates carry many different carbapenemases, but sensitivity of the five together for any-carbapenem resistance was
+\nv{b-carb-any-sens} (Project 1 \nv{p1-carb-any-sensitivity}) and for meropenem \nv{b-carb-mero-sens} (Project 1
+\nv{p1-carb-mero-sensitivity}). CTX-M sensitivity for ceftriaxone resistance matched Project 1 (\nv{b-ctx-cro-sens} versus
+\nv{p1-ctx-cro-sensitivity}), confirming that a negative CTX-M result is a weak predictor of ceftriaxone susceptibility.
+
+\begin{table*}[t]
+\caption{Check B: Project 1 rules applied to independent Bank isolates (Bank) beside Project 1's U.S. estimates (P1).
+$n$ is Bank isolates with an interpretable result; PPV and sensitivity also give Bank counts. Enterobacterales exclude
+\textit{Salmonella}; enterococci are \textit{E.~faecalis} and \textit{E.~faecium}. -- , not estimable.}
+\label{tab:checkB}
+\centering\footnotesize
+\input{tables/tab_checkB.tex}
+\end{table*}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/fig8_checkB.pdf}
+\caption{Check B. (a) Share of gene-positive isolates that test resistant (PPV) and (b) share of resistant isolates that
+carry a target (sensitivity), Bank (blue) beside Project 1 (orange), with 95\% Wilson intervals. Numbers in brackets are
+Bank denominators.}
+\label{fig:checkB}
+\end{figure*}
+
+\begin{table}[t]
+\caption{The \nv{n-reint-dis} isolate--drug results where Project 1's breakpoint rules and CDC's posted category differ.}
+\label{tab:reint}
+\centering\footnotesize
+\resizebox{\linewidth}{!}{\input{tables/tab_reint.tex}}
+\end{table}
+
+\subsubsection{Check C}
+For the \nv{n-cons-pairs} isolate--drug results on the \nv{n-overlap} overlapping isolates, the category from CDC's NCBI
+antibiogram matched the category from CDC's web page in \nv{cons-agree}, with \nv{n-cons-major} major or very major
+differences; the \nv{n-cons-dis} differences were susceptible versus intermediate at a carbapenem breakpoint. Because both
+records come from CDC, this is a consistency check of CDC's two postings, not a comparison between laboratories.
+
+% ============================================================================
+\section{Discussion}\label{sec:discussion}
+
+\subsection{Principal findings}
+
+The Isolate Bank already contains reference organisms for nearly every resistance target reported by the seven FDA-cleared
+blood culture panels with resistance targets, and for most of the ways those targets can mislead. What it lacked was an
+index by target and by device. The crosswalk supplies it: each isolate's targets, the panels that should call it positive,
+its reference results, and whether it is a hard case. Two to five isolates cover every target of any one panel, and the
+hard-case list offers a further set of organisms that tests what a panel cannot know.
+
+Used as an external yardstick, the Bank supports the Project 1 benchmark where the benchmark is meant to be read. Gene
+calls by two different pipelines agreed almost perfectly. The benchmark's breakpoint rules reproduced CDC's reference
+interpretations. And the quantities that describe the gene itself (how often a gene-positive isolate is resistant, and
+to which carbapenem) behaved the same way in reference broth microdilution data from one laboratory as in submitted
+results from many.
+
+\subsection{Using the crosswalk for verification}
+
+A laboratory verifying a panel can filter the released isolate table by the panel's \texttt{expected\_positive} column to
+see every candidate positive, by \texttt{hard\_case\_types} to find challenge organisms, and by organism to find negative
+controls of the right species. The covering sets in Table~\ref{tab:verification} show that coverage is cheap; the
+hard-case list is where the crosswalk adds most. A KPC-producing \textit{E.~coli} with a meropenem MIC of 0.5~mg/L, a
+\g{mecA}-positive \sau{} susceptible by oxacillin and cefoxitin MIC, or a vancomycin-susceptible \textit{E.~faecium}
+carrying \g{vanA} will each produce a positive panel result and a susceptible AST result. Including them in a
+verification shows the laboratory and its stewardship program what such a result looks like before it happens on a
+patient isolate, and tests whether the laboratory's reporting rules (for example, reporting \g{mecA}-positive \sau{} as
+oxacillin resistant \cite{clsi2025}) are applied. Conversely, the carbapenem-resistant isolates without a panel
+carbapenemase, and especially the NMC-A, OXA-237 and porin-loss isolates, show the limits of a negative carbapenemase
+result \cite{tamma2017,pitout2015}.
+
+\subsection{What the external check shows}
+
+The check separates measures that describe a gene from measures that describe a population. PPV for KPC, NDM and
+OXA-48-like against any carbapenem, and for CTX-M against ceftriaxone, had overlapping 95\% ranges in the Bank and
+in Project 1, and
+the low meropenem PPV of OXA-48-like producers reappeared in reference broth microdilution data \cite{poirel2012}.
+Specificity for \g{mecA} and single-gene sensitivities, in contrast, were lower in the Bank because the Bank was built to
+contain the exceptions: borderline and difficult-to-detect staphylococci, and carbapenem-resistant Enterobacterales with
+every mechanism CDC could collect. These differences are therefore not evidence against Project 1's estimates for U.S.
+clinical isolates; they show what those estimates look like in a challenge set. The higher CTX-M PPV for ceftazidime in the Bank
+than in Project 1 may reflect the Bank's many multi-mechanism isolates; we did not test this.
+
+\subsection{Limitations}
+
+The crosswalk records which targets an isolate carries, not whether a particular assay detects that allele; detection is
+defined by each manufacturer's instructions for use. The MRSA result of BCID2 depends on the MREJ junction, which a gene
+list cannot show, so its expected positives are an assumption. The Verigene BC-GN OXA groups are not named by FDA and were
+taken from its analytical studies. CDC's gene lists came from several methods between 2016 and 2022, and older calls can
+miss genes added to databases later; the gene-call comparison is only partly independent of NCBI, although agreement was as
+high in the independent subset. Hard cases rest on CDC's posted interpretations, which cite four CLSI M100 editions, while
+the external check uses a single breakpoint table. The Bank is not a patient population, so its prevalence-dependent
+measures should not be compared directly with clinical estimates. Some targets are represented by few isolates
+(\g{mecC} by two, OXA-58-like by three) and OXA-143-like by none. Thirty-one Bank isolates in Project 1's organisms had no
+NCBI AMRFinderPlus result and \nv{n-no-biosample} isolates list no BioSample. The release reflects the Bank's pages on
+\nv{access-date}; CDC adds isolates and revises MICs, so the crosswalk will need yearly refresh. No isolates were tested.
+
+\section{Conclusions}\label{sec:conclusions}
+
+An open, versioned crosswalk turns the CDC \& FDA AR Isolate Bank into a target-by-target, device-by-device catalog for
+verifying rapid blood culture panels: \nv{n-inscope-target} isolates carry a panel target, every target but one is
+represented, a handful of isolates covers each panel, and \nv{n-hard-informative} isolates are flagged as hard cases
+outside the expected-negative groups. Used as an external reference-method check, the Bank confirmed the gene calls,
+interpretation rules and gene-level estimates of a U.S. genotype--phenotype benchmark. Both resources are released for
+reuse and will be refreshed as the Bank grows.
+
+% ============================================================================
+\section*{Data and code availability}
+\addcontentsline{toc}{section}{Data and code availability}
+All data, code and documentation are available at
+\url{https://github.com/FatimaAbdulwahab/ar-isolate-bank-panel-crosswalk} \cite{thiswork}: the isolate-level crosswalk,
+the panel-by-target grid, panel target coverage, the hard-case list, the CDC gene-name map, the rapid panel target table
+with FDA sources, the external-check outputs, a codebook, a limitations file, the quality-control report and a provenance
+log with source URLs, access dates, sizes and SHA-256 fingerprints. The CDC pages, NCBI rows and FDA documents used are
+archived in the repository, and \texttt{run\_all.sh} rebuilds every result from them. Data and documents are released under
+CC BY 4.0 and code under the MIT license. The Project 1 benchmark is at
+\url{https://github.com/FatimaAbdulwahab/us-rapid-panel-amr-concordance} \cite{project1}.
+
+\section*{Author contributions}
+F.A.: conceptualization, methodology, data curation, formal analysis, validation, visualization, writing (original draft,
+review and editing).
+
+\section*{Competing interests}
+The author declares no competing interests and no relationship with CDC, FDA or any manufacturer of rapid diagnostic
+panels. This work is not affiliated with or endorsed by CDC or FDA.
+
+\section*{Funding}
+This work received no specific funding.
+
+\section*{Use of AI tools}
+Claude (Anthropic) assisted with code, data processing, figure generation and drafting of this manuscript. The author
+made the analytic decisions and rulings, verified the outputs against the CDC, FDA and NCBI records, and takes
+responsibility for the content.
+
+\section*{Acknowledgments}
+The author thanks CDC's Division of Healthcare Quality Promotion and FDA for building and maintaining the Antimicrobial
+Resistance Isolate Bank and publishing its characterization data, and the NCBI Pathogen Detection team for AMRFinderPlus
+and the Reference Gene Catalog.
+
+\small
+\input{references.tex}
+\normalsize
+
+\end{document}
