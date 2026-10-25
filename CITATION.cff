@@ -2,8 +2,6 @@ cff-version: 1.2.0
 message: "If you use this crosswalk, please cite it as below."
 title: "CDC & FDA Antimicrobial Resistance Isolate Bank: Rapid Panel Target Crosswalk"
 version: "1.0.0"
-date-released: "[insert release date]"
-doi: "[insert Zenodo DOI]"
 license: [MIT, CC-BY-4.0]
 repository-code: "https://github.com/FatimaAbdulwahab/ar-isolate-bank-panel-crosswalk"
 authors:

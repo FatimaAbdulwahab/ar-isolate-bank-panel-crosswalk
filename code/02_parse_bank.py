@@ -75,7 +75,7 @@ def parse_isolate(path):
     arbank = m.group(1) if m else ""
     organism = clean(m.group(2)) if m else ""
     bios = re.search(r'id="MainContent_lblSeqAcc".*?>(SAM[NDE][A-Z]?\d+)<', t, flags=re.S)
-    panels = re.findall(r'<a href ="PanelDetail\.aspx\?ID=(\d+)">(.*?)</a>', t[t.find("Molecular") - 999999 if False else 0:t.find('id="tabComponent"')], flags=re.S)
+    panels = re.findall(r'<a href ="PanelDetail\.aspx\?ID=(\d+)">(.*?)</a>', t[:t.find('id="tabComponent"')], flags=re.S)
     panel_ids, panel_names = [], []
     for p, n in panels:
         if p not in panel_ids:
@@ -85,12 +85,23 @@ def parse_isolate(path):
     mn = re.search(r"(MICs obtained by.*?)</div>", t, flags=re.S)
     if mn:
         note = clean(mn.group(1))
+    # Free text CDC places between the (usually empty) characteristics label and the MIC note,
+    # e.g. "Disk Diffusion FOX: 21 mm, R*" on the DTD panel or the vancomycin-variable note.
+    page_note, fox_mm, fox_int = "", "", ""
+    ci = t.find("lblIsolateCharacteristicsResult")
+    cj = t.find("MICs obtained", ci) if ci > 0 else -1
+    if ci > 0 and cj > 0:
+        page_note = clean(t[t.find("</span>", ci):cj])
+        fm = re.search(r"Disk Diffusion FOX:\s*(\d+)\s*mm,\s*([SIR])", page_note)
+        if fm:
+            fox_mm, fox_int = fm.group(1), fm.group(2)
     rec = dict(isolate_page_id=pid, ar_bank_number=arbank, organism=organism,
                study_id=span(t, "lblStudyIDResult"), biosample=bios.group(1) if bios else "",
                source=span(t, "lblSourceResult"), mlst=span(t, "lblmlstresult"),
                mcim=span(t, "lblmCIMResult"), carba_np=span(t, "lblCarbaResult"),
                collection_year=span(t, "lblCollectionYearResult"), location=span(t, "lblLocationResult"),
                characteristics=span(t, "lblIsolateCharacteristicsResult"),
+               cdc_page_note=page_note, cefoxitin_disk_mm=fox_mm, cefoxitin_disk_int=fox_int,
                panel_page_ids=";".join(panel_ids), panel_names=" | ".join(panel_names),
                ast_method_note=note,
                isolate_url=f"{BASE}Panel/IsolateDetail?IsolateID={pid}&PanelID={panel_ids[0] if panel_ids else ''}")

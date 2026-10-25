@@ -129,6 +129,13 @@ def cdc_to_symbol(name, parent, syn):
     for c in cands:
         if c.lower() in low:
             return low[c.lower()], "case-insensitive"
+    # CDC sometimes appends a one-letter note in brackets to an allele, e.g. 'OXA-48(c)'. Real gene names
+    # such as tet(A) or erm(B) are matched above before this rule is reached.
+    m = re.match(r"^(.+?)\([a-z]\)$", n)
+    if m:
+        sym, how = cdc_to_symbol(m.group(1), parent, syn)
+        if sym:
+            return sym, how + "; CDC bracket note '" + n[len(m.group(1)):] + "' ignored"
     # fall back to the family when the allele is new or untyped (e.g. 'KPC', 'OXA-48-like')
     m = re.match(r"^(?:bla)?(KPC|NDM|VIM|IMP|CTX-M|SME|GES|OXA)[-_]?", n, flags=re.I)
     if m:
@@ -139,6 +146,20 @@ def cdc_to_symbol(name, parent, syn):
     if m and m.group(1) in parent:
         return m.group(1), "family name only"
     return "", "not in NCBI catalog"
+
+
+def gene_method(note):
+    """Which method CDC says it used to call genes (from the note on the MMR tab)."""
+    if "June 2, 201" in note:
+        return "ResFinder (database of June 2016)"
+    if "ResFinder 3.0" in note:
+        return "ResFinder 3.0"
+    if "20180608" in note:
+        return "ARG-ANNOT + ResFinder (2018-06-08)"
+    m = re.search(r"accessed on (\d{4}-\d{2}-\d{2})", note)
+    if "ResGANNCBI" in note:
+        return f"ResGANNCBI incl. NCBI database ({m.group(1) if m else 'date not stated'})"
+    return "method not stated"
 
 
 def main():
@@ -158,17 +179,17 @@ def main():
         if tgt == "OXA-48-like" and subclass.get(sym, "") and "CARBAPENEM" not in subclass.get(sym, ""):
             flag = "OXA-48 family variant NCBI does not list as carbapenem-hydrolyzing"
         if not sym and re.search(r"KPC|NDM|VIM|IMP|OXA|CTX|SME|mec|van|mcr|MBL", name, flags=re.I):
-            flag = "[VERIFY] name resembles a panel target family but is not in the NCBI catalog; author to rule"
+            flag = "Decision: left unmapped. CDC writes a generic name without the enzyme, so no panel target can be assigned"
         if name.lower().startswith("vanhax"):
             sym, how, node, tgt = "vanA", "operon name (vanH-vanA-vanX)", "vanA", "vanA"
-            flag = ("[VERIFY] vanA operon without its vanR/vanS regulators (CDC note); a panel detects vanA "
-                    "but the isolate can test vancomycin susceptible (vancomycin-variable enterococcus)")
+            flag = ("Decision: counted as vanA. vanA operon without its vanR/vanS regulators; CDC's page notes it is a "
+                    "vancomycin-variable enterococcus, so a panel detects vanA while the isolate can test susceptible")
         if name.lower().startswith("blaz-mecc") or name.lower() == "blaz-mecc":
             # NCBI: blaZ-mecC is the blaZ carried on the mecC element (SCCmec type XI). CDC's own custom
             # panel BOR-33 is titled "AR-1306 & AR-1307 S.aureus mecC+", so CDC treats these isolates as mecC
             # positive. Counted as mecC here; the AMRFinderPlus check (05) tests whether mecC itself is present.
-            flag = ("[VERIFY] CDC lists only blaZ-mecC (the blaZ on the mecC element); CDC's custom panel BOR-33 "
-                    "names these isolates mecC+, so they are counted as mecC. Author to rule")
+            flag = ("Decision: counted as mecC. CDC lists only blaZ-mecC (the blaZ on the mecC element), CDC's custom "
+                    "panel BOR-33 names these isolates mecC+, and NCBI AMRFinderPlus finds mecC in both")
             tgt = "mecC"
         gmap.append(dict(gene_cdc=name, ncbi_symbol=sym, match=how, hierarchy_node=node, target_group=tgt,
                          ncbi_subclass=subclass.get(sym, ""), flag=flag, refgene_db_version=refver,
@@ -196,7 +217,8 @@ def main():
         d = dict(ar_bank_number=a, organism=r.organism, organism_group=grp, biosample=r.biosample,
                  bank_panels=r.panel_codes, n_bank_panels=len([x for x in r.panel_codes.split(";") if x]),
                  in_scope_for_panel_targets=grp in SCOPE, has_mechanism_list=bool(genes),
-                 n_genes_listed=len(genes))
+                 n_genes_listed=len(genes),
+                 cdc_gene_method=gene_method(r.mechanism_method_note) if genes else "")
         for t in TARGET_ORDER:
             d[f"{t}"] = ";".join(tg.get(t, []))
         d["panel_targets_carried"] = ";".join(t for t in TARGET_ORDER if tg.get(t))
@@ -214,6 +236,9 @@ def main():
             m, i = micd.get((a, dr), ("", ""))
             d[f"{dr.lower()}_mic"] = m
             d[f"{dr.lower()}_int"] = i
+            if dr == "Cefoxitin":
+                d["cefoxitin_disk_mm"], d["cefoxitin_disk_int"] = r.cefoxitin_disk_mm, r.cefoxitin_disk_int
+        d["cdc_page_note"] = r.cdc_page_note
         # ---- hard cases (CDC posted interpretation)
         reasons = []
         if grp in SCOPE:
@@ -224,6 +249,11 @@ def main():
                                                              and r.organism.split(" ")[0] in MORGANELLACEAE)]
                 ints = {x: micd.get((a, x), ("", ""))[1] for x in drugs}
                 ints = {x: v for x, v in ints.items() if v in ("S", "I", "R", "SDD", "NS")}
+                shown = {x: f"{micd[(a, x)][0]} {v}" for x, v in ints.items()}
+                if t in ("mecA", "mecC") and r.cefoxitin_disk_int in ("S", "I", "R"):
+                    # CDC posts a cefoxitin disk result for some S. aureus (DTD panel); it counts as a drug result
+                    ints["Cefoxitin disk"] = r.cefoxitin_disk_int
+                    shown["Cefoxitin disk"] = f"{r.cefoxitin_disk_mm} mm {r.cefoxitin_disk_int}"
                 if not ints:
                     continue
                 prim = next((x for x in drugs if x in ints), None)
@@ -231,7 +261,7 @@ def main():
                     flags = [g2flag.get(g, "") for g in tg[t] if g2flag.get(g)]
                     reasons.append(dict(direction="target gene present, matching drug(s) not resistant",
                                         target=t, genes=";".join(tg[t]), drugs_checked=";".join(
-                                            f"{x}={micd[(a, x)][0]} {v}" for x, v in ints.items()),
+                                            f"{x}={v}" for x, v in shown.items()),
                                         primary_drug=prim, note="; ".join(sorted(set(flags)))))
             # resistant without any panel target of that class
             if grp in ("Enterobacterales", "Pseudomonas", "Acinetobacter"):
@@ -241,7 +271,10 @@ def main():
                 if rdr and not any(tg.get(t) for t in CARBA_TARGETS):
                     other = [g for g in cats_by.get(a, {}).get("Beta-lactam", [])] + \
                             [f"porin: {g}" for g in cats_by.get(a, {}).get("Truncated Porin", [])]
-                    reasons.append(dict(direction="carbapenem resistant, no panel carbapenemase target",
+                    psa = r.organism.startswith("Pseudomonas aeruginosa")
+                    reasons.append(dict(direction=("carbapenem-resistant P. aeruginosa without a carbapenemase "
+                                                   "(chromosomal mechanisms; panel negative is expected)") if psa else
+                                        "carbapenem resistant, no panel carbapenemase target",
                                         target="(any carbapenemase target)", genes="",
                                         drugs_checked=";".join(f"{x}={cr[x][0]} R" for x in rdr),
                                         primary_drug=rdr[0], note="other CDC-listed mechanisms: " +
@@ -330,6 +363,13 @@ def main():
               n_carrying=dict((t, int((xw[t] != "").sum())) for t in TARGET_ORDER),
               n_hard_cases=int(xw.hard_case.sum()),
               n_hard_by_type=hc.direction.value_counts().to_dict() if len(hc) else {},
+              n_gene_present_not_R_by_target=hc[hc.direction.str.startswith("target gene present")].target
+              .value_counts().to_dict() if len(hc) else {},
+              n_products=int(prod["product"].nunique()),
+              n_fda_510k=len(set(k for x in prod.fda_510k for k in re.findall(r"K\d{6}", x))),
+              n_with_cefoxitin_disk=int((xw.cefoxitin_disk_int != "").sum()),
+              n_by_cdc_gene_method=xw[xw.cdc_gene_method != ""].cdc_gene_method.value_counts().to_dict(),
+              int_standards=iso[iso.int_standard != ""].int_standard.value_counts().to_dict(),
               n_cdc_gene_names=len(gmap), n_cdc_gene_names_unmapped=int((gmap.ncbi_symbol == "").sum()),
               n_cdc_gene_names_with_target=int((gmap.target_group != "").sum()))
     old = json.load(open(os.path.join(ROOT, "paper", "stats.json"))) if os.path.exists(

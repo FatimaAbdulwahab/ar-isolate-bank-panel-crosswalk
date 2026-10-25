@@ -3,7 +3,6 @@ ar_bank_number,organism,biosample,panel_target,cdc_listed,amrfinderplus,directio
 0068,Klebsiella pneumoniae,SAMN04014909,OXA-48-like,OXA-232,,CDC only,https://wwwn.cdc.gov/ARIsolateBank/Panel/IsolateDetail?IsolateID=68&PanelID=9
 0075,Klebsiella pneumoniae,SAMN04014916,OXA-48-like,OXA-232,,CDC only,https://wwwn.cdc.gov/ARIsolateBank/Panel/IsolateDetail?IsolateID=75&PanelID=9
 0153,Klebsiella pneumoniae,SAMN04014994,OXA-48-like,OXA-232,,CDC only,https://wwwn.cdc.gov/ARIsolateBank/Panel/IsolateDetail?IsolateID=153&PanelID=8
-0504,Klebsiella pneumoniae,SAMN11953947,OXA-48-like,,blaOXA-48,AMRFinderPlus only,https://wwwn.cdc.gov/ARIsolateBank/Panel/IsolateDetail?IsolateID=504&PanelID=1034
 0128,Escherichia coli,SAMN04014969,CTX-M,CTX-M-15,,CDC only,https://wwwn.cdc.gov/ARIsolateBank/Panel/IsolateDetail?IsolateID=128&PanelID=8
 0151,Escherichia coli,SAMN04014992,CTX-M,CTX-M-15,,CDC only,https://wwwn.cdc.gov/ARIsolateBank/Panel/IsolateDetail?IsolateID=151&PanelID=8
 0495,Escherichia coli,SAMN11953781,CTX-M,,blaCTX-M;blaCTX-M=PARTIAL_END_OF_CONTIG;blaCTX-M-14;blaCTX-M-64,AMRFinderPlus only,https://wwwn.cdc.gov/ARIsolateBank/Panel/IsolateDetail?IsolateID=495&PanelID=10

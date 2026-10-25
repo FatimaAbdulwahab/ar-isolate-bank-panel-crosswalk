@@ -14,9 +14,10 @@ puts the two sets of numbers side by side. It runs three checks:
   B. Gene versus reference result: with Project 1's breakpoints and rules,
      what are sensitivity, specificity, PPV and NPV in the Bank, and do they
      fall inside Project 1's 95% ranges?
-  C. Same isolate, two labs: for Bank isolates that also appear in the
-     Project 1 benchmark (with the submitting lab's own results), how often
-     do the two S/I/R calls agree?
+  C. Consistency: some Bank isolates are also in the Project 1 benchmark.
+     All of them were deposited in NCBI by CDC itself, so this compares CDC's
+     NCBI antibiogram deposit with CDC's web page for the same isolate. It is a
+     consistency check of the two CDC postings, not an inter-laboratory check.
 Isolates that are in both datasets are left out of check B, so B is a truly
 independent test. Outputs go to data/processed/external_check_*.csv and
 paper/stats.json. You do not need to open this file.
@@ -248,6 +249,22 @@ def main():
             Adisc.append(dict(ar_bank_number=r.ar_bank_number, organism=r.organism, biosample=r.biosample,
                               panel_target=t, cdc_listed=r[t], amrfinderplus=r[f"ncbi_{t}_alleles"],
                               direction="CDC only" if r[t] else "AMRFinderPlus only", isolate_url=r.isolate_url))
+    # independence: did CDC's own gene calling use NCBI's database?
+    Aind = []
+    for t in targets:
+        for label, mask in [("CDC method included NCBI database", base.cdc_gene_method.str.contains("NCBI")),
+                            ("CDC method without NCBI database (independent)",
+                             ~base.cdc_gene_method.str.contains("NCBI") & (base.cdc_gene_method != "method not stated")),
+                            ("CDC method not stated", base.cdc_gene_method == "method not stated")]:
+            fam = PLAN[t][0]
+            sub = base[mask & base.p1_organism.map(
+                lambda o: (o == fam) or (fam == "Enterococcus" and o.startswith("Enterococcus"))
+                or (fam == "Enterobacterales" and not o.startswith(("Staph", "Enterococcus"))))]
+            cdc, nc = sub[t] != "", sub[f"ncbi_{t}"].astype(bool)
+            Aind.append(dict(panel_target=t, cdc_method_group=label, n_isolates=len(sub),
+                             both=int((cdc & nc).sum()), cdc_only=int((cdc & ~nc).sum()),
+                             ncbi_only=int((~cdc & nc).sum()), neither=int((~cdc & ~nc).sum())))
+    pd.DataFrame(Aind).to_csv(os.path.join(PROC, "external_check_A_by_cdc_method.csv"), index=False)
     pd.DataFrame(A).to_csv(os.path.join(PROC, "external_check_A_gene_calls.csv"), index=False)
     pd.DataFrame(Adisc).to_csv(os.path.join(PROC, "external_check_A_discrepancies.csv"), index=False)
 
@@ -357,14 +374,14 @@ def main():
             c = cat.get((a, r.drug))
             if c in ("S", "I", "R") and r.final_category in ("S", "I", "R"):
                 C.append(dict(ar_bank_number=a, biosample=r.biosample_acc, drug=r.drug,
-                              project1_method=f"{r.method} {r.sign}{r.value} {r.units}".strip(),
-                              project1_platform=r.platform, project1_category=r.final_category,
+                              ncbi_deposit_method=f"{r.method} {r.sign}{r.value} {r.units}".strip(),
+                              ncbi_deposit_platform=r.platform, ncbi_deposit_category=r.final_category,
                               bank_mic=mic[(mic.ar_bank_number == a) & (mic.drug == r.drug)].mic_cdc.iloc[0]
                               if len(mic[(mic.ar_bank_number == a) & (mic.drug == r.drug)]) else "",
-                              bank_category=c, agree=c == r.final_category,
+                              bank_web_category=c, agree=c == r.final_category,
                               major_or_very_major=(c == "R" and r.final_category == "S") or (c == "S" and r.final_category == "R")))
     C = pd.DataFrame(C)
-    C.to_csv(os.path.join(PROC, "external_check_C_same_isolate.csv"), index=False)
+    C.to_csv(os.path.join(PROC, "external_check_C_cdc_consistency.csv"), index=False)
 
     sc.drop(columns=[c for c in sc.columns if c.startswith("expected_positive::")]).to_csv(
         os.path.join(PROC, "external_check_isolates.tsv"), sep="\t", index=False)
@@ -375,16 +392,23 @@ def main():
         n_without_ncbi=int((~sc.in_ncbi).sum()),
         n_overlap_with_project1_benchmark=int(sc.in_project1_benchmark.sum()),
         n_independent_with_ncbi=int(len(indep)),
-        amrfinderplus_versions=sorted(ncbi[ver_col].unique().tolist()) if ver_col else [],
+        amrfinderplus_versions=sorted(v for v in ncbi.loc[ncbi.biosample_acc.isin(set(sc.biosample)), ver_col].unique()
+                                      if v) if ver_col else [],
+        n_cdc_method_groups=sc[sc.in_ncbi & (sc.has_mechanism_list == "True")].cdc_gene_method.map(
+            lambda m: "includes NCBI database" if "NCBI" in m else ("not stated" if m == "method not stated"
+                                                                  else "without NCBI database")).value_counts().to_dict(),
         reinterpretation_agreement_with_cdc_int=round(float(qa[qa.agree != ""].agree.astype(bool).mean()), 4) if len(qa[qa.agree != ""]) else None,
         n_reinterpreted=int(len(qa)),
+        n_reinterpreted_comparable=int((qa.agree != "").sum()),
         n_reinterpretation_disagreements=int((qa.agree == False).sum()),
         gene_call_agreement={r["panel_target"]: dict(n=r["n_isolates"], both=r["both"], cdc_only=r["cdc_only"],
                                                      ncbi_only=r["ncbi_only"], kappa=r["cohens_kappa"])
                              for r in A},
-        n_same_isolate_pairs=int(len(C)),
-        same_isolate_agreement=round(float(C.agree.mean()), 4) if len(C) else None,
-        same_isolate_major_or_very_major=int(C.major_or_very_major.sum()) if len(C) else 0,
+        n_overlap_submitted_by_cdc=int(ncbi[ncbi.biosample_acc.isin(set(sc[sc.in_project1_benchmark].biosample))]
+                                       .bioproject_center.str.contains("CDC|Centers for Disease Control", case=False).sum()),
+        n_cdc_consistency_pairs=int(len(C)),
+        cdc_consistency_agreement=round(float(C.agree.mean()), 4) if len(C) else None,
+        cdc_consistency_major_or_very_major=int(C.major_or_very_major.sum()) if len(C) else 0,
     )
     if len(B):
         key = B[B.drug.isin(["meropenem", "oxacillin", "vancomycin", "ceftriaxone", "any carbapenem",

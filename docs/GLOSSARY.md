@@ -20,7 +20,7 @@ Plain definitions of the terms you will see in this project. Copy this file into
 
 **DOI (Digital Object Identifier).** A permanent link and ID for your work, like a library call number that never changes. It looks like `10.5281/zenodo.1234567`.
 
-**Draft stamp.** A "DRAFT" label on every figure and document until you have checked everything. It is removed only after your approval.
+**Draft stamp.** A "draft" label on every figure and document until you have checked everything. It is removed only after your approval.
 
 **Endorsement (arXiv).** A one-time approval some arXiv categories require from an existing author before your first post there.
 

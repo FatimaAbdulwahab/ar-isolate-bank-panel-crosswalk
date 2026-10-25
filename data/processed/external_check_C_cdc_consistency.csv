@@ -1,4 +1,4 @@
-ar_bank_number,biosample,drug,project1_method,project1_platform,project1_category,bank_mic,bank_category,agree,major_or_very_major
+ar_bank_number,biosample,drug,ncbi_deposit_method,ncbi_deposit_platform,ncbi_deposit_category,bank_mic,bank_web_category,agree,major_or_very_major
 0547,SAMN05170068,cefotaxime,MIC >64 mg/L,,R,64,R,True,False
 0547,SAMN05170068,ceftazidime,MIC >128 mg/L,,R,>128,R,True,False
 0547,SAMN05170068,ceftriaxone,MIC >32 mg/L,,R,>32,R,True,False

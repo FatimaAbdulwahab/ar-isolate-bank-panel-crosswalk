@@ -28,7 +28,7 @@ VERIFY POINTS:  CDC spot checks; FDA target lists (Verigene BC-GN OXA groups); b
                 republishing CDC web values.
 LICENSE:        Code MIT; data and documents CC BY 4.0.
 ASSUMPTIONS:    Proceeding on the defaults offered to the author on 2026-10-24 (all 39 panels listed, bacteria
-                in rapid panel scope mapped; six cleared panels; Project 1 breakpoints plus CDC posted S/I/R;
+                in rapid panel scope mapped; seven cleared panels; Project 1 breakpoints plus CDC posted S/I/R;
                 hard-case definition as offered; MIT + CC BY 4.0).
 ```
 

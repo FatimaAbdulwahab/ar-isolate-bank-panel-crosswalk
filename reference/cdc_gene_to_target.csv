@@ -144,7 +144,7 @@ Lsa(A),lsa(A),case-insensitive,,,LINCOSAMIDE/STREPTOGRAMIN,,2026-08-07.1,5
 M220K,,not in NCBI catalog,,,,,2026-08-07.1,1
 M220V,,not in NCBI catalog,,,,,2026-08-07.1,1
 MAL-1,blaMAL-1,exact,,,BETA-LACTAM,,2026-08-07.1,2
-MBL,,not in NCBI catalog,,,,[VERIFY] name resembles a panel target family but is not in the NCBI catalog; author to rule,2026-08-07.1,4
+MBL,,not in NCBI catalog,,,,"Decision: left unmapped. CDC writes a generic name without the enzyme, so no panel target can be assigned",2026-08-07.1,4
 MDF(A),,not in NCBI catalog,,,,,2026-08-07.1,15
 MDR1 overexpression,,not in NCBI catalog,,,,,2026-08-07.1,1
 MDSA,mdsA,case-insensitive,,,EFFLUX,,2026-08-07.1,2
@@ -188,7 +188,7 @@ OXA-395,blaOXA-395,exact,,,BETA-LACTAM,,2026-08-07.1,14
 OXA-396,blaOXA-396,exact,,,BETA-LACTAM,,2026-08-07.1,8
 OXA-4,blaOXA-4,exact,,,BETA-LACTAM,,2026-08-07.1,11
 OXA-48,blaOXA-48,exact,blaOXA-48_fam,OXA-48-like,CARBAPENEM,,2026-08-07.1,11
-OXA-48(c),blaOXA,family name only,,,BETA-LACTAM,,2026-08-07.1,1
+OXA-48(c),blaOXA-48,exact; CDC bracket note '(c)' ignored,blaOXA-48_fam,OXA-48-like,CARBAPENEM,,2026-08-07.1,1
 OXA-486,blaOXA-486,exact,,,BETA-LACTAM,,2026-08-07.1,14
 OXA-488,blaOXA-488,exact,,,BETA-LACTAM,,2026-08-07.1,17
 OXA-494,blaOXA-494,exact,,,BETA-LACTAM,,2026-08-07.1,5
@@ -420,7 +420,7 @@ blaI,,not in NCBI catalog,,,,,2026-08-07.1,8
 blaOXA-1,blaOXA-1,exact,,,CEPHALOSPORIN,,2026-08-07.1,8
 blaTEM-1A,blaTEM-1,synonym,,,BETA-LACTAM,,2026-08-07.1,1
 blaTEM-1B,blaTEM-1,synonym,,,BETA-LACTAM,,2026-08-07.1,8
-blaZ-mecC,blaZ-mecC,exact,,mecC,BETA-LACTAM,"[VERIFY] CDC lists only blaZ-mecC (the blaZ on the mecC element); CDC's custom panel BOR-33 names these isolates mecC+, so they are counted as mecC. Author to rule",2026-08-07.1,2
+blaZ-mecC,blaZ-mecC,exact,,mecC,BETA-LACTAM,"Decision: counted as mecC. CDC lists only blaZ-mecC (the blaZ on the mecC element), CDC's custom panel BOR-33 names these isolates mecC+, and NCBI AMRFinderPlus finds mecC in both",2026-08-07.1,2
 ble-MBL,ble-MBL,exact,,,BLEOMYCIN,,2026-08-07.1,34
 carB-2,blaCARB-2,exact,,,BETA-LACTAM,,2026-08-07.1,3
 catA1,catA1,exact,,,CHLORAMPHENICOL,,2026-08-07.1,73
@@ -574,6 +574,6 @@ tet(R),,not in NCBI catalog,,,,,2026-08-07.1,78
 tet(U),,not in NCBI catalog,,,,,2026-08-07.1,2
 tmexD2,tmexD2,exact,,,TIGECYCLINE,,2026-08-07.1,2
 toprJ1,toprJ1,exact,,,TIGECYCLINE,,2026-08-07.1,1
-vanHAX(lacks VanRs),vanA,operon name (vanH-vanA-vanX),vanA,vanA,VANCOMYCIN,[VERIFY] vanA operon without its vanR/vanS regulators (CDC note); a panel detects vanA but the isolate can test vancomycin susceptible (vancomycin-variable enterococcus),2026-08-07.1,1
+vanHAX(lacks VanRs),vanA,operon name (vanH-vanA-vanX),vanA,vanA,VANCOMYCIN,"Decision: counted as vanA. vanA operon without its vanR/vanS regulators; CDC's page notes it is a vancomycin-variable enterococcus, so a panel detects vanA while the isolate can test susceptible",2026-08-07.1,1
 vga(A),vga(A),exact,,,LINCOSAMIDE,,2026-08-07.1,3
 vga(A)LC,,not in NCBI catalog,,,,,2026-08-07.1,1

@@ -1,0 +1,31 @@
+panel_target,cdc_method_group,n_isolates,both,cdc_only,ncbi_only,neither
+mecA,CDC method included NCBI database,63,52,0,0,11
+mecA,CDC method without NCBI database (independent),61,51,0,0,10
+mecA,CDC method not stated,0,0,0,0,0
+mecC,CDC method included NCBI database,63,2,0,0,61
+mecC,CDC method without NCBI database (independent),61,0,0,0,61
+mecC,CDC method not stated,0,0,0,0,0
+vanA,CDC method included NCBI database,21,8,0,0,13
+vanA,CDC method without NCBI database (independent),18,2,0,0,16
+vanA,CDC method not stated,0,0,0,0,0
+vanB,CDC method included NCBI database,21,10,0,0,11
+vanB,CDC method without NCBI database (independent),18,0,0,0,18
+vanB,CDC method not stated,0,0,0,0,0
+KPC,CDC method included NCBI database,147,26,0,0,121
+KPC,CDC method without NCBI database (independent),161,29,0,0,132
+KPC,CDC method not stated,69,19,0,0,50
+NDM,CDC method included NCBI database,147,22,0,0,125
+NDM,CDC method without NCBI database (independent),161,36,0,0,125
+NDM,CDC method not stated,69,4,0,0,65
+OXA-48-like,CDC method included NCBI database,147,11,3,0,133
+OXA-48-like,CDC method without NCBI database (independent),161,14,1,0,146
+OXA-48-like,CDC method not stated,69,5,0,0,64
+VIM,CDC method included NCBI database,147,6,0,0,141
+VIM,CDC method without NCBI database (independent),161,2,0,0,159
+VIM,CDC method not stated,69,0,0,0,69
+IMP,CDC method included NCBI database,147,9,0,0,138
+IMP,CDC method without NCBI database (independent),161,1,0,0,160
+IMP,CDC method not stated,69,0,0,0,69
+CTX-M,CDC method included NCBI database,147,53,0,2,92
+CTX-M,CDC method without NCBI database (independent),161,63,2,0,96
+CTX-M,CDC method not stated,69,44,0,0,25

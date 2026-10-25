@@ -26,7 +26,7 @@
    "vanB": 10,
    "KPC": 95,
    "NDM": 77,
-   "OXA-48-like": 37,
+   "OXA-48-like": 38,
    "VIM": 36,
    "IMP": 26,
    "CTX-M": 168,
@@ -39,17 +39,47 @@
    "mcr-2": 1,
    "mcr-3": 2
   },
-  "n_hard_cases": 174,
+  "n_hard_cases": 169,
   "n_hard_by_type": {
-   "carbapenem resistant, no panel carbapenemase target": 107,
+   "carbapenem-resistant P. aeruginosa without a carbapenemase (chromosomal mechanisms; panel negative is expected)": 68,
    "3rd-generation cephalosporin resistant, no CTX-M or carbapenemase target": 58,
-   "target gene present, matching drug(s) not resistant": 18,
+   "carbapenem resistant, no panel carbapenemase target": 38,
+   "target gene present, matching drug(s) not resistant": 14,
    "vancomycin resistant by intrinsic vanC, no vanA or vanB (panel negative is expected)": 7,
    "oxacillin/cefoxitin resistant, no mecA or mecC": 1
   },
+  "n_gene_present_not_R_by_target": {
+   "KPC": 6,
+   "mecA": 3,
+   "VIM": 2,
+   "SME": 1,
+   "vanA": 1,
+   "vanB": 1
+  },
+  "n_products": 7,
+  "n_fda_510k": 9,
+  "n_with_cefoxitin_disk": 30,
+  "n_by_cdc_gene_method": {
+   "ResFinder (database of June 2016)": 289,
+   "ResGANNCBI incl. NCBI database (2022-09-15)": 158,
+   "method not stated": 141,
+   "ResGANNCBI incl. NCBI database (2022-09-16)": 130,
+   "ResGANNCBI incl. NCBI database (2021-05-07)": 74,
+   "ARG-ANNOT + ResFinder (2018-06-08)": 40,
+   "ResFinder 3.0": 30
+  },
+  "int_standards": {
+   "CLSI 2025 M100 S35": 783,
+   "CLSI 2026 M100 Ed36": 85,
+   "CLSI 2024 M100 S34": 60,
+   "CLSI M27 M44S ED3:2022": 44,
+   "M45 2016 S3": 10,
+   "CLSI 2020 M100 S30": 1,
+   "CLSI 2026 M100 S36": 1
+  },
   "n_cdc_gene_names": 578,
   "n_cdc_gene_names_unmapped": 100,
-  "n_cdc_gene_names_with_target": 65
+  "n_cdc_gene_names_with_target": 66
  },
  "external_check": {
   "n_bank_isolates_in_project1_organisms": 593,
@@ -58,12 +88,17 @@
   "n_overlap_with_project1_benchmark": 24,
   "n_independent_with_ncbi": 538,
   "amrfinderplus_versions": [
-   "",
    "4.2.5",
    "4.2.7"
   ],
+  "n_cdc_method_groups": {
+   "without NCBI database": 240,
+   "includes NCBI database": 231,
+   "not stated": 69
+  },
   "reinterpretation_agreement_with_cdc_int": 0.9979,
   "n_reinterpreted": 2853,
+  "n_reinterpreted_comparable": 2851,
   "n_reinterpretation_disagreements": 6,
   "gene_call_agreement": {
    "mecA": {
@@ -110,10 +145,10 @@
    },
    "OXA-48-like": {
     "n": 377,
-    "both": 29,
+    "both": 30,
     "cdc_only": 4,
-    "ncbi_only": 1,
-    "kappa": 0.9134
+    "ncbi_only": 0,
+    "kappa": 0.9317
    },
    "VIM": {
     "n": 377,
@@ -137,9 +172,10 @@
     "kappa": 0.9784
    }
   },
-  "n_same_isolate_pairs": 120,
-  "same_isolate_agreement": 0.975,
-  "same_isolate_major_or_very_major": 0,
+  "n_overlap_submitted_by_cdc": 24,
+  "n_cdc_consistency_pairs": 120,
+  "cdc_consistency_agreement": 0.975,
+  "cdc_consistency_major_or_very_major": 0,
   "concordance_headline": [
    {
     "panel_target": "mecA",

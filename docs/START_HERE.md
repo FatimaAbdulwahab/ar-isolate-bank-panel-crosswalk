@@ -13,7 +13,7 @@ Before a laboratory reports a new test on patients, federal rules (42 CFR 493.12
 ## Where the information comes from
 
 1. **The CDC and FDA Antimicrobial Resistance Isolate Bank website** (https://wwwn.cdc.gov/ARIsolateBank/). One row there is one isolate: its Bank number, species, NCBI BioSample number, the genes CDC found, and CDC's reference broth microdilution results. Free and public.
-2. **FDA decision summaries** for each cleared rapid blood culture panel (BioFire BCID2, ePlex BCID-GP and BCID-GN, Verigene BC-GP and BC-GN, LIAISON PLEX BC-GN). These list exactly which resistance targets each panel reports. Free and public.
+2. **FDA decision summaries** for each of the seven cleared rapid blood culture panels with resistance targets (BioFire BCID2, ePlex BCID-GP and BCID-GN, Verigene BC-GP and BC-GN, LIAISON PLEX Gram-Positive and Gram-Negative). These list exactly which resistance targets each panel reports. Free and public.
 3. **NCBI Pathogen Detection**, the federal genome database. It runs NCBI's own gene finder (AMRFinderPlus) on the same genomes, the same tool your Project 1 benchmark used. Free and public.
 4. **Your Project 1 files**: the breakpoint table you already confirmed and the gene-to-panel-target crosswalk.
 
@@ -31,7 +31,7 @@ You ran verification, quality control and proficiency testing under CLIA, CAP an
 
 ## What you need to do, and how long it takes
 
-1. Answer five short questions (10 minutes). Each has a suggested answer.
+1. Answer the scoping questions and make the rulings in the checklist (20 minutes). Each has a suggested answer.
 2. Check the results with the checklist (1 to 2 hours).
 3. Approve publishing (5 minutes).
 4. Log in to Zenodo once so the DOI can be made (5 minutes).

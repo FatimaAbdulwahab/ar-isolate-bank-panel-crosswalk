@@ -5,7 +5,7 @@ vanA,Enterococcus,39,10,0,0,29,1.0,1.0
 vanB,Enterococcus,39,10,0,0,29,1.0,1.0
 KPC,Enterobacterales,377,74,0,0,303,1.0,1.0
 NDM,Enterobacterales,377,62,0,0,315,1.0,1.0
-OXA-48-like,Enterobacterales,377,29,4,1,343,0.9867,0.9134
+OXA-48-like,Enterobacterales,377,30,4,0,343,0.9894,0.9317
 VIM,Enterobacterales,377,8,0,0,369,1.0,1.0
 IMP,Enterobacterales,377,10,0,0,367,1.0,1.0
 CTX-M,Enterobacterales,377,160,2,2,213,0.9894,0.9784

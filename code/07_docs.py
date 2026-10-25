@@ -61,7 +61,8 @@ def qa():
           f"(not found: {E['n_without_ncbi']})",
           f"   Also in the Project 1 benchmark (left out of check B): {E['n_overlap_with_project1_benchmark']}",
           f"   Reinterpretation with Project 1 breakpoints agrees with CDC's posted S/I/R: "
-          f"{pct(E['reinterpretation_agreement_with_cdc_int'])} of {E['n_reinterpreted']} isolate-drug results "
+          f"{pct(E['reinterpretation_agreement_with_cdc_int'])} of {E['n_reinterpreted_comparable']} comparable isolate-drug results "
+          f"(of {E['n_reinterpreted']} reinterpreted; the rest had no CDC S/I/R) "
           f"({E['n_reinterpretation_disagreements']} disagreements, listed below)"]
     for r in re_[re_.agree == "False"].itertuples():
         L.append(f"     - AR Bank {r.ar_bank_number} {r.organism} {r.drug} MIC {r.mic_cdc}: CDC {r.int_cdc}, "
@@ -77,7 +78,8 @@ def qa():
             r = r.iloc[0]
             L.append(f"     - AR Bank {a} {r.organism}: targets [{r.panel_targets_carried}], meropenem "
                      f"{r.meropenem_mic} {r.meropenem_int}, oxacillin {r.oxacillin_mic} {r.oxacillin_int}, "
-                     f"cefoxitin {r.cefoxitin_mic} {r.cefoxitin_int}, vancomycin {r.vancomycin_mic} "
+                     f"cefoxitin {r.cefoxitin_mic} {r.cefoxitin_int}"
+                     f"{(', cefoxitin disk ' + r.cefoxitin_disk_mm + ' mm ' + r.cefoxitin_disk_int) if r.cefoxitin_disk_int else ''}, vancomycin {r.vancomycin_mic} "
                      f"{r.vancomycin_int}; hard case: {r.hard_case_types or 'no'}")
     L += ["", "6. Threshold counts quoted in documents"]
     for k, v in X["n_carrying"].items():
@@ -101,18 +103,24 @@ Before a laboratory reports results from a new test, federal rules (42 CFR 493.1
 
 ## What is in it
 
-- **{X['n_isolates']} isolates in {X['n_panels']} panels**, {X['n_with_biosample']} with a BioSample accession; {X['n_in_scope']} are organisms that rapid blood culture panels test, and {X['n_in_scope_carrying_any_target']} of those carry at least one panel target.
+- **{X['n_isolates']:,} isolates in {X['n_panels']} panels**, {X['n_with_biosample']} with a BioSample accession; {X['n_in_scope']} are organisms that rapid blood culture panels test, and {X['n_in_scope_carrying_any_target']} of those carry at least one panel target.
 - Isolates per target (CDC gene lists): CTX-M {c['CTX-M']}, mecA {c['mecA']}, KPC {c['KPC']}, NDM {c['NDM']}, OXA-48-like {c['OXA-48-like']}, VIM {c['VIM']}, OXA-23-like {c['OXA-23-like']}, IMP {c['IMP']}, OXA-24/40-like {c['OXA-24/40-like']}, vanA {c['vanA']}, vanB {c['vanB']}, SME {c['SME']}, mcr-1 {c['mcr-1']}, mecC {c['mecC']}.
-- Six FDA-cleared panels mapped target by target: BioFire BCID2, ePlex BCID-GP and BCID-GN, Verigene BC-GP and BC-GN, LIAISON PLEX Gram-positive and Gram-negative (`reference/rapid_panel_targets.csv`, with the FDA decision summary link for each).
-- Hard cases ({X['n_hard_cases']} isolates): target gene present but the matching drug not resistant ({hb.get('target gene present, matching drug(s) not resistant', 0)}); carbapenem resistant with no panel carbapenemase ({hb.get('carbapenem resistant, no panel carbapenemase target', 0)}); third-generation cephalosporin resistant with no CTX-M or carbapenemase ({hb.get('3rd-generation cephalosporin resistant, no CTX-M or carbapenemase target', 0)}).
+- {X['n_products']} FDA-cleared rapid blood culture panels mapped target by target: BioFire BCID2, ePlex BCID-GP and BCID-GN, Verigene BC-GP and BC-GN, LIAISON PLEX Gram-Positive and Gram-Negative (`reference/rapid_panel_targets.csv`, with the FDA decision summary link for each).
+- Hard cases ({X['n_hard_cases']} isolates; one isolate can fall in more than one group):
+  - target gene present but the matching drug not resistant: {hb.get('target gene present, matching drug(s) not resistant', 0)} ({", ".join(f"{k} {v}" for k, v in X['n_gene_present_not_R_by_target'].items())});
+  - carbapenem resistant with no panel carbapenemase target: {hb.get('carbapenem resistant, no panel carbapenemase target', 0)};
+  - third-generation cephalosporin resistant with no CTX-M or carbapenemase target: {hb.get('3rd-generation cephalosporin resistant, no CTX-M or carbapenemase target', 0)};
+  - oxacillin or cefoxitin resistant with no mecA or mecC: {hb.get('oxacillin/cefoxitin resistant, no mecA or mecC', 0)}.
+- Two groups where a negative panel result is expected and correct, listed so laboratories can use them as true negatives: carbapenem-resistant P. aeruginosa without a carbapenemase ({hb.get('carbapenem-resistant P. aeruginosa without a carbapenemase (chromosomal mechanisms; panel negative is expected)', 0)}) and vancomycin-resistant enterococci with intrinsic vanC ({hb.get('vancomycin resistant by intrinsic vanC, no vanA or vanB (panel negative is expected)', 0)}).
+- For S. aureus, CDC's cefoxitin disk result ({X['n_with_cefoxitin_disk']} isolates, DTD panel) counts alongside the MICs.
 
 ## Outside check of the Project 1 benchmark
 
 Project 1's gene rules were applied to {E['n_independent_with_ncbi']} Bank isolates that NCBI's AMRFinderPlus has analyzed and that are not in the Project 1 benchmark, scored against CDC's reference broth microdilution results.
 
-- **Gene calls agree.** AMRFinderPlus and CDC's gene lists agreed for every isolate on mecA, mecC, vanA, vanB, KPC, NDM, VIM and IMP; OXA-48-like differed for {ga['OXA-48-like']['cdc_only'] + ga['OXA-48-like']['ncbi_only']} isolates and CTX-M for {ga['CTX-M']['cdc_only'] + ga['CTX-M']['ncbi_only']} (see `data/processed/external_check_A_discrepancies.csv`).
-- **Interpretation agrees.** Project 1's breakpoints reproduce CDC's posted S/I/R for {pct(E['reinterpretation_agreement_with_cdc_int'])} of {E['n_reinterpreted']} isolate-drug results.
-- **Same isolate, two laboratories.** For {E['n_same_isolate_pairs']} isolate-drug results on Bank isolates that are also in Project 1, the submitting laboratory's category matched CDC's {pct(E['same_isolate_agreement'])} of the time, with {E['same_isolate_major_or_very_major']} major or very major errors.
+- **Gene calls agree.** AMRFinderPlus and CDC's gene lists agreed for every isolate on mecA, mecC, vanA, vanB, KPC, NDM, VIM and IMP; OXA-48-like differed for {ga['OXA-48-like']['cdc_only'] + ga['OXA-48-like']['ncbi_only']} isolates (kappa {ga['OXA-48-like']['kappa']:.2f}) and CTX-M for {ga['CTX-M']['cdc_only'] + ga['CTX-M']['ncbi_only']} (kappa {ga['CTX-M']['kappa']:.2f}). This is not fully independent: CDC's own gene calls for {E['n_cdc_method_groups'].get('includes NCBI database', 0)} of these isolates used a database that includes NCBI's. Agreement is just as high in the {E['n_cdc_method_groups'].get('without NCBI database', 0)} isolates CDC called without it (`data/processed/external_check_A_by_cdc_method.csv`).
+- **Interpretation agrees.** Project 1's breakpoints reproduce CDC's posted S/I/R for {pct(E['reinterpretation_agreement_with_cdc_int'])} of {E['n_reinterpreted_comparable']:,} comparable isolate-drug results.
+- **CDC's two postings are consistent.** {E['n_overlap_with_project1_benchmark']} Bank isolates are also in the Project 1 benchmark; all {E['n_overlap_submitted_by_cdc']} were deposited in NCBI by CDC itself, so they are excluded from the gene-versus-result check. For their {E['n_cdc_consistency_pairs']} isolate-drug results, CDC's NCBI antibiogram category matched CDC's web page {pct(E['cdc_consistency_agreement'])} of the time, with {E['cdc_consistency_major_or_very_major']} major or very major differences. This is a consistency check of CDC's own records, not a comparison between laboratories.
 - Gene-to-resistance results by target are in `data/processed/external_check_B_concordance.csv` and Figure 2. The Bank is deliberately enriched for difficult organisms, so its specificity is expected to sit below a clinical population's; the check tests direction and failure modes, not prevalence.
 
 ## Files
@@ -136,20 +144,20 @@ pip install -r requirements.txt
 bash run_all.sh
 ```
 
-The scripts in `code/` run in number order. The CDC download takes about 40 minutes and the NCBI scan about 30. Every download is logged with its size and SHA-256 fingerprint in `data/raw/PROVENANCE.txt`; read `data/processed/qa_report.txt` before anything else.
+This rebuilds every output of this release from the saved inputs in `data/raw/` (the archived CDC pages, the saved NCBI rows and the FDA documents) in about two minutes, and should match the released files exactly. `bash run_all.sh --refresh` downloads fresh copies from CDC, FDA and NCBI first (about 75 minutes); because CDC revises pages and NCBI re-runs its analyses, a refresh gives a new version rather than this one. Every download is logged with its size and SHA-256 fingerprint in `data/raw/PROVENANCE.txt`; read `data/processed/qa_report.txt` before anything else.
 
 ## Sources
 
 - CDC & FDA Antimicrobial Resistance Isolate Bank, https://wwwn.cdc.gov/ARIsolateBank/ (accessed 2026-10-24). U.S. government work.
 - FDA 510(k) decision summaries K193519, K243759, K181663, K182619, K213236, K122514, K132843, K243490, K243013 (links in `reference/rapid_panel_targets.csv`).
 - NCBI Pathogen Detection AMRFinderPlus results and Reference Gene Hierarchy (database {X['refgene_db_version']}), https://www.ncbi.nlm.nih.gov/pathogens/ . No restrictions on use.
-- Breakpoints: CLSI M100-Ed35 (2025) as confirmed against FDA STIC for Project 1 (`reference/breakpoints_from_project1.csv`).
+- Breakpoints for the outside check: CLSI M100-Ed35 (2025) as confirmed against FDA STIC for Project 1 (`reference/breakpoints_from_project1.csv`). CDC's own posted S/I/R, used for hard cases, cites the CLSI edition on each page (mostly M100 2025; some 2020, 2024 and 2026).
 
 Device manufacturers and users of FDA-cleared devices should consult FDA's Antibacterial Susceptibility Test Interpretive Criteria (https://www.fda.gov/drugs/development-resources/antibacterial-susceptibility-test-interpretive-criteria) for breakpoints recognized by FDA. Whether a specific allele is detected by a specific panel is defined by the manufacturer's instructions for use, not by this crosswalk. This project is not affiliated with or endorsed by CDC, FDA or any manufacturer.
 
 ## License and citation
 
-Code: MIT. Data and documents: CC BY 4.0. Cite as: Abdulwahab F. CDC & FDA Antimicrobial Resistance Isolate Bank: Rapid Panel Target Crosswalk, v1.0. Zenodo. DOI: [DOI assigned on publication]. See `CITATION.cff`.
+Code: MIT. Data and documents: CC BY 4.0. Cite as: Abdulwahab F. CDC & FDA Antimicrobial Resistance Isolate Bank: Rapid Panel Target Crosswalk, v1.0. Zenodo. DOI: added when the Zenodo record is published. See `CITATION.cff`.
 
 Limitations: `docs/LIMITATIONS.md`.
 """
@@ -166,11 +174,11 @@ def talk_track():
 
 Before a lab can report a new rapid blood culture test on patients, federal rules say it has to prove the test works, and most labs do that with reference organisms from the CDC and FDA Antimicrobial Resistance Isolate Bank. The problem is that the Bank is organized by panel, not by test. If you are bringing up a BioFire BCID2 or an ePlex panel, there is no list telling you which of the Bank's {X['n_isolates']} isolates carry KPC, which carry OXA-48-like, and which are the tricky ones where the gene says resistant but the organism grows like a susceptible one.
 
-I built that list. For every isolate it shows the genes CDC reports, the reference broth microdilution results, and which targets on six FDA-cleared rapid panels it exercises. It flags {X['n_hard_cases']} hard cases, for example KPC-positive isolates that test meropenem susceptible and mecA-positive Staph aureus that test oxacillin susceptible. I also used the Bank as an outside check of my earlier benchmark: NCBI's gene calls matched CDC's, and the same isolates tested in two different labs agreed {pct(E['same_isolate_agreement'])} of the time. It is free, open, and has a permanent DOI.
+I built that list. For every isolate it shows the genes CDC reports, the reference broth microdilution results, and which targets on {X['n_products']} FDA-cleared rapid panels it exercises. It flags the hard cases, for example KPC-positive isolates that test carbapenem susceptible and mecA-positive Staph aureus that test oxacillin and cefoxitin susceptible, and it marks organisms where a negative panel result is the right answer, like carbapenem-resistant Pseudomonas without a carbapenemase. I also used the Bank as an outside check of my earlier benchmark: NCBI's gene calls matched CDC's, and my breakpoint rules reproduced CDC's reference interpretations {pct(E['reinterpretation_agreement_with_cdc_int'])} of the time. It is free, open, and has a permanent DOI.
 
 ## Two sentences
 
-I built an open catalog that tells a laboratory which CDC and FDA reference organisms to use to verify each target on the FDA-cleared rapid blood culture panels, including the hard cases where gene and growth result disagree. I also used CDC's reference results as an independent check of my national benchmark of those same resistance markers.
+I built an open catalog that tells a laboratory which CDC and FDA reference organisms to use to verify each resistance target on the FDA-cleared rapid blood culture panels, including the hard cases where gene and growth result disagree. I also used CDC's reference results as an independent check of my national benchmark of those same resistance markers.
 
 ## Likely questions
 
@@ -178,7 +186,7 @@ I built an open catalog that tells a laboratory which CDC and FDA reference orga
 
 **Does it replace the manufacturer's instructions?** No. It says which isolates carry a target. Whether a given allele is detected is set by each panel's instructions for use, and labs should follow those.
 
-**What did the outside check show?** The gene calls agree almost perfectly, the breakpoint rules reproduce CDC's interpretations for {pct(E['reinterpretation_agreement_with_cdc_int'])} of results, and the hard cases fall where expected: OXA-48-like, KPC with low MICs, and mecA isolates near the oxacillin breakpoint. The Bank is built to be difficult, so its numbers describe a challenge set, not a patient population.
+**What did the outside check show?** The gene calls agree almost perfectly, the breakpoint rules reproduce CDC's interpretations for {pct(E['reinterpretation_agreement_with_cdc_int'])} of results, and the isolates where a target gene is present without resistance are mostly KPC with carbapenem MICs at or just below the breakpoint ({X['n_gene_present_not_R_by_target'].get('KPC', 0)}) and mecA-positive S. aureus that test susceptible by oxacillin and cefoxitin ({X['n_gene_present_not_R_by_target'].get('mecA', 0)}). The Bank is built to be difficult, so its numbers describe a challenge set, not a patient population.
 """
     open(os.path.join(ROOT, "docs", "TALK_TRACK.md"), "w").write(t)
 

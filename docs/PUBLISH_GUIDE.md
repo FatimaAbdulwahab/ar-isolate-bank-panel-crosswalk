@@ -1,6 +1,6 @@
 # Publish guide
 
-*Plain-language note: how to put Project 2 on GitHub and get its permanent DOI from Zenodo. Do this only after you finish `docs/VERIFY_CHECKLIST.md` and Claude has removed the DRAFT stamps. Total time: about 25 minutes. Or skip Parts 1 and 2 by giving Claude two upload tokens (Part 0).*
+*Plain-language note: how to put Project 2 on GitHub and get its permanent DOI from Zenodo. The package you have is the final, verified version. Total time: about 25 minutes. Or skip Parts 1 and 2 by giving Claude two upload tokens (Part 0).*
 
 ## Copy-ready text
 
@@ -14,7 +14,7 @@
 
 **License:** data and documents CC BY 4.0; code MIT
 
-**Release notes (v1.0.0):** First public release. Isolate-level crosswalk of the CDC & FDA AR Isolate Bank to the resistance targets of six FDA-cleared rapid blood culture panels, panel-by-target grid, hard-case list, external check of the Project 1 benchmark, codebook, QA report and provenance log. CDC pages accessed 2026-10-24.
+**Release notes (v1.0.0):** First public release. Isolate-level crosswalk of the CDC & FDA AR Isolate Bank to the resistance targets of seven FDA-cleared rapid blood culture panels, panel-by-target grid, hard-case list, external check of the Project 1 benchmark, codebook, QA report and provenance log. CDC pages accessed 2026-10-24.
 
 ## Part 0 (optional): let Claude upload for you (8 min)
 

@@ -15,17 +15,20 @@
 | in_scope_for_panel_targets | True if the organism group is one that rapid blood culture panels report resistance genes for (Enterobacterales, Pseudomonas, Acinetobacter, staphylococci, enterococci) | Rule in `code/04_crosswalk.py` |
 | has_mechanism_list | True if CDC posts a gene list for the isolate | CDC isolate page |
 | n_genes_listed | Number of gene entries CDC lists | Count |
+| cdc_gene_method | How CDC says it called the genes (ResFinder 2016, ARG-ANNOT + ResFinder 2018, ResFinder 3.0, ResGANNCBI incl. NCBI database with date, or method not stated) | Note on the CDC gene tab |
 | mecA ... mcr-3 (one column per target) | CDC gene names that map to that target, `;`-separated; blank if none | CDC gene list mapped through `reference/cdc_gene_to_target.csv` |
 | panel_targets_carried | All targets present | Derived |
 | expected_positive::<panel> | Targets that panel reports which this isolate should be positive for, given its genes and organism (MRSA call only for S. aureus) | `reference/rapid_panel_targets.csv` |
 | <drug>_mic, <drug>_int | CDC's posted reference broth microdilution MIC (mg/L) and CDC's posted S/I/R for meropenem, imipenem, ertapenem, doripenem, ceftriaxone, cefotaxime, ceftazidime, oxacillin, cefoxitin, vancomycin, colistin | CDC isolate page (CDC states interpretations are from CLSI M100 2025 unless footnoted as FDA) |
+| cefoxitin_disk_mm, cefoxitin_disk_int | CDC's cefoxitin disk diffusion result where CDC posts one (S. aureus on the DTD panel) | Free text above CDC's MIC table |
+| cdc_page_note | Any other free-text note CDC places above the MIC table (for example the vancomycin-variable enterococcus note) | CDC isolate page |
 | hard_case | True if any hard-case rule fires | See below |
 | hard_case_types | Which rules fired | See below |
 | isolate_url | Link to the CDC isolate page | Constructed from the CDC page ID |
 
 **Hard-case rules** (CDC's posted S/I/R; intermediate counts as not resistant; imipenem not used for Proteus, Morganella, Providencia):
-1. *Target gene present, matching drug(s) not resistant*: e.g. KPC with no carbapenem R; mecA with oxacillin and cefoxitin not R; vanA/vanB with vancomycin not R; CTX-M with ceftriaxone, cefotaxime and ceftazidime not R; mcr with colistin not R.
-2. *Carbapenem resistant, no panel carbapenemase target* (Enterobacterales, Pseudomonas, Acinetobacter): any carbapenem R and none of KPC, NDM, VIM, IMP, OXA-48-like, OXA-23-like, OXA-24/40-like, OXA-58-like, OXA-143-like, SME.
+1. *Target gene present, matching drug(s) not resistant*: e.g. KPC with no carbapenem R; mecA with oxacillin MIC, cefoxitin MIC and (where posted) cefoxitin disk all not R; vanA/vanB with vancomycin not R; CTX-M with ceftriaxone, cefotaxime and ceftazidime not R; mcr with colistin not R.
+2. *Carbapenem resistant, no panel carbapenemase target* (Enterobacterales, Acinetobacter): any carbapenem R and none of KPC, NDM, VIM, IMP, OXA-48-like, OXA-23-like, OXA-24/40-like, OXA-58-like, OXA-143-like, SME. For P. aeruginosa the same pattern is labelled *carbapenem-resistant P. aeruginosa without a carbapenemase (chromosomal mechanisms; panel negative is expected)*, because porin loss, efflux and AmpC are the usual causes and no panel targets them.
 3. *Third-generation cephalosporin resistant, no CTX-M or carbapenemase target* (Enterobacterales).
 4. *Oxacillin/cefoxitin resistant, no mecA or mecC* (staphylococci).
 5. *Vancomycin resistant, no vanA or vanB* (enterococci); labelled "by intrinsic vanC, panel negative is expected" when CDC lists vanC.
@@ -51,7 +54,7 @@ CDC's values as posted. `bank_mic_long`: drug_cdc, mic_cdc, int_cdc, footnote (C
 | hierarchy_node | NCBI family node that set the target |
 | target_group | Rapid panel target group, blank if not a panel target |
 | ncbi_subclass | NCBI drug subclass for the gene |
-| flag | Notes and `[VERIFY]` items for the author |
+| flag | Notes on how an unusual name was handled, and the decision taken |
 | n_isolates | Bank isolates listing this name |
 
 ## reference/rapid_panel_targets.csv
@@ -60,8 +63,9 @@ One row per reported target per FDA-cleared panel: product, manufacturer, 510(k)
 ## Outside check files
 - `external_check_isolates.tsv`: Bank isolates in Project 1 organisms, with NCBI AMRFinderPlus target calls (`ncbi_<target>`, `ncbi_<target>_alleles`), `in_ncbi`, `in_project1_benchmark`.
 - `external_check_A_gene_calls.csv`: per target, isolates where both, CDC only, NCBI only or neither found it; percent agreement; Cohen's kappa.
+- `external_check_A_by_cdc_method.csv`: the same counts split by whether CDC's own gene calling used a database that includes NCBI's (the independent subset is "without NCBI database").
 - `external_check_A_discrepancies.csv`: each disagreeing isolate.
 - `external_check_reinterpretation.csv`: CDC MIC reinterpreted with Project 1 breakpoints next to CDC's S/I/R.
 - `external_check_B_concordance.csv`: Project 1's analysis rows recomputed on independent Bank isolates (`bank_*`) next to Project 1's main estimates (`project1_*`), with a plain comparison of the 95% ranges for sensitivity and specificity.
 - `external_check_B_discordant_isolates.csv`: isolates behind every gene/phenotype disagreement in check B.
-- `external_check_C_same_isolate.csv`: Bank isolates also in Project 1: the submitting lab's category vs CDC's reference category for the same drug.
+- `external_check_C_cdc_consistency.csv`: Bank isolates also in Project 1, all deposited in NCBI by CDC. `ncbi_deposit_*` is CDC's NCBI antibiogram; `bank_web_category` is CDC's web page reinterpreted with Project 1's breakpoints. A consistency check of CDC's two postings, not an inter-laboratory comparison.
