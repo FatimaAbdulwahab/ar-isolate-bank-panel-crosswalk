@@ -1,0 +1,244 @@
+       00 Nan       sphere510(k) Summary                                                      9
+
+
+The Summary for this 5 10(k) submission is submitted in accordance with the requirements of
+SMDA 1900 and CFR 807.92
+
+510(k) Number:
+   K122514 Verigene® Gram-Positive Blood Culture Nucleic Acid Test (BC-GP)
+
+Summary Preparation Date:
+   September 17, 2012
+
+Submitted by:
+   Nanosphere, Inc.
+   4088 Commercial Avenue
+   Northbrook, IL 60062
+   Phone: 847-400-9000
+   Fax: 847-400-9199
+
+Contact:
+   Mark Del Vecchio
+   Vice President, Regulatory Affairs
+
+Proprietary Names:
+   For the instrument:
+   Verigene® System
+   For the assay:
+   Verigene®Gram-Positive Blood Culture Nucleic Acid Test (BC-GP)
+
+Common Names:
+   For the instrument:
+   Bench-top molecular diagnostics workstation
+   For the assay:
+   Rapid gram-positive blood culture assay
+   Multiplex gram-positive blood culture assay
+
+Purpose for Submission:
+   To expand the intended use/indications for use of the test for the non-specific use of
+   commercially-available blood culture bottles.
+Measurand:
+   Bacterial-specific nucleic acid sequences of Staphylococcus spp., Staphylococcus aureus,
+   Staphylococcus epiderinidis,Staphylococcus lugdunensis, Enterococcusfaecalis,
+   Enterococcusfaeciwn, Streptococcus spp., Streptococcus pneumnoniae, Streptococcus
+   pyogenes, Streptococcus agalactiae,Streptococcus anginosus group, and Listeria spp. and
+   resistance markers mecA, vanA, and vanB.
+
+Type of Test:
+   Qualitative, multiplexed test for the detection of specific nucleic acid targets in a microarray
+   format using capture and mediator oligonucleotides for gold nanoparticle probe-based
+   endpoint detection.
+
+
+Applicant:
+   Nanosphere, Inc.
+
+Regulatory Information:
+   I. Regulation section:
+       21 CFR 866.3365 - Multiplex Nucleic Acid Assay for Identification
+       of Microorganisms and Resistance Markers from Positive Blood Cultures
+   2. Classification:
+       Class 11
+   3. Product code:
+       PAM
+   4. Panel:
+       Microbiology (83)
+
+Intended Use:
+   I. Intended use(s):
+      The Verigene® Gram-Positive Blood Culture Nucleic Acid Test (BC-GP) performed
+      using the sample-to-result Verigene System is a qualitative, multiplexed in vitro
+      diagnostic test for the simultaneous detection and identification of potentially pathogenic
+      gram-positive bacteria which may cause bloodstream infection (BSI). BC-GP is
+      performed directly on blood culture bo ttles identified as positive by a continuous-
+      monitoring blood culture system and which contain gram-positive bacteria. BC-GP
+      detects and identifies the following bacterial genera and species: Staphylococcus spp.,
+      Staphylococcus aureus, Staphylococcus epidern-idis, Staphylococcus lugdunensis,
+      Enterococcusfaecalis,Enterococcusfaecium, Streptococcus spp., Streptococcus
+      pnewnoniae, Streptococcus pyogenes, Streptococcus agalactiae,Streptococcus anginosus
+      group, and Listeria spp.
+       In addition, BC-GP detects the iecA resistance marker, inferring mecA-mediated
+       methicillin resistance, and the vanA and vanB resistance markers, inferring vanAlvanB-
+   mediated vancomycin resistance. In mixed growth, BC-GP does not specifically attribute
+   van-mediated vancomycin resistance to either E faecalis or E. faeciunz, or mecA-
+   mediated methicillin resistance to either&S aureus or S. epiderinidis.
+   BC-GP is indicated for use in conjunction with other clinical and laboratory findings to
+   aid in the diagnosis of bacterial bloodstream infections; however, is not to be used to
+   monitor these infections. Sub-culturing of positive blood cultures is necessary to recover
+   organisms for susceptibility testing, identification of organisms not detected by BC-UP,
+   differentiation of mixed growth, association of antimicrobial resistance marker genes to a
+   specific organism, or for epidemiological typing.
+2. Indication(s) for use:
+   The Verigene® Gram-Positive Blood Culture Nucleic Acid Test (BC-UP) performed
+   using the sample-to-result Verigene System is a qualitative, multiplexed in vitro
+   diagnostic test for the simultaneous detection and identification of potentially pathogenic
+   gram-positive bacteria which may cause bloodstream infection (BSI). BC-UP is
+   performed directly on blood culture bottles identified as positive by a continuous-
+   monitoring blood culture system and which contain gram-positive bacteria. BC-UP
+   detects and identifies the following bacterial genera and species: Staphylococcus spp.,
+   Staphylococcus aureus, Staphylococcus epidermidis, Staphylococcus lugdunensis,
+   Enterococcusfaecalis,Enterococcusfaecium, Streptococcus spp., Streptococcus
+   pneumoniae, Streptococcuspyogenes, Streptococcus agalactiae,Streptococcus anginosus
+   group, and Listeria spp.
+   In addition, BC-UP detects the mnecA resistance marker, inferring mecA-mediated
+   methicillin resistance, and the vanA and vanB resistance markers, inferring van,4lvanB-
+   mediated vancomycin resistance. In mixed growth, BC-UP does not specifically attribute
+   van-mediated vancomycin resistance to either E faecalis or E. faecium, or mecA-
+   mediated methicillin resistance to either S. aureus or S. epidermidis.
+   BC-UP is indicated for use in conjunction with other clinical and laboratory findings to
+   aid in the diagnosis of bacterial bloodstream infections; however, is not to be used to
+   monitor these infections. Sub-culturing of positive blood cultures is necessary to recover
+   organisms for susceptibility testing, identification of organisms not detected by BC-UP,
+   differentiation of mixed growth, association of antimicrobial resistance marker genes to a
+   specific organism, or for epidemiological typing.
+
+3. Special conditions for use statement(s):
+   Prescription use only
+
+4. Special instmument requirements:
+   Performed using the sample-to-result Verigene System
+Device Description:
+The Verigene® Gram-Positive Blood Culture Nucleic Acid Test (BC-GP) is a molecular assay
+which relies on detection of specific nucleic acid targets in a microarray format. For each of the
+bacterial nucleic acid sequences detected by the BC-GP test, Capture and Mediator
+oligonucleotides are utilized for gold nanoparticle probe-based endpoint detection. The Capture
+oligonucleotides bind to a specific portion of the nucleic acid target and are themselves bound
+onto a substrate in the microarray. The Mediator oligonucleotides bind to a different portion of
+the same nucleic acid target and allow binding of a gold nanoparticle probe to a portion
+complementary to a gold nanoparticle probe. Specific silver enhancement of the bound gold
+nanoparticle probes at the capture sites results in gold-silver aggregates that scatter light with
+high efficiency.
+The BC-GP test is performed on the Verigene System, a "sample-to-result", fully automated,
+bench-top molecular diagnostics workstation. The Verigene System consists of two components:
+the*Verigene Reader and the Verigene Processor SP. The BC-GP test utilizes single-use
+disposable test consumnables and a self-contained Verigene Test Cartridge for each sample tested.
+For the BC-GP test, the Verigene System allows automated nucleic acid extraction from gramn-
+positive bacteria-containing blood culture specimens and target detection of bacteria-specific
+DNA.
+The Reader is the Verigene System's user interface, which serves as the central control unit for
+all aspects of test processing and results generation. The Reader's graphical user interface
+guides the user through test processing and test results using a barcode scanner. The user inserts
+the Test Cartridge into the Verigene Processor SP, which executes the test procedure, automating
+the steps of (1) Sample Preparation - Cell lysis and magnetic bead-based bacterial DNA isolation
+from blood culture samples and (2) Hybridization - Detection and identification of bacterial-
+specific DNA in a microarray format by using gold nanoparticle probe-based technology.
+After test processing is complete, to obtain the test results the user removes the Test Cartridge
+from the Processor SP, removes the reagent pack from the substrate holder, and inserts the
+substrate holder into the Reader for analysis. Light scatter from the capture spots is imaged by
+the Reader and intensities from the microarray spots are used to make decisions regarding the
+presence (Detected) or absence (Not Detected) of a bacterial nucleic acid sequence/analyte.
+
+Substantial Equivalence Information:
+
+    1. Predicate device name(s):
+       Verigene®D Gram-Positive Blood Culture Nucleic Acid Test (BC-U?)
+
+   2. Predicate 5 10(k) number(s):
+       Ki 13450
+   3.   Comparison with predicate:
+
+                                           Similarities
+             Item                           Device                             Predicate
+   Intended Use              Qualitative, multiplexed in vitro                   Same
+   (General)                 diagnostic test for the simultaneous
+                             detection and identification of
+                             potentially pathogenic gram-
+                             positive bacteria which may cause
+                             bloodstream infection (BS1).
+   Test Cartridge            Disposable single-use, multi-                       Same
+                             chambered fluidic cartridge.
+   Nucleic Acid Target       Staphylococcus:                                     Same
+                                     tuf gyrB, hsp6O,
+                                     mecA, sodA
+                             Enterococcus:
+                                    hsp6O, vanA, vanB
+                             Streptococcus:
+                                     tuf hsp6O, gyrB
+                             Listeria sp.:
+                                      tuf
+   Sample Prep               Automated DNA extraction                            Same
+   Quality control           Internal procedural/instrument                      Same
+                             quality controls; Internal Negative
+                             Control, Sample processing control,
+                             external positive and negative assay
+                             controls
+   Interpretation of         Diagnostic Software/Decision                        Same
+   Results                   Algorithm
+
+
+                                             Differences
+               Item                            Device                         Predicate
+   Intended Use                  Analysis of positive blood         Analysis of positive blood
+   (Sample type)                 culture bottles (unspecified)      cultures using BACTEC
+                                 which contain gram-positive        PIuSTm Aerobic/F and
+                                 bacteria.                          BacT/ALERT FA FAN®
+                                                                    Aerobic blood culture bottles,
+                                                                    which contain gram-positive
+                                                                    bacteria.
+
+
+
+Standard/Guidance Document Referenced (if applicable):
+   Not applicable
+Test Principle:
+   The Verigene Gram-Positive Blood Culture Nucleic Acid Test (BC-GP) is a qualitative,
+   multiplexed molecular assay which relies on detection of specific nucleic acid targets in a
+   mieroarray format. Bacterial DNA from the organisms present in a positive blood culture
+   media specimen is extracted, fragmented and denatured. This fragmented, single-stranded
+   bacterial DNA hybridizes to complementary sequence-specific DNA oligonucleotides,
+   known as capture oligonucleotides, arrayed on the surface of a substrate. A second
+   oligonucleotide with two sequence domains, called a mediator oligonucleotide, then
+   hybridizes to the captured bacterial DNA. In addition to a sequence complementary to the
+   bacterial DNA target, the mediator oligonucleotide contains a sequence domain
+   complementary to a common oligonucleotide probe that is bound to gold nanoparticles.
+   After washing away any DNA not affixed to the captures, the common probe is exposed to
+   the microarray where it hybridizes to any captured mediator/target complexes. Presence of
+   the silver-enhanced gold nanoparticle probes at a particular location on the substrate is
+   determined optically with the Verigene Reader. The relative density of probes at each set of
+   captures on the substrate is then translated into a signal intensity which is used to assess the
+   presence or absence of captured DNA from a target organism.
+
+Performance Characteristics (if/when applicable):
+   Analytical studies performed to support the expanded intended use/indications of the test are
+   described in part g below. The full analytical and clinical performance data establishing the
+   performance characteristics of the BC-GP test was completed in support of KI 13450 and
+   remain unchanged for the device as modified under this 5 10(k).
+
+   1. Analytical performance:
+       a. Precision/Reproducibility:
+           Refer to Ki 13450
+
+       b. Linearity/assayrep ortable range:
+          Not applicable
+       c. Traceability, Stability, Expected values (controls, calibrators,or methods):
+           Refer to Kl 13450
+
+       d. Detection limit:
+           Refer to KI 13450
+
+       e. Analytical specifcity:
+           Refer to KI 13450
+
+      f   Assay cut-off-
+           Refer to KI 113450
+

@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this crosswalk, please cite it as below."
+title: "CDC & FDA Antimicrobial Resistance Isolate Bank: Rapid Panel Target Crosswalk"
+version: "1.0.0"
+date-released: "[insert release date]"
+doi: "[insert Zenodo DOI]"
+license: [MIT, CC-BY-4.0]
+repository-code: "https://github.com/FatimaAbdulwahab/ar-isolate-bank-panel-crosswalk"
+authors:
+  - family-names: Abdulwahab
+    given-names: Fatima
+    orcid: "https://orcid.org/0009-0008-2298-8386"
+    email: abdulwahabfatima43@gmail.com
+    affiliation: "Independent Researcher, Dallas, Texas, USA"
+keywords:
+  - antimicrobial resistance
+  - AR Isolate Bank
+  - rapid diagnostics
+  - blood culture identification panel
+  - test verification
+  - CLIA
+  - AMRFinderPlus
+references:
+  - type: software
+    title: "U.S. Rapid Panel Resistance Marker Concordance Benchmark"
+    authors:
+      - family-names: Abdulwahab
+        given-names: Fatima
+    repository-code: "https://github.com/FatimaAbdulwahab/us-rapid-panel-amr-concordance"

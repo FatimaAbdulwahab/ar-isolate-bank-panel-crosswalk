@@ -1,0 +1,410 @@
+{
+ "crosswalk": {
+  "refgene_db_version": "2026-08-07.1",
+  "n_panels": 39,
+  "n_panels_listed": 34,
+  "n_isolates": 1087,
+  "n_with_biosample": 975,
+  "n_with_mechanism_list": 862,
+  "n_in_scope": 825,
+  "n_by_group": {
+   "Enterobacterales": 427,
+   "Pseudomonas": 140,
+   "Staphylococcus aureus": 129,
+   "Fungi": 126,
+   "Neisseria": 94,
+   "Acinetobacter": 68,
+   "Enterococcus": 52,
+   "Other bacteria": 42,
+   "Staphylococcus, other": 9
+  },
+  "n_in_scope_carrying_any_target": 529,
+  "n_carrying": {
+   "mecA": 113,
+   "mecC": 2,
+   "vanA": 11,
+   "vanB": 10,
+   "KPC": 95,
+   "NDM": 77,
+   "OXA-48-like": 37,
+   "VIM": 36,
+   "IMP": 26,
+   "CTX-M": 168,
+   "OXA-23-like": 28,
+   "OXA-24/40-like": 18,
+   "OXA-58-like": 3,
+   "OXA-143-like": 0,
+   "SME": 9,
+   "mcr-1": 7,
+   "mcr-2": 1,
+   "mcr-3": 2
+  },
+  "n_hard_cases": 174,
+  "n_hard_by_type": {
+   "carbapenem resistant, no panel carbapenemase target": 107,
+   "3rd-generation cephalosporin resistant, no CTX-M or carbapenemase target": 58,
+   "target gene present, matching drug(s) not resistant": 18,
+   "vancomycin resistant by intrinsic vanC, no vanA or vanB (panel negative is expected)": 7,
+   "oxacillin/cefoxitin resistant, no mecA or mecC": 1
+  },
+  "n_cdc_gene_names": 578,
+  "n_cdc_gene_names_unmapped": 100,
+  "n_cdc_gene_names_with_target": 65
+ },
+ "external_check": {
+  "n_bank_isolates_in_project1_organisms": 593,
+  "n_with_ncbi_amrfinderplus": 562,
+  "n_without_ncbi": 31,
+  "n_overlap_with_project1_benchmark": 24,
+  "n_independent_with_ncbi": 538,
+  "amrfinderplus_versions": [
+   "",
+   "4.2.5",
+   "4.2.7"
+  ],
+  "reinterpretation_agreement_with_cdc_int": 0.9979,
+  "n_reinterpreted": 2853,
+  "n_reinterpretation_disagreements": 6,
+  "gene_call_agreement": {
+   "mecA": {
+    "n": 124,
+    "both": 103,
+    "cdc_only": 0,
+    "ncbi_only": 0,
+    "kappa": 1.0
+   },
+   "mecC": {
+    "n": 124,
+    "both": 2,
+    "cdc_only": 0,
+    "ncbi_only": 0,
+    "kappa": 1.0
+   },
+   "vanA": {
+    "n": 39,
+    "both": 10,
+    "cdc_only": 0,
+    "ncbi_only": 0,
+    "kappa": 1.0
+   },
+   "vanB": {
+    "n": 39,
+    "both": 10,
+    "cdc_only": 0,
+    "ncbi_only": 0,
+    "kappa": 1.0
+   },
+   "KPC": {
+    "n": 377,
+    "both": 74,
+    "cdc_only": 0,
+    "ncbi_only": 0,
+    "kappa": 1.0
+   },
+   "NDM": {
+    "n": 377,
+    "both": 62,
+    "cdc_only": 0,
+    "ncbi_only": 0,
+    "kappa": 1.0
+   },
+   "OXA-48-like": {
+    "n": 377,
+    "both": 29,
+    "cdc_only": 4,
+    "ncbi_only": 1,
+    "kappa": 0.9134
+   },
+   "VIM": {
+    "n": 377,
+    "both": 8,
+    "cdc_only": 0,
+    "ncbi_only": 0,
+    "kappa": 1.0
+   },
+   "IMP": {
+    "n": 377,
+    "both": 10,
+    "cdc_only": 0,
+    "ncbi_only": 0,
+    "kappa": 1.0
+   },
+   "CTX-M": {
+    "n": 377,
+    "both": 160,
+    "cdc_only": 2,
+    "ncbi_only": 2,
+    "kappa": 0.9784
+   }
+  },
+  "n_same_isolate_pairs": 120,
+  "same_isolate_agreement": 0.975,
+  "same_isolate_major_or_very_major": 0,
+  "concordance_headline": [
+   {
+    "panel_target": "mecA",
+    "drug": "oxacillin",
+    "organism": "Staphylococcus aureus",
+    "bank_n": 127,
+    "bank_sensitivity": 0.9853,
+    "bank_specificity": 0.3898,
+    "bank_ppv": 0.6505,
+    "bank_npv": 0.9583,
+    "sensitivity_vs_project1": "Bank estimate inside Project 1 95% range",
+    "specificity_vs_project1": "Bank lower, ranges do not overlap"
+   },
+   {
+    "panel_target": "mecA",
+    "drug": "oxacillin or cefoxitin",
+    "organism": "Staphylococcus aureus",
+    "bank_n": 127,
+    "bank_sensitivity": 0.97,
+    "bank_specificity": 0.7778,
+    "bank_ppv": 0.9417,
+    "bank_npv": 0.875,
+    "sensitivity_vs_project1": "ranges overlap",
+    "specificity_vs_project1": "Bank lower, ranges do not overlap"
+   },
+   {
+    "panel_target": "mecC",
+    "drug": "oxacillin",
+    "organism": "Staphylococcus aureus",
+    "bank_n": 127,
+    "bank_sensitivity": 0.0,
+    "bank_specificity": 0.9661,
+    "bank_ppv": 0.0,
+    "bank_npv": 0.456,
+    "sensitivity_vs_project1": "Bank estimate inside Project 1 95% range",
+    "specificity_vs_project1": "ranges overlap"
+   },
+   {
+    "panel_target": "mecC",
+    "drug": "oxacillin or cefoxitin",
+    "organism": "Staphylococcus aureus",
+    "bank_n": 127,
+    "bank_sensitivity": 0.02,
+    "bank_specificity": 1.0,
+    "bank_ppv": 1.0,
+    "bank_npv": 0.216,
+    "sensitivity_vs_project1": "ranges overlap",
+    "specificity_vs_project1": "Bank estimate inside Project 1 95% range"
+   },
+   {
+    "panel_target": "vanA",
+    "drug": "vancomycin",
+    "organism": "Enterococcus faecalis + faecium",
+    "bank_n": 41,
+    "bank_sensitivity": 0.5,
+    "bank_specificity": 0.9565,
+    "bank_ppv": 0.9,
+    "bank_npv": 0.7097,
+    "sensitivity_vs_project1": "Bank lower, ranges do not overlap",
+    "specificity_vs_project1": "Bank estimate inside Project 1 95% range"
+   },
+   {
+    "panel_target": "vanB",
+    "drug": "vancomycin",
+    "organism": "Enterococcus faecalis + faecium",
+    "bank_n": 41,
+    "bank_sensitivity": 0.5,
+    "bank_specificity": 0.9565,
+    "bank_ppv": 0.9,
+    "bank_npv": 0.7097,
+    "sensitivity_vs_project1": "Bank higher, ranges do not overlap",
+    "specificity_vs_project1": "ranges overlap"
+   },
+   {
+    "panel_target": "KPC",
+    "drug": "meropenem",
+    "organism": "Enterobacterales (excluding Salmonella)",
+    "bank_n": 312,
+    "bank_sensitivity": 0.3649,
+    "bank_specificity": 0.939,
+    "bank_ppv": 0.8438,
+    "bank_npv": 0.621,
+    "sensitivity_vs_project1": "Bank lower, ranges do not overlap",
+    "specificity_vs_project1": "Bank lower, ranges do not overlap"
+   },
+   {
+    "panel_target": "KPC",
+    "drug": "any carbapenem",
+    "organism": "Enterobacterales (excluding Salmonella)",
+    "bank_n": 312,
+    "bank_sensitivity": 0.3371,
+    "bank_specificity": 0.9701,
+    "bank_ppv": 0.9375,
+    "bank_npv": 0.5242,
+    "sensitivity_vs_project1": "Bank lower, ranges do not overlap",
+    "specificity_vs_project1": "Bank lower, ranges do not overlap"
+   },
+   {
+    "panel_target": "NDM",
+    "drug": "meropenem",
+    "organism": "Enterobacterales (excluding Salmonella)",
+    "bank_n": 312,
+    "bank_sensitivity": 0.3514,
+    "bank_specificity": 0.9939,
+    "bank_ppv": 0.9811,
+    "bank_npv": 0.6293,
+    "sensitivity_vs_project1": "Bank higher, ranges do not overlap",
+    "specificity_vs_project1": "ranges overlap"
+   },
+   {
+    "panel_target": "NDM",
+    "drug": "any carbapenem",
+    "organism": "Enterobacterales (excluding Salmonella)",
+    "bank_n": 312,
+    "bank_sensitivity": 0.2978,
+    "bank_specificity": 1.0,
+    "bank_ppv": 1.0,
+    "bank_npv": 0.5174,
+    "sensitivity_vs_project1": "Bank higher, ranges do not overlap",
+    "specificity_vs_project1": "Bank estimate inside Project 1 95% range"
+   },
+   {
+    "panel_target": "OXA-48-like",
+    "drug": "meropenem",
+    "organism": "Enterobacterales (excluding Salmonella)",
+    "bank_n": 312,
+    "bank_sensitivity": 0.1284,
+    "bank_specificity": 0.9573,
+    "bank_ppv": 0.7308,
+    "bank_npv": 0.549,
+    "sensitivity_vs_project1": "ranges overlap",
+    "specificity_vs_project1": "Bank lower, ranges do not overlap"
+   },
+   {
+    "panel_target": "OXA-48-like",
+    "drug": "any carbapenem",
+    "organism": "Enterobacterales (excluding Salmonella)",
+    "bank_n": 312,
+    "bank_sensitivity": 0.1461,
+    "bank_specificity": 1.0,
+    "bank_ppv": 1.0,
+    "bank_npv": 0.4685,
+    "sensitivity_vs_project1": "ranges overlap",
+    "specificity_vs_project1": "ranges overlap"
+   },
+   {
+    "panel_target": "VIM",
+    "drug": "meropenem",
+    "organism": "Enterobacterales (excluding Salmonella)",
+    "bank_n": 312,
+    "bank_sensitivity": 0.0203,
+    "bank_specificity": 0.9817,
+    "bank_ppv": 0.5,
+    "bank_npv": 0.5261,
+    "sensitivity_vs_project1": "Bank estimate inside Project 1 95% range",
+    "specificity_vs_project1": "Bank lower, ranges do not overlap"
+   },
+   {
+    "panel_target": "VIM",
+    "drug": "any carbapenem",
+    "organism": "Enterobacterales (excluding Salmonella)",
+    "bank_n": 312,
+    "bank_sensitivity": 0.0281,
+    "bank_specificity": 0.9925,
+    "bank_ppv": 0.8333,
+    "bank_npv": 0.4346,
+    "sensitivity_vs_project1": "ranges overlap",
+    "specificity_vs_project1": "Bank lower, ranges do not overlap"
+   },
+   {
+    "panel_target": "IMP",
+    "drug": "meropenem",
+    "organism": "Enterobacterales (excluding Salmonella)",
+    "bank_n": 312,
+    "bank_sensitivity": 0.0068,
+    "bank_specificity": 0.9878,
+    "bank_ppv": 0.3333,
+    "bank_npv": 0.5243,
+    "sensitivity_vs_project1": "Bank estimate inside Project 1 95% range",
+    "specificity_vs_project1": "Bank lower, ranges do not overlap"
+   },
+   {
+    "panel_target": "IMP",
+    "drug": "any carbapenem",
+    "organism": "Enterobacterales (excluding Salmonella)",
+    "bank_n": 312,
+    "bank_sensitivity": 0.0169,
+    "bank_specificity": 1.0,
+    "bank_ppv": 1.0,
+    "bank_npv": 0.4337,
+    "sensitivity_vs_project1": "Bank estimate inside Project 1 95% range",
+    "specificity_vs_project1": "Bank estimate inside Project 1 95% range"
+   },
+   {
+    "panel_target": "CTX-M",
+    "drug": "ceftriaxone",
+    "organism": "Enterobacterales (excluding Salmonella)",
+    "bank_n": 350,
+    "bank_sensitivity": 0.553,
+    "bank_specificity": 1.0,
+    "bank_ppv": 1.0,
+    "bank_npv": 0.4216,
+    "sensitivity_vs_project1": "Bank estimate inside Project 1 95% range",
+    "specificity_vs_project1": "ranges overlap"
+   },
+   {
+    "panel_target": "mecA or mecC",
+    "drug": "oxacillin",
+    "organism": "Staphylococcus aureus",
+    "bank_n": 127,
+    "bank_sensitivity": 0.9853,
+    "bank_specificity": 0.3559,
+    "bank_ppv": 0.6381,
+    "bank_npv": 0.9545,
+    "sensitivity_vs_project1": "Bank estimate inside Project 1 95% range",
+    "specificity_vs_project1": "Bank lower, ranges do not overlap"
+   },
+   {
+    "panel_target": "mecA or mecC",
+    "drug": "oxacillin or cefoxitin",
+    "organism": "Staphylococcus aureus",
+    "bank_n": 127,
+    "bank_sensitivity": 0.99,
+    "bank_specificity": 0.7778,
+    "bank_ppv": 0.9429,
+    "bank_npv": 0.9545,
+    "sensitivity_vs_project1": "Bank estimate inside Project 1 95% range",
+    "specificity_vs_project1": "Bank lower, ranges do not overlap"
+   },
+   {
+    "panel_target": "vanA or vanB",
+    "drug": "vancomycin",
+    "organism": "Enterococcus faecalis + faecium",
+    "bank_n": 41,
+    "bank_sensitivity": 1.0,
+    "bank_specificity": 0.913,
+    "bank_ppv": 0.9,
+    "bank_npv": 1.0,
+    "sensitivity_vs_project1": "ranges overlap",
+    "specificity_vs_project1": "Bank estimate inside Project 1 95% range"
+   },
+   {
+    "panel_target": "any panel carbapenemase (KPC, NDM, OXA-48-like, VIM, IMP)",
+    "drug": "meropenem",
+    "organism": "Enterobacterales (excluding Salmonella)",
+    "bank_n": 312,
+    "bank_sensitivity": 0.8378,
+    "bank_specificity": 0.8598,
+    "bank_ppv": 0.8435,
+    "bank_npv": 0.8545,
+    "sensitivity_vs_project1": "ranges overlap",
+    "specificity_vs_project1": "Bank lower, ranges do not overlap"
+   },
+   {
+    "panel_target": "any panel carbapenemase (KPC, NDM, OXA-48-like, VIM, IMP)",
+    "drug": "any carbapenem",
+    "organism": "Enterobacterales (excluding Salmonella)",
+    "bank_n": 312,
+    "bank_sensitivity": 0.7978,
+    "bank_specificity": 0.9627,
+    "bank_ppv": 0.966,
+    "bank_npv": 0.7818,
+    "sensitivity_vs_project1": "Bank higher, ranges do not overlap",
+    "specificity_vs_project1": "Bank lower, ranges do not overlap"
+   }
+  ]
+ }
+}

@@ -1,0 +1,6 @@
+.env
+*.token
+__pycache__/
+.DS_Store
+data/raw/isolates/
+data/raw/panels/

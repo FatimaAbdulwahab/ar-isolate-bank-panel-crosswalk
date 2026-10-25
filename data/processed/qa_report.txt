@@ -1,0 +1,79 @@
+QA REPORT - Isolate Bank to rapid panel target crosswalk
+============================================================
+
+PLAIN-LANGUAGE NOTE: Read this before trusting any number. It counts rows at each step,
+lists anything that did not match, and names isolates you can check by hand.
+
+1. Row counts
+   Panels found: 39 (34 on the All Isolate Panels page, 5 custom panels linked from them)
+   Isolate pages parsed: 1087; unique AR Bank numbers: 1087; blank AR Bank numbers: 0
+   Isolates with a BioSample accession: 975
+   Isolates with a CDC gene list: 862
+   Isolate-drug MIC rows: 20546; isolates with no MIC table: 0
+   Isolates in organisms the rapid panels test: 825
+
+2. Gene name matching (CDC names to NCBI catalog)
+   Distinct CDC gene names: 578; matched to an NCBI symbol: 478; not in NCBI catalog: 100
+   Names mapped to a rapid panel target: 65
+   Names flagged for the author:
+     - MBL -> (none): [VERIFY] name resembles a panel target family but is not in the NCBI catalog; author to rule [4 isolate(s)]
+     - blaZ-mecC -> mecC: [VERIFY] CDC lists only blaZ-mecC (the blaZ on the mecC element); CDC's custom panel BOR-33 names these isolates mecC+, so they are counted as mecC. Author to rule [2 isolate(s)]
+     - vanHAX(lacks VanRs) -> vanA: [VERIFY] vanA operon without its vanR/vanS regulators (CDC note); a panel detects vanA but the isolate can test vancomycin susceptible (vancomycin-variable enterococcus) [1 isolate(s)]
+   Unmatched names are mostly mutations, efflux pumps, porins and fungal targets, which no rapid
+   panel reports. Full list: reference/cdc_gene_to_target.csv (match = 'not in NCBI catalog').
+
+3. Outside check inputs
+   Bank isolates in Project 1 organisms with a BioSample: 593
+   Found in NCBI Pathogen Detection with AMRFinderPlus results: 562 (not found: 31)
+   Also in the Project 1 benchmark (left out of check B): 24
+   Reinterpretation with Project 1 breakpoints agrees with CDC's posted S/I/R: 99.8% of 2853 isolate-drug results (6 disagreements, listed below)
+     - AR Bank 0057 Morganella / Providencia meropenem MIC 2: CDC R, Project 1 rules I
+     - AR Bank 0082 Morganella / Providencia meropenem MIC 4: CDC I, Project 1 rules R
+     - AR Bank 0155 Morganella / Providencia ceftazidime MIC 8: CDC R, Project 1 rules I
+     - AR Bank 0216 Staphylococcus aureus oxacillin MIC 2: CDC R, Project 1 rules S
+     - AR Bank 1011 Enterobacter cloacae complex ceftazidime MIC 8: CDC R, Project 1 rules I
+     - AR Bank 1113 Morganella / Providencia meropenem MIC 2: CDC S, Project 1 rules I
+
+4. Gene-call disagreements between CDC and AMRFinderPlus (panel targets)
+     - AR Bank 0066 Klebsiella pneumoniae OXA-48-like: CDC 'OXA-232', AMRFinderPlus '' (CDC only)
+     - AR Bank 0068 Klebsiella pneumoniae OXA-48-like: CDC 'OXA-232', AMRFinderPlus '' (CDC only)
+     - AR Bank 0075 Klebsiella pneumoniae OXA-48-like: CDC 'OXA-232', AMRFinderPlus '' (CDC only)
+     - AR Bank 0153 Klebsiella pneumoniae OXA-48-like: CDC 'OXA-232', AMRFinderPlus '' (CDC only)
+     - AR Bank 0504 Klebsiella pneumoniae OXA-48-like: CDC '', AMRFinderPlus 'blaOXA-48' (AMRFinderPlus only)
+     - AR Bank 0128 Escherichia coli CTX-M: CDC 'CTX-M-15', AMRFinderPlus '' (CDC only)
+     - AR Bank 0151 Escherichia coli CTX-M: CDC 'CTX-M-15', AMRFinderPlus '' (CDC only)
+     - AR Bank 0495 Escherichia coli CTX-M: CDC '', AMRFinderPlus 'blaCTX-M;blaCTX-M=PARTIAL_END_OF_CONTIG;blaCTX-M-14;blaCTX-M-64' (AMRFinderPlus only)
+     - AR Bank 0539 Salmonella Typhimurium CTX-M: CDC '', AMRFinderPlus 'blaCTX-M-55' (AMRFinderPlus only)
+
+5. Named spot checks (verify these by hand on the CDC pages; see docs/VERIFY_CHECKLIST.md)
+     - AR Bank 0032 Enterobacter cloacae: targets [KPC], meropenem 0.25 S, oxacillin  , cefoxitin >16 R, vancomycin  ; hard case: target gene present, matching drug(s) not resistant
+     - AR Bank 0066 Klebsiella pneumoniae: targets [OXA-48-like;CTX-M], meropenem >8 R, oxacillin  , cefoxitin >16 R, vancomycin  ; hard case: no
+     - AR Bank 0164 Enterobacter cloacae complex: targets [], meropenem >8 R, oxacillin  , cefoxitin >16 R, vancomycin  ; hard case: 3rd-generation cephalosporin resistant, no CTX-M or carbapenemase target | carbapenem resistant, no panel carbapenemase target
+     - AR Bank 0500 Enterococcus faecium: targets [vanA], meropenem  , oxacillin  , cefoxitin  , vancomycin 1 S; hard case: target gene present, matching drug(s) not resistant
+     - AR Bank 0977 Staphylococcus aureus: targets [mecA], meropenem  , oxacillin <=0.25 S, cefoxitin 4 S, vancomycin 1 S; hard case: target gene present, matching drug(s) not resistant
+     - AR Bank 1306 Staphylococcus aureus: targets [mecC], meropenem  , oxacillin 2 S, cefoxitin 16 R, vancomycin  ; hard case: no
+
+6. Threshold counts quoted in documents
+     isolates carrying mecA: 113
+     isolates carrying mecC: 2
+     isolates carrying vanA: 11
+     isolates carrying vanB: 10
+     isolates carrying KPC: 95
+     isolates carrying NDM: 77
+     isolates carrying OXA-48-like: 37
+     isolates carrying VIM: 36
+     isolates carrying IMP: 26
+     isolates carrying CTX-M: 168
+     isolates carrying OXA-23-like: 28
+     isolates carrying OXA-24/40-like: 18
+     isolates carrying OXA-58-like: 3
+     isolates carrying OXA-143-like: 0
+     isolates carrying SME: 9
+     isolates carrying mcr-1: 7
+     isolates carrying mcr-2: 1
+     isolates carrying mcr-3: 2
+     hard cases - carbapenem resistant, no panel carbapenemase target: 107
+     hard cases - 3rd-generation cephalosporin resistant, no CTX-M or carbapenemase target: 58
+     hard cases - target gene present, matching drug(s) not resistant: 18
+     hard cases - vancomycin resistant by intrinsic vanC, no vanA or vanB (panel negative is expected): 7
+     hard cases - oxacillin/cefoxitin resistant, no mecA or mecC: 1

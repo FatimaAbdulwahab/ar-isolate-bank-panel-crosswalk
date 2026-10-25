@@ -1,0 +1,324 @@
+                         510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION
+                                        DECISION SUMMARY
+                                                    ASSAY ONLY
+
+ I      Background Information:
+
+     A 510(k) Number
+
+        K193519
+
+     B Applicant
+
+        BioFire Diagnostics, LLC
+
+     C Proprietary and Established Names
+
+        BioFire Blood Culture Identification 2 (BCID2) Panel
+        BioFire BCID2 Panel
+        BCID2 Panel
+
+     D Regulatory Information
+
+            Product                                          Regulation
+                               Classification                                                 Panel
+            Code(s)                                             Section
+                                                21 CFR 866.3365 - Multiplex nucleic
+                                                    acid assay for identification of          MI -
+             PAM                  Class II
+                                                microorganisms and resistance markers     Microbiology
+                                                     from positive blood cultures
+
+II      Submission/Device Overview:
+
+     A Purpose for Submission:
+
+        To obtain a substantial equivalence determination for the for the BioFire Blood Culture
+        Identification 2 (BCID2) Panel.
+
+     B Measurand:
+
+        Gram Positive Bacteria:
+        Enterococcus faecalis, Enterococcus faecium, Listeria monocytogenes, Staphylococcus spp.
+        (with specific differentiation of Staphylococcus aureus, Staphylococcus epidermidis, and
+        Staphylococcus lugdunensis), Streptococcus spp. (with specific differentiation of Streptococcus
+
+Food and Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993-0002
+www.fda.gov
+         agalactiae (Group B), Streptococcus pneumoniae, and Streptococcus pyogenes (Group A))
+
+         Gram-negative Bacteria:
+         Acinetobacter calcoaceticus-baumannii complex, Bacteroides fragilis, Haemophilus influenzae,
+         Neisseria meningitidis (encapsulated), Pseudomonas aeruginosa, Stenotrophomonas maltophilia,
+         Enterobacterales (with specific differentiation of Enterobacter cloacae complex, Escherichia
+         coli, Klebsiella aerogenes, Klebsiella oxytoca, Klebsiella pneumoniae group, Proteus spp.,
+         Salmonella spp., and Serratia marcescens)
+
+         Yeast:
+         Candida albicans, Candida auris, Candida glabrata, Candida krusei, Candida parapsilosis,
+         Candida tropicalis, and Cryptococcus neoformans/gatti
+
+         Resistance Markers:
+         CTX-M, IMP, KPC, mcr-1, mecA/C, mecA/C and MREJ (MRSA), NDM, OXA-48-like, vanA/B
+         and VIM
+
+      C Type of Test:
+
+         A multiplexed nucleic acid-based test intended for use with the FilmArray 2.0 or FilmArray
+         Torch systems for the qualitative in vitro detection and identification of multiple bacterial and
+         yeast nucleic acids and select genetic determinants of antimicrobial resistance. The BCID2 Panel
+         is performed directly on positive blood culture samples identified as positive by a continuous
+         monitoring blood culture system.
+
+III      Intended Use/Indications for Use:
+
+      A Intended Use(s):
+
+         See Indications for Use below.
+
+      B Indication(s) for Use:
+
+         The BioFire Blood Culture Identification 2 (BCID2) Panel is a multiplexed nucleic acid test
+         intended for use with FilmArray 2.0 or FilmArray Torch systems for the simultaneous qualitative
+         detection and identification of multiple bacterial and yeast nucleic acids and select genetic
+         determinants associated with antimicrobial resistance. The BioFire BCID2 Panel test is
+         performed directly on blood culture samples identified as positive by a continuous monitoring
+         blood culture system. Results are intended to be interpreted in conjunction with Gram stain
+         results.
+
+         The following organism types and subtypes are identified using the BioFire BCID2 Panel:
+
+         Gram Positive Bacteria: Enterococcus faecalis, Enterococcus faecium, Listeria monocytogenes,
+         Staphylococcus spp. (with specific differentiation of Staphylococcus aureus, Staphylococcus
+         epidermidis, and Staphylococcus lugdunensis), Streptococcus spp. (with specific differentiation
+
+
+                                                                                     K193519 - Page 2 of 105
+     of Streptococcus agalactiae (Group B), Streptococcus pneumoniae, and Streptococcus pyogenes
+     (Group A))
+
+     Gram Negative Bacteria: Acinetobacter calcoaceticus-baumannii complex, Bacteroides fragilis,
+     Haemophilus influenzae, Neisseria meningitidis (encapsulated), Pseudomonas aeruginosa,
+     Stenotrophomonas maltophilia, Enterobacterales (with specific differentiation of Enterobacter
+     cloacae complex, Escherichia coli, Klebsiella aerogenes, Klebsiella oxytoca, Klebsiella
+     pneumoniae group, Proteus spp., Salmonella spp., and Serratia marcescens)
+
+     Yeast: Candida albicans, Candida auris, Candida glabrata, Candida krusei, Candida
+     parapsilosis, Candida tropicalis, and Cryptococcus neoformans/gatti
+
+     The BioFire BCID2 Panel contains assays for the detection of genetic determinants associated
+     with resistance to methicillin (mecA/C and mecA/C in conjunction with MREJ), vancomycin
+     (vanA and vanB), ß-lactams including penicillins, cephalosporins, monobactams, and
+     carbapenems (blaCTX-M, blaIMP, blaKPC, blaNDM, blaOXA48-like, blaVIM) to aid in the
+     identification of potentially antimicrobial-resistant organisms in positive blood culture samples.
+     In addition, the panel includes an assay for the detection of the mobilized colistin genetic
+     determinant mcr-1, an emerging marker of public health importance. The antimicrobial
+     resistance gene or marker detected may or may not be associated with the agent responsible for
+     disease. Negative results for these select antimicrobial resistance gene and marker assays do not
+     indicate susceptibility, as multiple mechanisms of resistance to methicillin, vancomycin, ß-
+     lactams, and colistin exist.
+
+     Antimicrobial Resistance Genes: CTX-M, IMP, KPC, mcr-1, mecA/C, mecA/C and MREJ
+     (MRSA), NDM, OXA-48-like, vanA/B and VIM
+     The BioFire BCID2 Panel is indicated as an aid in the diagnosis of specific agents of
+     bloodstream infection and results should be used in conjunction with other clinical and
+     laboratory findings. Positive results do not rule out co-infection with organisms not included in
+     the BioFire BCID2 Panel. The BioFire BCID2 Panel is not intended to monitor treatment for
+     blood stream infection.
+
+     Subculturing of positive blood cultures is necessary to recover organisms for susceptibility
+     testing and epidemiological typing, to identify organisms in the blood culture that are not
+     detected by the BioFire BCID2 Panel, and for determination of species detected but not
+     identified within complexes, groups, or genera by the BioFire BCID2 Panel assays.
+
+
+ C Special Conditions for Use Statement(s):
+
+     Rx - For Prescription Use Only
+
+ D Special Instrument Requirements:
+
+     For use with the FilmArray 2.0 or FilmArray Torch systems
+
+IV   Device/System Characteristics:
+
+ A Device Description:
+
+
+                                                                                   K193519 - Page 3 of 105
+    The BioFire Blood Culture Identification 2 (BCID2) Panel is designed to simultaneously identify
+    43 bacteria, yeast, and select genetic determinants of antimicrobial resistance. The BioFire
+    BCID2 Panel is performed directly on positive blood culture samples. BioFire BCID2 Panel is
+    compatible with BioFire’s PCR-based in vitro diagnostic FilmArray 2.0 and FilmArray Torch
+    systems for infectious disease testing. A specific software module (i.e., BioFire BCID2 Panel
+    Pouch Module) is used to perform BioFire BCID2 Panel testing on these systems.
+
+B Principle of Operation:
+
+    A test is initiated by loading Hydration Solution into one port of the FilmArray pouch and
+    positive blood culture specimen mixed with the provided Sample Buffer into the other port of the
+    BioFire BCID2 Panel pouch and placing it in a FilmArray instrument. The pouch contains all of
+    the reagents required for specimen testing and analysis in a freeze-dried format; the addition of
+    Hydration Solution and Sample/Buffer Mix rehydrates the reagents. After the pouch is prepared,
+    the FilmArray Software guides the user through the steps of placing the pouch into the
+    instrument, scanning the pouch barcode, entering the sample identification, and initiating the run.
+
+    The FilmArray instruments contain coordinated systems of inflatable bladders and seal points,
+    which act on the pouch to control the movement of liquid between the pouch blisters. When a
+    bladder is inflated over a reagent blister, it forces liquid from the blister into connecting
+    channels. Alternatively, when a seal is placed over a connecting channel it acts as a valve to open
+    or close a channel. In addition, electronically-controlled pneumatic pistons are positioned over
+    multiple plungers in order to deliver the rehydrated reagents into the blisters at the
+    appropriate times. Two Peltier devices control heating and cooling of the pouch to drive the PCR
+    reactions and the melt curve analysis.
+
+    Nucleic acid extraction occurs within the FilmArray pouch using mechanical and chemical lysis
+    followed by purification using standard magnetic bead technology. After extracting and
+    purifying nucleic acids from the unprocessed sample, the FilmArray performs a nested multiplex
+    PCR that is executed in two stages. During the first stage, the FilmArray performs a single, large
+    volume, highly multiplexed reverse transcription PCR (rt-PCR) reaction. The products from first
+    stage PCR are then diluted and combined with a fresh, primer-free master mix and a fluorescent
+    double-stranded DNA binding dye (LC Green® Plus, BioFire Diagnostics). The solution is then
+    distributed to each well of the array. Array wells contain sets of primers designed specifically to
+    amplify sequences internal to the PCR products generated during the first stage PCR reaction.
+    The 2nd stage PCR, or nested PCR, is performed in singleplex fashion in each well of the array.
+    At the conclusion of the 2nd stage PCR, the array is interrogated by melt curve analysis for the
+    detection of signature amplicons denoting the presence of specific targets. A digital camera
+    placed in front of the 2nd stage PCR captures fluorescent images of the PCR reactions
+    and software interprets the data.
+
+    The FilmArray Software automatically interprets the results of each DNA melt curve analysis
+    and combines the data with the results of the internal pouch controls to provide a test result for
+    each organism on the panel.
+
+V   Substantial Equivalence Information:
+
+
+
+
+                                                                                   K193519 - Page 4 of 105
+A Predicate Device Name(s):
+
+   FilmArray Blood Culture Identification (BCID) Panel
+
+B Predicate 510(k) Number(s):
+
+   K181493
+
+C Comparison with Predicate(s):
+  Device & Predicate
+                                   K193519                                             K181493
+  Device(s):
+                     BioFire Blood Culture                             FilmArray Blood Culture
+  Device Trade Name
+                     Identification 2 (BCID2) Panel                    Identification (BCID) Panel
+  General Device
+  Characteristic
+  Similarities
+                         The BioFire Blood Culture Identification 2    The FilmArray Blood Culture
+                         (BCID2) Panel is a multiplexed nucleic        Identification (BCID) Panel is a qualitative
+                         acid test intended for use with FilmArray     multiplexed nucleic acid-based in vitro
+                         2.0 or FilmArray Torch systems for the        diagnostic test intended for use with
+                         simultaneous qualitative detection and        FilmArray systems. The FilmArray BCID
+                         identification of multiple bacterial and      Panel is capable of simultaneous detection
+                         yeast nucleic acids and select genetic        and identification of multiple bacterial and
+                         determinants associated with antimicrobial    yeast nucleic acids and select genetic
+                         resistance. The BioFire BCID2 Panel test      determinants of antimicrobial resistance.
+                         is performed directly on blood culture        The FilmArray BCID Panel assay is
+                         samples identified as positive by a           performed directly on blood culture
+                         continuous monitoring blood culture           samples identified as positive by a
+                         system. Results are intended to be            continuous monitoring blood culture
+                         interpreted in conjunction with Gram stain    system. Results are intended to be
+                         results. The following organism types and     interpreted in conjunction with Gram stain
+                         subtypes are identified using the BioFire     results.
+                         BCID2 Panel:
+
+   Intended Use/                                                       The following gram-positive bacteria,
+                         Gram-positive Bacteria: Enterococcus          gram-negative bacteria, and yeast are
+   Indications for Use   faecalis, Enterococcus faecium, Listeria      identified using the FilmArray BCID
+                         monocytogenes, Staphylococcus spp. (with      Panel: Enterococci, Listeria
+                         specific differentiation of Staphylococcus    monocytogenes, Staphylococci (including
+                         aureus, Staphylococcus epidermidis, and       specific differentiation of Staphylococcus
+                         Staphylococcus lugdunensis),                  aureus), Streptococci (with specific
+                         Streptococcus spp. (with specific             differentiation of Streptococcus agalactiae,
+                         differentiation of Streptococcus agalactiae   Streptococcus pneumoniae, and
+                         (Group B), Streptococcus pneumoniae, and      Streptococcus pyogenes), Acinetobacter
+                         Streptococcus pyogenes (Group A))             baumannii, Enterobacteriaceae (including
+                                                                       specific differentiation of the Enterobacter
+                         Gram-negative Bacteria: Acinetobacter         cloacae complex, Escherichia coli,
+                         calcoaceticus-baumannii complex,              Klebsiella oxytoca, Klebsiella pneumoniae,
+                         Bacteroides fragilis, Haemophilus             Proteus, and Serratia marcescens),
+                         influenzae, Neisseria meningitidis            Haemophilus influenzae, Neisseria
+                         (encapsulated), Pseudomonas aeruginosa,       meningitidis (encapsulated), Pseudomonas
+                         Stenotrophomonas maltophilia,                 aeruginosa, Candida albicans, Candida
+                         Enterobacterales (with specific               glabrata, Candida krusei, Candida
+                         differentiation of Enterobacter cloacae       parapsilosis, and Candida tropicalis.
+
+
+
+                                                                                        K193519 - Page 5 of 105
+Device & Predicate
+                                     K193519                                         K181493
+Device(s):
+                     complex, Escherichia coli, Klebsiella
+                     aerogenes, Klebsiella oxytoca, Klebsiella       The FilmArray BCID Panel also contains
+                     pneumoniae group, Proteus spp.,                 assays for the detection of genetic
+                     Salmonella spp., and Serratia marcescens)       determinants of resistance to methicillin
+                                                                     (mecA), vancomycin (vanA and vanB),
+                     Yeast: Candida albicans, Candida auris,         and carbapenems (blaKPC) to aid in the
+                     Candida glabrata, Candida krusei,               identification of potentially antimicrobial
+                     Candida parapsilosis, Candida tropicalis,       resistant organisms in positive blood
+                     and Cryptococcus neoformans/gatti               culture samples. The antimicrobial
+                                                                     resistance gene detected may or may not be
+                                                                     associated with the agent responsible for
+                     The BioFire BCID2 Panel contains assays         disease. Negative results for these select
+                     for the detection of genetic determinants       antimicrobial resistance gene assays do not
+                     associated with resistance to methicillin       indicate susceptibility, as multiple
+                     (mecA/C and mecA/C in conjunction with          mechanisms of resistance to methicillin,
+                     MREJ), vancomycin (vanA and vanB), ß-           vancomycin, and carbapenems exist.
+                     lactams including penicillins,
+                     cephalosporins, monobactams, and
+                     carbapenems (blaCTX-M, blaIMP, blaKPC,          The FilmArray BCID Panel is indicated as
+                     blaNDM, blaOXA48-like, blaVIM) to aid in
+                                                                     an aid in the diagnosis of specific agents of
+                     the identification of potentially               bacteremia and fungemia and results
+                     antimicrobial-resistant organisms in            should be used in conjunction with other
+                     positive blood culture samples. In addition,    clinical and laboratory findings. Positive
+                     the panel includes an assay for the             FilmArray results do not rule out co-
+                     detection of the mobilized genetic              infection with organisms not included in
+                     determinant mcr-1, an emerging marker of        the FilmArray BCID Panel. The FilmArray
+                     public health importance. The                   BCID Panel is not intended to monitor
+                     antimicrobial resistance gene or marker         treatment for bacteremia or fungemia.
+                     detected may or may not be associated
+                     with the agent responsible for disease.         Subculturing of positive blood cultures is
+                     Negative results for these select               necessary to recover organisms for
+                     antimicrobial resistance gene and marker        susceptibility testing and epidemiological
+                     assays do not indicate susceptibility, as       typing, to identify organisms in the blood
+                     multiple mechanisms of resistance to            culture that are not detected by the
+                     methicillin, vancomycin, ß-lactams, and         FilmArray BCID Panel, and for species
+                     colistin exist.                                 determination of some Staphylococci,
+                                                                     Enterococci, Streptococci, and
+                     Antimicrobial Resistance Genes: CTX-M,          Enterobacteriaceae that are not
+                     IMP, KPC, mcr-1, mecA/C, mecA/C and             specifically identified by the FilmArray
+                     MREJ (MRSA), NDM, OXA-48-like,                  BCID Panel assays.
+                     vanA/B, VIM
+
+                     The BioFire BCID2 Panel is indicated as
+                     an aid in the diagnosis of specific agents of
+                     bloodstream infection and results should be
+                     used in conjunction with other clinical and
+                     laboratory findings. Positive results do not
+                     rule out co-infection with organisms not
+                     included in the BioFire BCID2 Panel. The
+                     BioFire BCID2 Panel is not intended to
+                     monitor treatment for blood stream
+                     infection.
+
+                     Subculturing of positive blood cultures is
+
+
+
+                                                                                      K193519 - Page 6 of 105
+

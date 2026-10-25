@@ -1,0 +1,821 @@
+-v       Nanosphere                                                              JAN - 82014
+                                           510(k) Summary
+
+     The Summary for this 510(k) Submission is Submitted in accordance with the requirements of'
+     SMODA 1900 and CFR 807.92
+
+     510(k) Number:
+     K132843:          Verigene® Gram Negative Blood Culture Nucleic Acid Test (BC-ON)
+     Su mmary Preparation Date:
+     January 6, 2014
+     Subniitted by:
+     Nanosphere. Inc.
+     4088 Commercial Avenue
+     Northbrook, IL.60062
+     Phone: 847-400-9000
+     Fax: 847-400-9176
+     Con tact:
+     Mark A. Del Vecchio
+     Vice President, Regulatory Affairs
+     Proprietary Names:
+     For the instrzonent:,
+     Verigene® System
+     F~or the assay:
+     Verigene® Gramn Negative Blood Culture Nucleic Acid Test (BC-ON)
+     Commion Names:
+     1"or the instrument:,
+     lBencli-top molecular diagnostics workstation
+ For1 the assay:
+ Gram-negative blood culture assay
+ Acinetobaater spp. blood Culture assay
+ Citrobacterspp. blood culture assay
+ Enterobacter spp. blood culture assay
+ Proieus spp. blood culture assay
+ Klebsiellc/pneunoniae blood Culture assay
+ Klebsiella oxytoca blood culture assay
+ Ilseudomonas aeruginosablood Culture assay
+ E-seherichiatcoli blood Culture assay
+ CTX-M resistance marker blood culture assay
+ OXA resistance marker blood Culture assay
+ KPIC resistance marker blood culture assay
+ VIM resistance marker blood Culture assay
+ NDM resistance marker blood culture assay
+ IMIP resistance marker blook Culture assay
+                                                                                     Page I of' I5
+Regulatory Information:
+Regulation section:
+866.3365         Multiplex Nucleic Acid Assay for Identification of Microorganisms and
+                 Resistance Markers from Positive Blood Cultures
+Classification:
+Class IT
+Panel:
+Microbiology (83)
+Product Code(s):
+PEN      Grami-Negative Bacteria and Associated Resistance Markers
+Other codes used by predicate devices:
+PAM      Grami-Positive Bacteria and thecir Resistance Markers
+PEG      Etinga! Organismis, Nucleic Acid-Based Assay
+001      Real Time Nucleic Acid Amplification System
+P~redicate Devices:
+FilmnArray Blood Culture Identification (BCID) Panel (K1309 14, Biofire Diagnostics)
+\Kcrigene Gram-Positive Blood Culture (BC-GP) Nucleic Acid Test (K122514 / KI 13450)
+Intended Use:
+The Verigeneg Gramn Negative Blood Culture Nucleic Acid Test (BC-ON). performed using
+the samnple-to-result Verigene System, is a qualitative multiplexed in itro diagnostic test for
+the simulitaneous detection and identification of' selected grami-negative bacteria and
+resistance markers. BC-ON is perf'ormned directly on blood Culture mnedia uIsini- blood cultuIC
+bottles identified as positive by a Continuous monitoring blood Culture System and which
+contain grami-negative bacteria as determined by gramn stain.
+
+B3C-ON detects and identifies the following:
+
+             Bacterial Genera and Species                      I'Resistance                   Markers
+                  AIcinetobacter spp.                                              CTX-M (blacT.x-l)
+                  Citrobac/erspp.                                                  KP3C (blaKPC)
+                  Enterobacterspp.                                                 ND)M (blaNoM1)
+           Proteus spp.VI                                                                  baij
+           Escherichiacoli'                                                        IM (blavi,i)
+       IKlebsiellapneumoniae                                                      OXA (blaoxA)
+           Kiebsiella oxytoca
+           Pseudomtonas aeniginosa                              _________________________
+   BC-ON will not distinguish Eselterichia coli from S/igel/a spp. (S dYsenteriac. S.flescneri. S. holvdhi. and S sonneQ
+
+
+BC-ON is indicated for use in conjunction with other clinical and laboratory Findings to aid
+iii the diagnosis of bacterial bloodstream infections; however, is not used to monitor these
+infections. Sub-culturing of positive blood cultures is necessary to recover oruoan isils for
+antimicrobial susceptibility testing (AST), for identification                    o raim            o    eetdb
+BC-GN, to detect mixed inifections that may not be detected by BC-GN, for association of'
+antimicrobial resistance marker genes to a specific organism, or for epidemiological typing.
+
+                                                                                                                PageC 2 of 15
+Technological Characteristics:
+The Verigene Gram Negative Blood Culture Nucleic Acid Test (B3C-ON) is a mole1cular assay
+which relies on detection of' specific nucleic acid targets in a mnicroarray format. For each of
+the bacterial nucleic acid sequences detected by the BC-ON test, unique Capture and
+Mediator oligonucleotides are utilized, with gold nanoparticle probe-based endpoint
+detection. The Capture oligonucleotides are covalently bound to the microarray Substrate and
+hybridize to a specific portion of the nucleic acid targets. The Mediator oligonuLCleotides
+have regions which bind to a different portion of the same nuICcic acid targets and also have
+   sequnceswhich allow binding of gold nanoparticle probes. Specific silver enhancement of
+the bound gold nanoparticle probes at the capture sites results in gold-silver aggregates that
+scatter light with high efficiency and provide accurate detection of target capture.
+The BC-ON test is performed on the Verigene System, a sample-to-result, full%, automated,
+bench-top molecular diagnostics workstation consisting of two components: the Verioene
+Reader and the Verigene Processor S1P. For the BC-UN test, the Verigene System allowvs
+automlated nuLcleic acid extraction from positive bacteria-containing blood Culture specimens
+and target detection of bacteria-specific DNA. The BC-UN test utilizes single-use disposable
+test coFInables and a sel f-contained Verigene Test Cartridge for each sample tested.
+The Reader is the Verigene System's central control unit and tuser interface, and, with a
+touch-screen control panel and barcode scanner, guides the user through test processin..
+imiaging, and test result generation. The Verigene Processor SIP executes the test procedr.
+automating the steps of (1) Sample lPreparation- cell lysis and magnetic bead-lbasedI bacterial
+DNA isolation from blood Culture samples, and (2) Hybridization- detection and
+identification of bacterial -specific DNA in a iniicroarray format by using gold nanoparticle
+probe-based technology. Once the specimen is loaded by the operator, all other fluid transfer
+steps are performed by an automated pipette that transfers reagents between wells of the trays and
+loads the specimen into the Test Cartridge flor hybridization. Single-use disposable test
+con1sumables and a selfcontained Verigene Test Cartridge are utilized for each sample tested
+with the BC-ON test.
+To obtain the test results after processing is complete, the User removes the Test Cartridgec
+from the P~rocessor SP', and inserts the substrate holder into the Reader for analysis. Liaht
+scatter from the capture spots is imaged by the Reader and intensities from the mnieroarray
+spots arc used to make a determination regarding the presence (Detected) or absence (Not
+Detected) of a bacterial nucleic acid sequenee/analyte. This determination is mnade by means
+of softwvare-based decision algorithm resident in the Reader.
+
+
+
+
+                                                                                       Page 3 of' 5
+Performance Data - Analytical Testing
+Ana?(lyticail SenisilitivitLhiit of Detection (L OD)
+
+The following analytical sensitivity (LOD) has been established for the detection of each of
+the eight (8) BC-ON test bacterial targets and six (6) resistance markers, established by
+testing a total of 12 bacterial strains, most of which contained the listed resistance markers.
+
+
+                                                     Resist
+                                                         vance   No. of
+                  Target                             Marker(s)   Strains     LOD (CFU/m4)
+                       ______________________Test                       ed
+      AIcineobacier spp.                               OXA         2         4.Ox 10o'to 4.6x 106
+      Citrobacterspp.                                  vim         2         6.9x 106 to 1.3x 107 -
+      Enterobacter spp.                                KPC         2         4.lIx 106 to Ix Io10
+       I'roeuv spI).                                     -2                  1.9X 1 0 5 to 7.h
+                                                                                             7x1
+      Klcbsiella/)I)uflOioniC                       OXA; CTX-M      I               1.2x 10'
+      Kiebsic/la oxlvtoca                             C&l'X-M       I              2.Ox 1 07
+      Eseherichiaco/i                                  ND M         1              3.7 6
+      Pseudonionasaeruginosa                            Iw          IIP            2.)xl 07&
+
+Analytical Reactivity (Inchisivity)
+ Analytical reactivity was evaluated by triplicate testing of a large number of gramr-negative
+ bacterial species, both with and Without antibiotic resistance markers, as appropriate. The
+panel organisms were selected to cover the genetic diversity of each BC-ON target and
+resistance marker. A total of 195 strains of 44 different organisms were tested including 36
+ strains of 12 Acinetobac/er species, 41 strains of I1I Citr-obacterspecies, 29 strains of 8
+ linterobacierspecies, 16 strains of 5 Proteus species, 8 strains of 4 Shigella species, 10
+strains of Kiebsie/la oxytoca. 25 strains of Kiebsiella pneunzoniaie. 13 strains of Pseudotnonas
+aeruginosa. and 17 strains of Escherichiacoi. Of these 195 strains, 79 contained one or
+more resistance markers associated with I I different bacterial species including a total of 38
+strains containing CTX-M. 17 containing OXA, 12 containing IMP, 10 containing VIN4. 10
+containing KIt, and 9 containing NDM. The bacterial and resistance targets f'or all of the
+ 195 strains were correctly detected (including the expected cross-reactivity with the 4
+~Shigella species) with three exceptions. Two (2) of the 13 Acinetobactur radioresslens
+strains observed false negative results for the OXA marker for 9 of 24 replicates tested. In
+both strains however, the bacterial target was correctly identified as "Acinetobacter spp." in
+all replicates tested. One of the Citrobaceeranalonaticusstrains observed false negative
+results Citrobacter spp. for two of nine replicates tested.
+
+
+
+
+                                                                                                   Thc4 of 15
+Analytical Specifciiy ('Exc/usivity)
+Analytical specificity was assessed using organisms phylogenetically related to panel
+organisms detected by the BC-ON test, organisms Without gene sequence information,
+common blood-borne pathogens, as well as organisms potentially present as contaminants inl
+blood culture specimens. The organisms tested were divided into two distinct panels, The
+first panel consisted of the 195 "BC-ON panel" organisms, which in total comprised] the
+analytical l usi vitv study samples. There were no0 false Positive results observed lor any of'
+the samples, indicating no0 cross-reativity of any of the panel members.
+The second panel consisted of' 172 "non-BC-ON panel" organisms which were not expected
+to be detected by the BC-ON test, including 88 gram-negative bacteria (includingo
+/lcinetobacler baunianil containing OXA-S 1), 71 gram-positive bacteria, six (6) gramn-
+negative cocci bacteria, and seven (7) yeast strains. Of these 172 strains tested, 159
+demonstrated no cross-reactivity with the BC-ON test, while thirteen (13)) organismns were
+determined to cross-react with the tests, as listed below. In addition, BC-ON will not
+distinguish EI. co/i from S/ige//a sop. including S. dysenieric, S. flcxneri, S. boydil. and S.
+sollnel.
+
+               BC-GN Test Targetfor Which Cross                   Cross Reacthve Organism
+                     Reactivity Observed
+                      Citroacterspp.Buianxe//a                          gaviniae
+                             ~Enteric
+                      Citrbacir                                   group 137
+                        pp.K/cbs
+                      Enleobaier                                   ic/Ia variico/a
+                              ~Leclercia
+                      Enieobacer                                        adecarboxy/arat
+                                                          Escherichia /1b eril
+                                                          S. dvsenieri.ae
+           Escherichia coli                               S lexneri
+                                                          S. bovdii
+                                                          £S.onnei
+                                                          Khtvirera ascorbato
+                      Klesiela xyicaRzo                         ithl/c/t oriihnolylica
+                      Kiebiell oxyoctiRacultelia                         pianticola
+                                                          Cedecea davisae
+                                                          Kloyivera georgiana*
+                                                          Leininore//ci grinionhi
+                                                          Enterococcusraf/inosuts
+       CTX-M                                              canii t/a vciapsi/os/s
+                                                          bIa K LUA
+                                                          bIa K LUG
+                                                          blaKLUY
+   *0.,aii conflrmned by bi-dir-ectional sequencig to conitain CTIX-M
+
+
+
+
+                                                                                            Iage 5 oF IS
+Inteffermng Substances
+     I The potential inhibitory effects of substances that may be present inl patient blood
+specimens and a blood Culture bottle additive present in different blood Culture media were
+tested with the BC-GN test at biologically or experimentally relevant concentrations. The
+design of the study took into consideration that the BC-GN test sample preparation process
+inherently acts to minimize the potential for an interferent present in the blood cltulre
+.samples to impact the test. The effects of potential interfering substances were evaluated
+with one representative strain of each of the eight (8) BC-GN test bacterial targets and six (6)
+resistance markers in the presence of several endogenlous substances. H-emoglobin,
+triglycerides, Conjugated and unconjugated bilirubin. y-lobulin and Sodium Polvanethol
+Sulf'onate (SPS) were selected for testing. Control samples containing no interferents were
+also tested. No interfering effects were observed.
+ Fresh vs. Frozen Samjples
+'fihe stability of specimens SUbJected to multiple freeze/thaw cycles was evaluated by
+conducting a firesh Versus frozen specimen Study. This study was performed to demonstrate
+ that frozen storage of' samiples does not affect the accuracy of test results Such that Frozen
+clinical blood Culture samples Could be utilized in the evaluation of the l3C-GN test. This
+ Study was conducted usingl positive blood culture specimens which were tested bef'ore and
+after freezing (at or below -70 'C) to allow a comparison. Representative strains of each of'
+the eight (8) l3C-GN test bacterial targets and six (6) resistance markers, as well as two
+additional organisms, Hqfa/alvei and Stap-hylococcus epidlerinidiswhich served as negative
+organism controls, were grown to bottle positivity. Cultured samples were tested at baseline
+(fresh/unfrozen) and then frozen at or below -70 'C, thawed and tested, and thle fr-eeze/thaw
+and testing of the specimen repeated to evaluate two fireeze-thaw cycles. A comparison of
+  mtched sets of'specimencis demonstrated 100% agreement between the fresh and frozen
+samples for all thle analytes and for all the conditions tested. The results Fromt this Study
+demonstrate that the 13C-GN test results are not compromised when samples arc exposed to
+tip to two freeze/thaw cycles.
+
+ Coiwetiiive Inhibiiion/ Mlixed Growth
+A competitive inhibition Study was conducted to evaluate the impact of combinations of
+gramn-negative organisms present in the same blood culture bottle at similar concentrations
+prior to Culturing. Combinations of bacterial organisms representative of all 13C-GN test
+target analytes were co-inoculated into individual blood culture bottles at clinically-relevant
+starting concentrations and incubated to positivity. The BC-GN test correctly detected the
+bacteria and resistance mnarker(s) for four (4) of the eight target organismus. irrespective of'
+combination(,,. bunannii/OXA. C. freundii/VIM., K. pnewnoniae/OXA and CTX-M%,. and P.
+mirabilis) present inl co-inloculated blood Culture bottles, demonstrating that these oruanismns
+are not subject to competitive inhibition firomn BC-GN test panel members whenl boilh are
+present at concentrations expected in routine clinical practice. For thle reimaining four (4)
+organisms, at least one of the expected bacterial targets or resistance mnarkers was not
+detected. This was due most likely to the slower growth rates of several organisms relative to
+other co-infected organisms, as faster growing organisms may reach a higher concentration at
+bottle positivity compared with a slower growing organism. This may lead to slower-
+gro wing organism concentrations at bottle positivity that are below the limit of detection of
+the test.
+
+
+
+
+                                                                                     Page 6 of 15
+A second competitive inhibition study was conducted to further evaluate representative
+combinations of the four (4) organisms for which at least one false negative result xvas
+observed during the first Study. This involved retesting nine specific organism combinations.
+This study was designed to confirm whether false negative results observed with these
+combinations were due to the slower growth rates of the undetected organisms relative to the
+detected organisms. Therefore, growth rate was eliminated as an experimental variable by
+testing mixed culture organisms at "bottle positivity" concentrations and above the Lot) for
+each orgaiism. Of the nine (9) combinations, eight (8) combinations yielded expected calls.
+F'or one combination, K. oxptoca/CTX-M and E5coIWNDM, the K oxytoca target was
+detected at a rate of 78% (7/9); however, 100% detection was observed for the other three
+targets in this sample (1-. coli, NDM., and CTX-M). This demonstrated that except in one
+instance, gzrowth rate, not competitive inhibition was a contri buting factor to the initial
+observed false negative resu I s.Carr,)-ovr / C',oss-conIC111inaiion
+Twelve Verigene SP instruments were used to assess the potential for carryover/cross-
+contamination by alternately running "high positive" samples followed by negative samples.
+Representative strains of the eight (8) bacterial target organisms and six (6) resistance
+Markers were used to prepare the high positive samples. All of the high positive samples
+yielded the expected "Detected" results for the intended bacteria/marker and "Not Detected"
+reCsults for the other analytes. The negative samples gave a "Not Detected" call for all
+analytes. There was no evidence of carryover/cross-co ntaiin ation observed.
+
+
+
+
+                                                                                   lage, 7 of' 15
+Cu/of/ VKen/ca (ion
+InI order to verify the assay cut-o ff. the target mean intensity values observed with the I3C-GN
+test were examined for a panel of eighteen (I8) contrived specimens, representing. all of the
+BC-ON test analytes and two (2) additional organisms not detected by the BC-OIN test. whichi
+served as negative organism controls. Taking into consideration replicate testing, a complete
+set of 1: 10 dilutions of all the organisms, and the number of probes on the BC-ON test
+microarrav. 2460 data points were compiled for the threshold evaluation, using logistic fit and
+ROC statistics.
+Va/idal ion ofAdditional Blood Cu/ture Bottle Typ~es
+InI order to achieve a"universal bottle-type" claim, the performance of the BC-ON test was
+evaluated for twelve (12) types of blood Culture media (in addition to the BACTEC l1LlJS-
+Aerobic/F bottle used for the other analytical validation studies) using three different
+automated blood Culture monitoring systems, providing a significant representation of
+comnmercially-available blood Culture media bottles and monitoring systems (see listing of
+culture bottles tested below). This study was conducted to demonstrate that B3C-ON test
+target organisms grow to a Sufficient concentration in the various bottle types and
+additionally to demonstrate the stability of bacterial DNA is sufficiently stable over anl
+extended time period of 36 hours once bottle positivity has been reached.
+                                       Blood Cultre Bottle
+              ___________________(Manfriiwei                              B/anti Cultre V'stemn
+                                           Standard/ 10 Aerobic/P
+           [3D BCTECPLUS - Anaerobic/P
+        (3BctDCesn    Peds PIlus/P                                       I3ACTEC 9050
+           (Becon
+             Dckenon) Standard/Anaerobic/P
+                          Lytic/LO Anaerobic/F
+                          SA Standard Aerobic
+              BacT/LERTPA FAN Aerobic
+        (BiocT/ALIXT      PP Pediatric FAN                               BacT/ALERT3D
+              (Bio~eicux)SN Standard Anaerobic
+                                           FN FAN Anaerobic
+        VersaTREK                          REDOX I EZ Draw®"/ Aerobic    ViaFE
+        (Thermo Scientific)                REDOX 2 EZ Draw®! Anaerobic   VrsTK
+In the study, representative BC-ON test bacterial organisms (all eighlt bacteria and six
+resistence markers) were inoculated into each of the twelve different bottle types which were
+spiked with anti-coagulated human whole blood. The bottles were placed on) the appropriate
+Culture system and upon reaching bottle positivity, an aliquot of each sample was tested xvith
+the 13C-CN test in triplicate. To evaluate specimen stability in the various bottles, one bottle
+of each organism was then stored for 36 hours at each of three temperature conditions:
+refrigerated, ambient, and on the blood Culture system, after which BC-ON testing was
+performed. The test results denmonstrated that these twelve (12) blood Culture bottles are
+appropriate for use wvith the BC-ON test and that specimens are stable in those bottles at
+various temperature storage conditions for tIP to 36 hours after reaching bottle positivity.
+
+
+
+
+                                                                                             lPa.-c 8 of IS
+Precision/ Repeatability
+Precision was evaluated by testing an 18-member panel, containing eight (8) unique
+specimens representing each target analyte (both bacterial and resistance markers) detected
+by the BC-GN test, as well as two negative controls, one consisting of negative blood culture
+media and the second containing an oruanism not detected by the BC-GN test (Hafnia o! i).
+The 18-member panel was tested in-house by Nanosphere twice daily by two operators over
+twelve (12) non1-conlsecutive days for a total of forty'-eight replicates per sample. Except for
+the negative controls, or.-anismns were tested at Bottle Positivity and Bottle Positivity + 8
+hours inIcubation. A total of 864 tests were conducted and the final call rate For thle studyI was
+99.9% (863/864). There was one inaccurate call involving a Kiebsiella
+pneurnoniae/CXA/CTX-M specimen, whereby BC-GN detected "k. oxytoca", in addition to
+the correct expected calls, resulting in a call accuracy of 99.9% (862/863) for the study. The
+results From the study are contained in the table below.
+
+
+                                   .Samnple                             I        ol     Poiiil             Bottle Posigirhil + 8
+
+                OrganismISpeciten                       Resiae)C/                          Final
+                                                                                             caayCo/    hmlColii            lal
+
+               Ncgii
+                 -Blod e C
+                         Cntrl
+                           Itnrc100%                                                          100%--
+       NedaiveCm[-Bloautr           N/A                                      (48/48)         (48/48)
+       Media_____________                                                   92.6-100        92.6-100    _____
+
+                                                                              97.9%          100%
+       Hafnia alvei                                       N/A                (47/48)        (47/47)             --
+
+                                                                            88.9-100       92.5-100
+                                                                               100%-Y        !00%          100%          100%
+       AIcnetobacier baummmj                              OXA                (418/48)       (48/48)       (48/48)       (48/48)
+                        _____________________92.6-100                                      92.6-100      92.6-10)0     92.6-100
+                                                                               0%100%                      0o-/
+                                                                                                         -O0%            100
+       Citrobacierfieund/i                                VIMI               (48/48) (48/48)             (41/8           '8/48)
+                        _____________________92.6-100                                      92.6-100      92.6-100      91.6-100
+                                                                              100%           100%          100%          100%
+       lnierobacier cloacae                               KPC                (48/48)        (48/48)      (48/48)        (48/48)
+                        _____________________92.6-100                                      92.6-100      92.6-100      92.6-100
+                                                                              100%-I         100%         100%           100%
+       Esc/,cric/ic cc/i                                 Ni)M               (48/48)         (48/48)      (48/48)        (48/48)
+                        _____________________92.6-100                                      92.6-100      92.6-lO0      92.6-100
+                 Klbilopemm.OXA.                                               100%           100%          100%Y       97.9%
+             K/bsela
+                  uemoie                                CXM                  (48/48)        (48/48)       (48/48)       (47/48)
+                                                                  T-I       92.6-100       92.6-100      92.6-100      88.9-100
+                                                                    -           00%-"        100%           1001y        1000%
+       Kiebsiellc oxvwca                                C'IX-M1              (.18/48)       (48/48)       (48k,18)      ('Isms)
+                                                                            92.6-100       91.6-100      92.6-100      92.6-100
+                                                                                          I~i)00%           100%           00%
+       Proteus ni/tab//is                                 N/A               (48/48)         (48/48)       (48/48)      (218/48)
+                 ____________1____                                          92.6-lOG       92.6-100    192.6-100       92.6-100
+                                                                             10o0%            00o%        100%y          100%
+       Pselfdoniolls ceruiginosa                          IMP               (48/48)         (48/48)      (48/48)        (48/48)
+                        _____________________92.6-100                                      92.6-100      92.6-100      92.6-100
+
+
+
+
+                                                                                                                             Page 9 of I5
+Rq
+ eroducibi/ity
+Reproducibility was evaluated by testing anl 18-member panel (the same sample panel that
+was tested for the evaluation of precision with one exception), containing eight (8) unique
+specimens representing each target analyte detected by BC-GN, as well as two negative
+controls, one consisting, of negative blood culture media only and the second contailing anl
+organism not detected by BC-GN (Mforganella morganii). The I 8-member panel was tested
+ athree (3) external sites twice daily in triplicate on five (5) non-consecutive days for a total
+of'90 replicates per sample. Except for the negative controls, organisms were tested at lBottle
+Posi tivity and Bottle Positi vity + 8 hours incubation. The final call rate and accuriacy for the
+Study was 1 00/%(1620/1620). The results From the study are contained in the table below,
+                              Sample                                          Botle Positivity          Rotle l'ositivifl'+ 8 hours
+
+             OrganisittlSpecinen                    Resistance           Final Call       Accuracy       inal Call      Accw-acv
+               _____________________                 MAarker(s)             Rate                            Rate
+       Negative Control -Blood                              /A100%                         100%
+                     CtreMdaNA                                              90/90          90/90--
+                    Culture Media                                         ~~(96.0-100)   (96.0-100)     _____          ______
+
+
+                                                                            100%           100%
+       Alorganella m~organhi                             N/A                90/90          90/90                -
+                   ______________________          _________(96.0-100)                   (96.0-100)     ___________
+
+                                                                            100%            100%           100%           100'A
+       A cinetabacter batomanji                         OXA                 90/90           90/90          90/90          90/90
+                   ___________________(96.0-100)                                         (96.0-1OO)     (96.0-100)     (96.0-100)
+                                                                            100%            100%           100%           100%
+       Citrobacterfireandii                              vim               90/90            90/90         90/90           90/90
+                                                                         (96.0-100)      (96.0-100)     (96.0-100)     (96.0-100)
+                                                                           I 00%            100%/         I 00%           1I0%
+       Cut erobacter cloacae                             K PC              90/90            90/90         90/90)          90/90
+                   ____________________             ________(96.0-100)                   (96.0-100)     (96.0-100)     (96.0-100)
+                                                                            100%           100%            100%           101Y.
+       Estherichia ca/i                                 NI)M                90/90          90/90           90/90          90/901
+                   ___________________(96.0-                                    100)     (96.0- 100)0   (96.0-100)     (96.0)- 100)
+                                                                            100%            100%           100%            10011
+                nuun.OXA.
+               Kesel
+            Kaseapcoiae                               C'xIX,               90/90           90/90          90/90           901/90
+                                                                         (96.0-100)      (96.0-100)     (96.0-100)     (96.0-100)
+                                                                            100%            100%           100%            100%
+       K/cbsiella oxvtoca                             CTX-M11              90/90           90/90          90/90           90/90
+                                                                         (96.0-100)      (96.0-100)     (96.0-100)     (96.0- 100)
+                                                                            100%           100%            100%           100%
+       Prawnus mirabilis                                 NIA               90/90           90/90          90/90           90/90
+                                                                         (96.0-100)      (96.0-100)     (96.0-100)     (96.0-100)
+                                                                            100%            100%           100%           100%
+       Psendornonas aerugilosa                           IMI)              90/90           90/90          90/90           90/90
+                  ____________________              ________(96.0-100)                   (96.0-100)     (96.0-100)     (96.0-100)
+
+
+
+
+                                                                                                                                Plage 10 of 15
+Method C'omparison
+The combined results for the method comparison Study conducted at thirteen (3))
+investigational sites are presented below. A total of' 1412 specimens were analyzed. 604 of'
+which were prospectively-collected fresh specimens. 272 of which were prospectively-
+collected frozen specimens, 239 of which were selected frozen specimens, and 297 of which
+were simulated frozen specimens.. Performance of the BC-GN test related to the detection of'
+the target organisms was determined by comparing the BC-GN test result to results obtained
+using standard culture-based automated phenotypic bacterial identification reference
+methods. For the resistance markers, reference method testing included the combination of'
+PCR amplification and bidirectional sequencing confirmation.
+            Summary of Clinical Test Peijbirmance-BacecrialResults (n= 1412)
+
+                                                  Percent Agreemtent
+                 Organlisom            Positive                    Negative
+                  _____________        (95% CI)                    (95% CI,)
+                                        98.2%                        99.9%
+          lcietbacter spp.              55156                      135511356
+                  ________________    (90.5-100)                  (99.6-100)
+                                         100%                         99.9%
+          Citrobcacter spp.              49/49                      1362/1363
+                                      (92.8-100)                   (99.6-100)
+                                        97.6%                         99.4%
+          £nterobacter spp.             120/123                     1281/1289
+                                      (93.0-99.5)                 (98.8-99.7)
+                                          00%Y                        99.9%
+          Proteus spp.                   58/58                     1353/1354
+                                      (93.8-100)                    (99.6-100
+                                        99.8%                         99.4%
+          Escherichia coli             517/518                       889/894
+                                      (98.9-100)                  (98.7-99.8)
+                                        93.1%                          100%
+          K/ebsie/la pnezumoniae       285/306                     1106/1106
+                 _________________    (89.7-95.7)                 (99.7-100)
+                                        92.2%                       99.6%
+          Kiebsiella oxjdoca            59/64                     1342/1348
+                 __________________   (82.7-97.4)                 (99.0-99.8)
+                 Psnoins97.6%                                       100%
+          Peudosona           124/127                             1285/1285
+                avuinsa(93.3-99.5)                               (99.7-100)
+
+
+
+
+                                                                                Pagec II of' 15
+    Suinaty of Clinical Test Peifoinance-LinkedResistanice Marker Results (n=1266)
+
+                                                           Percent Agreement
+               Resistance Alarker Target          P'ositiv'e              Negative
+                      ____________               (95% Cl                  p5% CI)
+                                                   98.7%                    99.9%
+              CTX-M                               151/153                 1112/1113
+                      ___________________       (95.4-99.8)              (99.5-100)
+                                                   95.3%                    99.9%
+              OXA                                  61/64                  1201/1202
+                                                (86.9-99.0)              (99.5-100)
+                                                   100%                     100%
+              KPC                                  51151                 1215/1215
+                      __________________        (93.1-100)               (99.7-100)
+                                                  100%                     100%
+              vim                                 41/41                  1225/1225
+                      __________________        (91.4-100)               (99.7-100)
+                                                  100%                     100%
+              NDIM                                41/41                  1225/1225
+                      ____________________(91       .4-100)      -       (99.7-100)
+                                                   100%                     100%
+              IMP.                                48/48                  1218/1218
+                                                (92.6-100)               (99.7-100)
+
+
+SitbstantialEquivalence
+        As demonstrated by the information stated below, the Verigene Gramn Negative Blood
+ Culture Nucleic Acid Test (BC-GN test) has been shown to be as safe and effective as the
+Biolire FilmnArray Blood Culture Identification (BCID) Panel Kit (K 130914) and the
+Nanosphere Verigene Gram-Positive Blood Culture (BC-GP) Nucleic Acid Test (K 122514).
+The BC-GN test has similar intended use and indications, technological characteristics, and
+performance characteri stics. The minor differences between the BC-GN test and its predicate
+device raises no new issues of safety or effectiveness. Clinical and analytical performance
+data demionstrate that the BC-GN test is as safe and effective as thle predicate device. Thus,
+the l3C-GN test is Substantially equivalent.
+
+
+
+
+                                                                                      'age, 12 of I5
+                       Similarities between the Verigene BC-GN Test and Predicate Device 1I
+                                                             Device                                       IPredicate iI
+            htems                                       Veign BCG       Test                   Bio Fire FiI'nArruv Blood Cit/tre
+                                                                                                         Identificaltw01I'Pael
+510(k)#t                                                    K132843                                               K130914
+Regulation                                                 866.3365                                                Salle
+Product Code                                                  PEN                                                   PEN
+lDevice Class                                                   11                                                 Same
+                                        Qual itative in vitro diagnostic test for
+lrtterided Use                          detection and identification of                                                Salle
+       ___________________________i_    microorgan isml n Lw lei c acis
+          I ri ju tiiisforUsc           To aid in the diagnoisis oftbacterial
+                                        bloodstream infections
+                                        Sub-culling.( of positive blood cultures is
+                                        necessary to recover organisms for
+                                        susceptibility testing, identification of
+Wa irnings arnd                         organisms not detected by the test,
+lPreca utioris                          differentiation of mixed growth, association                                   Salle
+                                        of antimicrobial resistance marker genes to
+                                        a specific organism, or for epideimiological
+       _________________________typing.                                                   __________________________
+
+
+        Contrandicaton~s)               Not to be used to monitor bloodstream                                          sm
+        Co itiu aiiid
+                 t o r~s)               infections/treatment for bacterial infection.                                  Sm
+                                        Proteus spp.
+0Orga itis ats a id                     Eseherichiaco/i
+                                        Kkebsielki pneunwniae                                                 Salle
+Resistance Markers                      Klebsielle: oxyzoca                                         (see below for diffirences)
+[)elected                               Pseudomonas aeruginosa
+                                        KPC
+        SamlePrcesin        aid         On-board, aultomated DNA extraction                                            Salle
+Pu rificatijoni
+Techniology lPrirnciples                Multiplex nticleic acid-based                               (sebeo              aormferecs
+Iriter-pretatiori of                    Diagnostid Software/Decision Alorithmn                                         Same
+Results                                _______________________
+
+                                        Acinetohacter spP).: 98.2% (90.5- 100%)           A. boiumanni: 100% (93.0- 100%)
+                                        Eniciobacter spp.. 97.5% (93.0-99.5%)             But erobacteriaccae: 98.4%o (96.9-99.3%A)
+Senlsitivity,                          Eseherichia co/i: 99.6% (98.9- 100%)       Eseherichia co/i: 98.0% (94.4-99.6%X)
+           'a .-remet)
+        (Poitie                        Kiebsiella avyloca: 92.2% (82.7-97.4%) .K.   oxyloca: 92.2% (92.7-97.41Y)
+        (Poitie
+           %Agremet)                   Klebsiellapnemoniae: 93.1% (89.7-95.7%) K. pncumoniac: 97.1% (91.9-99.4%)
+                                       Proteuts spp.: 100% (93.8- 100%)                  Proteus spp.: 100% (9 1.0-1 00%)
+                                       KPC: 100% (93.1-100%)                             KPC: 100% (91.0- 100%)
+                                       A cinetobacter spp.. 100% (99.6- 100%)            A. baumcnnii: 99.8% (99.5-99.9%)
+                                       Enterobacierspp.: 99.6% (98.8-99.7%)              Enterobacteriaceae:99.8% (99.4-99.9%)
+       Spciiit'Escherichia                          co/i: 99.4% (98.7-99.8%)             Eseherichia co/i: 99.8% (99.4-99.9%)
+SNegaivecity     enint                 Klebsiela oxvoca: 99.5% (99.0-99.8%).             K. oxvtoca: 99.9% (99.7-100%)
+       (Neatie
+             %Agremet)                 Klebsie/la pneumoniae: 100% (99.7- 100%)          K. pnumoniae: 99.6% (99.2-99.8%)
+                                       [hotens spp.. 100% (99.6- 100%)                   Proteus spp.: 100% (99.8-100%)
+                                       KPC: 100% (99.7-100%)                             KPC: 100% (99.2-100%)
+End users                              Operators with no clinical lab experience to                           nc
+                                       experienced clinical laboratory techinologits                               Sallie_________________
+      Dlata Ibr predicate obtained from BinFire FilmArray Blood Culture Identification Panel (K 130914) Decision Summnary.
+
+
+
+
+                                                                                                                               P'age 13 ofI15
+                     Di/ferences betwveen the Verigene BC-GNV Test and Predicate IDevice A]
+                                              Device                                   l1redicate #l
+          Items                       Verigeite BGGI Test                   flioFire Fil,,,Arru: l/owl Culture
+                                                                                   Identification l'UhIet
+5IO()#t                                       K132843                                    K 130914
+                            A cinetoba cter spp.
+                            Citroba cier spp.                           A cine/oba c/er baumnnil11
+       Orgarisiis~          tn/erobacter spp.                           Et/erobacieriaccae
+       OgnssadCTX-M                                                     Iluemophilus in/ina
+Resistance Markers          NDM1                                        Neisseria meningitidis (encapsulated)
+lDetected                   vmSlrtamrecn
+                            IMP
+                            OXA
+       Tet
+       oratDisposable          single-uIse, multi-chambered             Disposable single-use, pouch containing
+       TestFor~rtfluidic test cartridge                                 freeze-dried reagents
+                  Two Internal Processing Controls (whole               Two controls are included in each reagent
+       Contolsorganismn complete assay control and
+                  sigl-srnddtNAHbrdiato                                 pooch to control for sample processing,
+                  cong~ltr         NAHbidzto                            arid both stages of PCR arid melt analysis.
+
+DNA Amplification           None                                        Nested, multiplex 'CR with DNA melt
+meiithod                                                                analk"s is.
+
+Time to Result              2 hours                                     Less than one hoirr'
+
+                            Gold/Ag nanoparticle probe detection of     Aruplicon detection by melt curve
+D)etection Method           bacterialI-spec ific DNA on complementary   analysis Of fluorescence signal from DNA
+                            oligo- microarray                           binding dye.
+
+Inistruminentation          Verigene Reader and Processor SP            Fi ImArray Instrurmert
+
+
+
+
+                                                                                                     Page 14 of' I5
+               Simni/arities betn'eeni the Verigene BC-GNV Test tint! Iredieaie Device 42
+
+Items                                                     Device                                      P'redicate 42
+            ___________________                    kerigene BC-GN Test                           iVerigene B.C-GI' TLest
+5 10(k)                                                  Kl132843                                           K1225 14
+Regulation                                               866.3365                                            Salle
+Product Code                                                PEN                                              PAM
+lDevice Class                                             Class 11                                           Samle
+                                  Qualitative multiplex in vitro diagnostic test for the
+Intended Use                      detection and identification of microorganism nucleic                      Same
+                                  acids
+
+In dicat ions for Use             To aid in the di agn os is of infectits diseases                           Saile
+
+Tinie to Result                   -2.5 hrts                                                                 -2.0 hirs
+
+        TestCartidgeDisposable single-use, mllu Iti-chamibered fluidic                                       Sm
+        Test Cartridgecartridg-e.                                                                            Sii
+                                  Automated onhoard extraction of nucleic acids
+Sample Prep                       performned onl the ProcessorS)' using silica coated             -          Samle
+                                  miagnetic beads and chaotropic salts.
+                                  Internal procedural/instrument quality controls;
+Quality cont rol                  internal negative control, sample processing control;                      Samle
+                                  external positive and negative assay controls
+        I~etctin
+            Mehod                 Gold/Ag nanoparticle probe detection of bacterial-
+        Detecion
+            Mthod                 specific DNA on complementary oligo- icroarray                             Sil
+Method Steps/                     Single pipetting step specimen, prior to NA extraction                     Sli
+Complexity                        acid isolation. hybiridization, and direct detectio
+Interpretation of                 Diagnostic Software/ Decision Algorithm                                    Samle
+Results
+Software                          Custom embedded software application running under                         Samle
+                                  embedded    operating system                             ______________
+
+
+        Reader                    Optical intensities are analyzed after target-specifle                      am
+        Redrhybridization                        of probes                                                   Sallie____________
+
+        Fnd Users                 Operators with no clinical lab experience to                               Sli
+        End Users                 ~exper ienced clinical laboratory technologists          _____________________
+
+
+
+
+                                                                                                                   Pagze 15of' I S
+   DEPARTMENT OF HEALTH & HUMAN SERVICES                                       Public Health service
+
+
+                                                                               Food and Drug Administration
+                                                                               20903 New Hampashire Avenue
+                                                                               Document Control Center - W066-G609
+                                                                               Silver Spring, MD 20993-0002
+
+
+NANOSPHERE, INC
+MARK DEL VECCHIO
+4088 COMMERCIAL AVENUE                                       January 8, 2014
+NORTHBROOK IL 60062
+
+Re: K132843
+    Trade/Device Name: Verigene® Gram Negative Blood Culture Nucleic Acid Test (BC-ON)
+    Regulation Number: 21 CFR 866.3365
+    Regulation Name: Multiplex Nucleic Acid Assay for Identification of Microorganisms and
+                      Resistance Markers from Positive Blood Cultures
+    Regulatory Class: 11
+    Product Code: PEN, NSU
+    Dated: December 20, 2013
+    Received: December 27; 2013
+
+Dear Mr. Del Vecchio:
+
+We have reviewed your Section 510(k) premarket notification of intent to market the device
+referenced above and have determined the device issubstantially equivalent (for the indications
+for use stated in the enclosure) to legally marketed predicate devices marketed in interstate
+commerce prior to May 28, 1976, the enactment date of the Medical Device Amendments, or to
+devices that have been reclassified in accordance with the provisions of the Federal Food, Drug,
+and Cosmetic Act (Act) that do not require approval of a premarket approval application (PMA).
+You may, therefore, market the device, subject to the general controls provisions of the Act. The
+general controls provisions of the Act include requirements for annual registration, listing of
+devices, good manufacturing practice, labeling, and prohibitions against misbranding and
+adulteration. Please note: CDRH does not evaluate information related to contract liability
+warranties. We remind you, however, that device labeling must be truthful and not misleading.
+
+If your device isclassified (see above) into either class 11 (Special Controls) or class Ill (PMA),
+it may be subject to additional controls. Existing major regulations affecting your device can be
+found in the Code of Federal Regulations, Title 21,Parts 800 to 898. In addition, FDA may
+publish further announcements concerning your device in the Federal Register.
+
+Please be advised that FDA's issuance of a substantial equivalence determination does not mean
+that FDA has made a determination that your device complies with other requirements of the Act
+or any Federal statutes and regulations administered by other Federal agencies. You must
+comply with all the Act's requirements, including, but not limited to: registration and listing (21
+CFR Part 807); labeling (21 CFR Parts 801 and 809); medical device reporting (reporting of
+medical device-related adverse events) (21 CFR 803); good manufacturing practice requirements
+as set forth in the quality systems (QS) regulation (21 CFR Part 820); and if applicable, the
+electronic product radiation control provisions (Sections 53 1-542 of the Act); 21 CER 1000-
+ 1050.
+Page 2-Mr. Del Vecchio
+
+
+lfyou desire specific advice for your device on our labeling regulations (21 CFR Pants 801 and
+809), please contact tlec Division of'Sinall Manufacturers. International and Consumer
+Assistance at its toll-frec number (800),6182041 or (301) 796-7100 or al its Internet address
+http://www. fda.aov/MedicalDcvice sResouircesforYoti/lndusti-v/defaulIt.htm. Also, please note
+the regulation entitled, "Misbranding by reference 1o premrarketnotilication" (21CFR Part
+8.07.97). For questions regarding the reporting ol'adverse events tinder the. MDR regulation (21.
+CFR Part 803), please-go to
+http://www:fda.Lov/Mvedical Devicis/Safetv/Re~ortaProblem/default.htin for the CDRH 's Office
+of Surveillance and Biometrics/Division of Postmarket Surveillance.
+
+YOU may obtain other general information on your responsibilities under the Act from the
+Division of SmalManufacturers. International and Consumer Assistance at its toll, free number
+(800) 638-2041 or (301) 796-7100 or at its Internet address
+               .ov/Medical Devices/ResourceslborYoLu/Iindustrv/defauilt.htm
+httn:/Nwww fdaaz
+
+                                             Sincerely yours,
+
+
+                                           Uwe Sc'herffS for
+                                             Sally lljvat, M.Sc., Phi).
+                                             Director
+                                             Division of Microbiology Devices
+                                             Office of In Vitro Diagznostics
+                                             and Radiological Health
+                                             Center for Devices and Radiological Health
+Enclosure
+                                           Indications for Use
+
+
+51 0(k) Number (if known): K1 32843
+
+Device Name: Veriaene') Gram Negative Blood Culture Nucleic Acid Test (BC-GM)
+
+Indications For Use:
+The Verigent Gram Negative Blood Culture Nucleic Acid Test (BC-GN), performed using the sample-to-
+result Verigene System, is a qualitative multiplexed in vitro diagnostic test for the simultaneous detection
+and identification of selected gram-negative bacteria and resistance markers. BC-GN is performed
+directly on blood culture media using blood culture boiltlea identified as positive by a continuous monitoring
+blood culture system and which contain gram-negative bacteria as determined by gram stain.
+BC-GN detects and identifies the following:
+
+              d df
+                a'JiGdmand SeisP                                             K istncMakr
+                  Acinetabacter spp.                                              CTX-M (blac~..)
+                  Citrobacter spp.                                                 KPC (blaKPC)
+                  Entemobacter app.                                                NOM (blaND,,)
+                  Proteus app.                                                     vim (blav,,4
+                  Escherichia col                                                  IMP (blaimp)
+                  Kiebsiella pneumoneae                                            OXA (bla0xA)
+                  Kiebsielle axytoca
+                  Pseudamones aeniginosa                     __________________
+
+ BC-GN will not distinguish Escheflchia coi from ShigeIla app. (S.dysentefle, S.flexnefl, S.baydi, and S.sonne)
+BC-GN isindicated for use inconjunction with other clinical and laboratory findings to aid inthe diagnosis
+of bacterial bloodstream infections; however, is not used to monitor these infections. Sub-culturing of
+positive blood cultures isnecessary to recover organisms for antimicmobial susceptibility testing (AST), for
+identification of organisms not detected by BC-GN, to detect mixed infections that may not be detected by
+BC-GN, for association of antimicrobial resistance marker genes to a specific organism, or for
+epidemiological typing.
+
+Prescription Use _X_           __                      AND/OR                     Over-The-Counter Use
+(Part 21 CIFR 801 Subpart D)                                            (21 CIFR 807 Subpart C)
+
+ (PLEASE DO NOT WRITE BELOW THIS LINE - CONTINUE ON ANOTHER PAGE IF
+                             NEEDED)
+
+
+Concurrence of Center for Devices and Radiological Health (CDRH)
+ John Hobsen -S,
+         20144~Q71$7:3,Page 1lof 1
+ -05'
+

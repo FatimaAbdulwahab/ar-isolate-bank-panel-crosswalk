@@ -1,0 +1,2854 @@
+ar_bank_number,organism,drug,mic_cdc,int_cdc,reinterpreted_project1,agree
+0001,Escherichia coli,cefotaxime,>64,R,R,True
+0001,Escherichia coli,ceftazidime,128,R,R,True
+0001,Escherichia coli,ceftriaxone,>32,R,R,True
+0001,Escherichia coli,doripenem,4,R,R,True
+0001,Escherichia coli,ertapenem,8,R,R,True
+0001,Escherichia coli,imipenem,4,R,R,True
+0001,Escherichia coli,meropenem,4,R,R,True
+0002,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+0002,Enterobacter cloacae complex,ceftazidime,>128,R,R,True
+0002,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+0002,Enterobacter cloacae complex,doripenem,>8,R,R,True
+0002,Enterobacter cloacae complex,ertapenem,>8,R,R,True
+0002,Enterobacter cloacae complex,imipenem,16,R,R,True
+0002,Enterobacter cloacae complex,meropenem,>8,R,R,True
+0003,Klebsiella pneumoniae complex,cefotaxime,>128,R,R,True
+0003,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0003,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0003,Klebsiella pneumoniae complex,doripenem,8,R,R,True
+0003,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0003,Klebsiella pneumoniae complex,imipenem,8,R,R,True
+0003,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0004,Klebsiella pneumoniae complex,cefotaxime,>128,R,R,True
+0004,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0004,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0004,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0004,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0004,Klebsiella pneumoniae complex,imipenem,16,R,R,True
+0004,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0005,Klebsiella pneumoniae complex,cefotaxime,>128,R,R,True
+0005,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0005,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0005,Klebsiella pneumoniae complex,doripenem,8,R,R,True
+0005,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0005,Klebsiella pneumoniae complex,imipenem,16,R,R,True
+0005,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0006,Escherichia coli,cefotaxime,>128,R,R,True
+0006,Escherichia coli,ceftazidime,>128,R,R,True
+0006,Escherichia coli,ceftriaxone,>32,R,R,True
+0006,Escherichia coli,doripenem,4,R,R,True
+0006,Escherichia coli,ertapenem,>8,R,R,True
+0006,Escherichia coli,imipenem,16,R,R,True
+0006,Escherichia coli,meropenem,8,R,R,True
+0007,Klebsiella aerogenes,cefotaxime,64,R,R,True
+0007,Klebsiella aerogenes,ceftazidime,>128,R,R,True
+0007,Klebsiella aerogenes,ceftriaxone,>32,R,R,True
+0007,Klebsiella aerogenes,doripenem,0.5,S,S,True
+0007,Klebsiella aerogenes,ertapenem,2,R,R,True
+0007,Klebsiella aerogenes,imipenem,1,S,S,True
+0007,Klebsiella aerogenes,meropenem,2,I,I,True
+0008,Enterobacter cloacae complex,cefotaxime,>128,R,R,True
+0008,Enterobacter cloacae complex,ceftazidime,128,R,R,True
+0008,Enterobacter cloacae complex,ceftriaxone,32,R,R,True
+0008,Enterobacter cloacae complex,doripenem,2,I,I,True
+0008,Enterobacter cloacae complex,ertapenem,>8,R,R,True
+0008,Enterobacter cloacae complex,imipenem,1,S,S,True
+0008,Enterobacter cloacae complex,meropenem,2,I,I,True
+0009,Klebsiella aerogenes,cefotaxime,128,R,R,True
+0009,Klebsiella aerogenes,ceftazidime,128,R,R,True
+0009,Klebsiella aerogenes,ceftriaxone,>32,R,R,True
+0009,Klebsiella aerogenes,doripenem,2,I,I,True
+0009,Klebsiella aerogenes,ertapenem,>8,R,R,True
+0009,Klebsiella aerogenes,imipenem,8,R,R,True
+0009,Klebsiella aerogenes,meropenem,2,I,I,True
+0010,Klebsiella pneumoniae complex,cefotaxime,128,R,R,True
+0010,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0010,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0010,Klebsiella pneumoniae complex,doripenem,1,S,S,True
+0010,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0010,Klebsiella pneumoniae complex,imipenem,4,R,R,True
+0010,Klebsiella pneumoniae complex,meropenem,1,S,S,True
+0011,Escherichia coli,cefotaxime,>128,R,R,True
+0011,Escherichia coli,ceftazidime,128,R,R,True
+0011,Escherichia coli,ceftriaxone,>32,R,R,True
+0011,Escherichia coli,doripenem,<=0.12,S,S,True
+0011,Escherichia coli,ertapenem,0.25,S,S,True
+0011,Escherichia coli,imipenem,<=0.5,S,S,True
+0011,Escherichia coli,meropenem,<=0.12,S,S,True
+0012,Klebsiella pneumoniae complex,cefotaxime,>128,R,R,True
+0012,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0012,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0012,Klebsiella pneumoniae complex,doripenem,<=0.12,S,S,True
+0012,Klebsiella pneumoniae complex,ertapenem,0.5,S,S,True
+0012,Klebsiella pneumoniae complex,imipenem,<=0.5,S,S,True
+0012,Klebsiella pneumoniae complex,meropenem,<=0.12,S,S,True
+0013,Escherichia coli,cefotaxime,>64,R,R,True
+0013,Escherichia coli,ceftazidime,<=1,S,S,True
+0013,Escherichia coli,ceftriaxone,>32,R,R,True
+0013,Escherichia coli,doripenem,<=0.12,S,S,True
+0013,Escherichia coli,ertapenem,<=0.12,S,S,True
+0013,Escherichia coli,imipenem,<=0.5,S,S,True
+0013,Escherichia coli,meropenem,<=0.12,S,S,True
+0014,Escherichia coli,cefotaxime,>128,R,R,True
+0014,Escherichia coli,ceftazidime,32,R,R,True
+0014,Escherichia coli,ceftriaxone,>32,R,R,True
+0014,Escherichia coli,doripenem,<=0.12,S,S,True
+0014,Escherichia coli,ertapenem,<=0.12,S,S,True
+0014,Escherichia coli,imipenem,<=0.5,S,S,True
+0014,Escherichia coli,meropenem,<=0.12,S,S,True
+0015,Escherichia coli,cefotaxime,>128,R,R,True
+0015,Escherichia coli,ceftazidime,128,R,R,True
+0015,Escherichia coli,ceftriaxone,>32,R,R,True
+0015,Escherichia coli,doripenem,<=0.12,S,S,True
+0015,Escherichia coli,ertapenem,0.5,S,S,True
+0015,Escherichia coli,imipenem,<=0.5,S,S,True
+0015,Escherichia coli,meropenem,<=0.12,S,S,True
+0016,Klebsiella pneumoniae complex,cefotaxime,<=0.5,S,S,True
+0016,Klebsiella pneumoniae complex,ceftazidime,<=1,S,S,True
+0016,Klebsiella pneumoniae complex,ceftriaxone,<=1,S,S,True
+0016,Klebsiella pneumoniae complex,doripenem,<=0.12,S,S,True
+0016,Klebsiella pneumoniae complex,ertapenem,<=0.12,S,S,True
+0016,Klebsiella pneumoniae complex,imipenem,<=0.5,S,S,True
+0016,Klebsiella pneumoniae complex,meropenem,<=0.12,S,S,True
+0017,Escherichia coli,cefotaxime,<=1,S,S,True
+0017,Escherichia coli,ceftazidime,<=1,S,S,True
+0017,Escherichia coli,ceftriaxone,<=1,S,S,True
+0017,Escherichia coli,doripenem,0.25,S,S,True
+0017,Escherichia coli,ertapenem,<=0.12,S,S,True
+0017,Escherichia coli,imipenem,<=0.5,S,S,True
+0017,Escherichia coli,meropenem,<=0.12,S,S,True
+0018,Klebsiella aerogenes,cefotaxime,<=1,S,S,True
+0018,Klebsiella aerogenes,ceftazidime,<=1,S,S,True
+0018,Klebsiella aerogenes,ceftriaxone,<=1,S,S,True
+0018,Klebsiella aerogenes,doripenem,<=0.12,S,S,True
+0018,Klebsiella aerogenes,ertapenem,<=0.12,S,S,True
+0018,Klebsiella aerogenes,imipenem,1,S,S,True
+0018,Klebsiella aerogenes,meropenem,<=0.12,S,S,True
+0019,Escherichia coli,cefotaxime,<=1,S,S,True
+0019,Escherichia coli,ceftazidime,<=1,S,S,True
+0019,Escherichia coli,ceftriaxone,<=1,S,S,True
+0019,Escherichia coli,doripenem,<=0.12,S,S,True
+0019,Escherichia coli,ertapenem,<=0.12,S,S,True
+0019,Escherichia coli,imipenem,<=0.5,S,S,True
+0019,Escherichia coli,meropenem,<=0.12,S,S,True
+0020,Escherichia coli,cefotaxime,<=1,S,S,True
+0020,Escherichia coli,ceftazidime,2,S,S,True
+0020,Escherichia coli,ceftriaxone,<=1,S,S,True
+0020,Escherichia coli,doripenem,<=0.12,S,S,True
+0020,Escherichia coli,ertapenem,<=0.12,S,S,True
+0020,Escherichia coli,imipenem,1,S,S,True
+0020,Escherichia coli,meropenem,<=0.12,S,S,True
+0021,Citrobacter freundii complex,cefotaxime,<=1,S,S,True
+0021,Citrobacter freundii complex,ceftazidime,<=1,S,S,True
+0021,Citrobacter freundii complex,ceftriaxone,<=1,S,S,True
+0021,Citrobacter freundii complex,doripenem,<=0.12,S,S,True
+0021,Citrobacter freundii complex,ertapenem,<=0.12,S,S,True
+0021,Citrobacter freundii complex,imipenem,<=0.5,S,S,True
+0021,Citrobacter freundii complex,meropenem,<=0.12,S,S,True
+0022,Citrobacter freundii complex,cefotaxime,<=0.5,S,S,True
+0022,Citrobacter freundii complex,ceftazidime,<=1,S,S,True
+0022,Citrobacter freundii complex,ceftriaxone,<=1,S,S,True
+0022,Citrobacter freundii complex,doripenem,<=0.12,S,S,True
+0022,Citrobacter freundii complex,ertapenem,<=0.12,S,S,True
+0022,Citrobacter freundii complex,imipenem,1,S,S,True
+0022,Citrobacter freundii complex,meropenem,<=0.12,S,S,True
+0023,Citrobacter freundii complex,cefotaxime,<=1,S,S,True
+0023,Citrobacter freundii complex,ceftazidime,<=1,S,S,True
+0023,Citrobacter freundii complex,ceftriaxone,<=1,S,S,True
+0023,Citrobacter freundii complex,doripenem,<=0.12,S,S,True
+0023,Citrobacter freundii complex,ertapenem,<=0.12,S,S,True
+0023,Citrobacter freundii complex,imipenem,<=0.5,S,S,True
+0023,Citrobacter freundii complex,meropenem,<=0.12,S,S,True
+0024,Citrobacter freundii complex,cefotaxime,<=1,S,S,True
+0024,Citrobacter freundii complex,ceftazidime,<=1,S,S,True
+0024,Citrobacter freundii complex,ceftriaxone,<=1,S,S,True
+0024,Citrobacter freundii complex,doripenem,<=0.12,S,S,True
+0024,Citrobacter freundii complex,ertapenem,<=0.12,S,S,True
+0024,Citrobacter freundii complex,imipenem,<=0.5,S,S,True
+0024,Citrobacter freundii complex,meropenem,<=0.12,S,S,True
+0025,Citrobacter freundii complex,cefotaxime,<=0.5,S,S,True
+0025,Citrobacter freundii complex,ceftazidime,<=1,S,S,True
+0025,Citrobacter freundii complex,ceftriaxone,<=1,S,S,True
+0025,Citrobacter freundii complex,doripenem,<=0.12,S,S,True
+0025,Citrobacter freundii complex,ertapenem,<=0.12,S,S,True
+0025,Citrobacter freundii complex,imipenem,<=0.5,S,S,True
+0025,Citrobacter freundii complex,meropenem,<=0.12,S,S,True
+0026,Morganella / Providencia,cefotaxime,<=0.5,S,S,True
+0026,Morganella / Providencia,ceftazidime,<=1,S,S,True
+0026,Morganella / Providencia,ceftriaxone,<=1,S,S,True
+0026,Morganella / Providencia,doripenem,0.25,S,S,True
+0026,Morganella / Providencia,ertapenem,<=0.12,S,S,True
+0026,Morganella / Providencia,meropenem,<=0.12,S,S,True
+0027,Serratia spp.,cefotaxime,<=1,S,S,True
+0027,Serratia spp.,ceftazidime,<=1,S,S,True
+0027,Serratia spp.,ceftriaxone,<=1,S,S,True
+0027,Serratia spp.,doripenem,<=0.12,S,S,True
+0027,Serratia spp.,ertapenem,<=0.12,S,S,True
+0027,Serratia spp.,imipenem,<=0.5,S,S,True
+0027,Serratia spp.,meropenem,<=0.12,S,S,True
+0028,Klebsiella oxytoca complex,cefotaxime,<=1,S,S,True
+0028,Klebsiella oxytoca complex,ceftazidime,<=1,S,S,True
+0028,Klebsiella oxytoca complex,ceftriaxone,<=1,S,S,True
+0028,Klebsiella oxytoca complex,doripenem,<=0.12,S,S,True
+0028,Klebsiella oxytoca complex,ertapenem,<=0.12,S,S,True
+0028,Klebsiella oxytoca complex,imipenem,<=0.5,S,S,True
+0028,Klebsiella oxytoca complex,meropenem,<=0.12,S,S,True
+0029,Morganella / Providencia,cefotaxime,<=1,S,S,True
+0029,Morganella / Providencia,ceftazidime,<=1,S,S,True
+0029,Morganella / Providencia,ceftriaxone,<=1,S,S,True
+0029,Morganella / Providencia,doripenem,1,S,S,True
+0029,Morganella / Providencia,ertapenem,0.25,S,S,True
+0029,Morganella / Providencia,meropenem,0.5,S,S,True
+0030,Escherichia coli,cefotaxime,<=1,S,S,True
+0030,Escherichia coli,ceftazidime,<=1,S,S,True
+0030,Escherichia coli,ceftriaxone,<=1,S,S,True
+0030,Escherichia coli,doripenem,<=0.12,S,S,True
+0030,Escherichia coli,ertapenem,<=0.12,S,S,True
+0030,Escherichia coli,imipenem,<=0.5,S,S,True
+0030,Escherichia coli,meropenem,<=0.12,S,S,True
+0031,Salmonella enterica,cefotaxime,<=0.5,S,S,True
+0031,Salmonella enterica,ceftazidime,<=1,S,S,True
+0031,Salmonella enterica,ceftriaxone,<=1,S,S,True
+0031,Salmonella enterica,doripenem,<=0.12,S,S,True
+0031,Salmonella enterica,ertapenem,<=0.12,S,S,True
+0031,Salmonella enterica,imipenem,<=0.5,S,S,True
+0031,Salmonella enterica,meropenem,<=0.12,S,S,True
+0032,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+0032,Enterobacter cloacae complex,ceftazidime,32,R,R,True
+0032,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+0032,Enterobacter cloacae complex,doripenem,0.5,S,S,True
+0032,Enterobacter cloacae complex,ertapenem,1,I,I,True
+0032,Enterobacter cloacae complex,imipenem,2,I,I,True
+0032,Enterobacter cloacae complex,meropenem,0.25,S,S,True
+0034,Klebsiella pneumoniae complex,cefotaxime,32,R,R,True
+0034,Klebsiella pneumoniae complex,ceftazidime,128,R,R,True
+0034,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0034,Klebsiella pneumoniae complex,doripenem,2,I,I,True
+0034,Klebsiella pneumoniae complex,ertapenem,2,R,R,True
+0034,Klebsiella pneumoniae complex,imipenem,1,S,S,True
+0034,Klebsiella pneumoniae complex,meropenem,2,I,I,True
+0038,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+0038,Enterobacter cloacae complex,ceftazidime,>128,R,R,True
+0038,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+0038,Enterobacter cloacae complex,doripenem,>8,R,R,True
+0038,Enterobacter cloacae complex,ertapenem,>8,R,R,True
+0038,Enterobacter cloacae complex,imipenem,>64,R,R,True
+0038,Enterobacter cloacae complex,meropenem,>8,R,R,True
+0039,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0039,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0039,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0039,Klebsiella pneumoniae complex,doripenem,4,R,R,True
+0039,Klebsiella pneumoniae complex,ertapenem,8,R,R,True
+0039,Klebsiella pneumoniae complex,imipenem,4,R,R,True
+0039,Klebsiella pneumoniae complex,meropenem,2,I,I,True
+0040,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0040,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0040,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0040,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0040,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0040,Klebsiella pneumoniae complex,imipenem,64,R,R,True
+0040,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0041,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0041,Klebsiella pneumoniae complex,ceftazidime,32,R,R,True
+0041,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0041,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0041,Klebsiella pneumoniae complex,ertapenem,4,R,R,True
+0041,Klebsiella pneumoniae complex,imipenem,8,R,R,True
+0041,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0042,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0042,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0042,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0042,Klebsiella pneumoniae complex,doripenem,4,R,R,True
+0042,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0042,Klebsiella pneumoniae complex,imipenem,1,S,S,True
+0042,Klebsiella pneumoniae complex,meropenem,4,R,R,True
+0043,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0043,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0043,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0043,Klebsiella pneumoniae complex,doripenem,1,S,S,True
+0043,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0043,Klebsiella pneumoniae complex,imipenem,<=0.5,S,S,True
+0043,Klebsiella pneumoniae complex,meropenem,2,I,I,True
+0044,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0044,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0044,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0044,Klebsiella pneumoniae complex,doripenem,2,I,I,True
+0044,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0044,Klebsiella pneumoniae complex,imipenem,1,S,S,True
+0044,Klebsiella pneumoniae complex,meropenem,4,R,R,True
+0046,Klebsiella pneumoniae complex,cefotaxime,>128,R,R,True
+0046,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0046,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0046,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0046,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0046,Klebsiella pneumoniae complex,imipenem,64,R,R,True
+0046,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0047,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0047,Klebsiella pneumoniae complex,ceftazidime,64,R,R,True
+0047,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0047,Klebsiella pneumoniae complex,doripenem,4,R,R,True
+0047,Klebsiella pneumoniae complex,ertapenem,>16,R,R,True
+0047,Klebsiella pneumoniae complex,imipenem,2,I,I,True
+0047,Klebsiella pneumoniae complex,meropenem,4,R,R,True
+0048,Escherichia coli,cefotaxime,>64,R,R,True
+0048,Escherichia coli,ceftazidime,>128,R,R,True
+0048,Escherichia coli,ceftriaxone,>32,R,R,True
+0048,Escherichia coli,doripenem,>8,R,R,True
+0048,Escherichia coli,ertapenem,>16,R,R,True
+0048,Escherichia coli,imipenem,8,R,R,True
+0048,Escherichia coli,meropenem,>16,R,R,True
+0049,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0049,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0049,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0049,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0049,Klebsiella pneumoniae complex,ertapenem,4,R,R,True
+0049,Klebsiella pneumoniae complex,imipenem,32,R,R,True
+0049,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0050,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+0050,Enterobacter cloacae complex,ceftazidime,>128,R,R,True
+0050,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+0050,Enterobacter cloacae complex,doripenem,0.5,S,S,True
+0050,Enterobacter cloacae complex,ertapenem,1,I,I,True
+0050,Enterobacter cloacae complex,imipenem,2,I,I,True
+0050,Enterobacter cloacae complex,meropenem,2,I,I,True
+0051,"Klebsiella, other",cefotaxime,>128,R,R,True
+0051,"Klebsiella, other",ceftazidime,>128,R,R,True
+0051,"Klebsiella, other",ceftriaxone,>32,R,R,True
+0051,"Klebsiella, other",doripenem,4,R,R,True
+0051,"Klebsiella, other",ertapenem,>8,R,R,True
+0051,"Klebsiella, other",imipenem,4,R,R,True
+0051,"Klebsiella, other",meropenem,4,R,R,True
+0053,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+0053,Enterobacter cloacae complex,ceftazidime,>128,R,R,True
+0053,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+0053,Enterobacter cloacae complex,doripenem,4,R,R,True
+0053,Enterobacter cloacae complex,ertapenem,>8,R,R,True
+0053,Enterobacter cloacae complex,imipenem,8,R,R,True
+0053,Enterobacter cloacae complex,meropenem,8,R,R,True
+0055,Escherichia coli,cefotaxime,>128,R,R,True
+0055,Escherichia coli,ceftazidime,>128,R,R,True
+0055,Escherichia coli,ceftriaxone,>32,R,R,True
+0055,Escherichia coli,doripenem,>8,R,R,True
+0055,Escherichia coli,ertapenem,>8,R,R,True
+0055,Escherichia coli,imipenem,8,R,R,True
+0055,Escherichia coli,meropenem,>8,R,R,True
+0057,Morganella / Providencia,cefotaxime,>128,R,R,True
+0057,Morganella / Providencia,ceftazidime,>128,R,R,True
+0057,Morganella / Providencia,ceftriaxone,>32,R,R,True
+0057,Morganella / Providencia,doripenem,8,R,R,True
+0057,Morganella / Providencia,ertapenem,2,R,R,True
+0057,Morganella / Providencia,meropenem,2,R,I,False
+0058,Escherichia coli,cefotaxime,>64,R,R,True
+0058,Escherichia coli,ceftazidime,64,R,R,True
+0058,Escherichia coli,ceftriaxone,>32,R,R,True
+0058,Escherichia coli,doripenem,0.25,S,S,True
+0058,Escherichia coli,ertapenem,1,I,I,True
+0058,Escherichia coli,imipenem,<=0.5,S,S,True
+0058,Escherichia coli,meropenem,0.25,S,S,True
+0059,Morganella / Providencia,cefotaxime,<=0.5,S,S,True
+0059,Morganella / Providencia,ceftazidime,2,S,S,True
+0059,Morganella / Providencia,ceftriaxone,<=1.0,S,S,True
+0059,Morganella / Providencia,doripenem,4,R,R,True
+0059,Morganella / Providencia,ertapenem,0.5,S,S,True
+0059,Morganella / Providencia,meropenem,1,S,S,True
+0060,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+0060,Enterobacter cloacae complex,ceftazidime,128,R,R,True
+0060,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+0060,Enterobacter cloacae complex,doripenem,<=0.12,S,S,True
+0060,Enterobacter cloacae complex,ertapenem,0.25,S,S,True
+0060,Enterobacter cloacae complex,imipenem,<=0.5,S,S,True
+0060,Enterobacter cloacae complex,meropenem,<=0.12,S,S,True
+0061,Escherichia coli,cefotaxime,>64,R,R,True
+0061,Escherichia coli,ceftazidime,128,R,R,True
+0061,Escherichia coli,ceftriaxone,>32,R,R,True
+0061,Escherichia coli,doripenem,4,R,R,True
+0061,Escherichia coli,ertapenem,8,R,R,True
+0061,Escherichia coli,imipenem,4,R,R,True
+0061,Escherichia coli,meropenem,4,R,R,True
+0062,Klebsiella aerogenes,cefotaxime,64,R,R,True
+0062,Klebsiella aerogenes,ceftazidime,64,R,R,True
+0062,Klebsiella aerogenes,ceftriaxone,>32,R,R,True
+0062,Klebsiella aerogenes,doripenem,<=0.12,S,S,True
+0062,Klebsiella aerogenes,ertapenem,1,I,I,True
+0062,Klebsiella aerogenes,imipenem,<=0.5,S,S,True
+0062,Klebsiella aerogenes,meropenem,<=0.12,S,S,True
+0065,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+0065,Enterobacter cloacae complex,ceftazidime,>128,R,R,True
+0065,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+0065,Enterobacter cloacae complex,doripenem,<=0.12,S,S,True
+0065,Enterobacter cloacae complex,ertapenem,1,I,I,True
+0065,Enterobacter cloacae complex,imipenem,<=0.5,S,S,True
+0065,Enterobacter cloacae complex,meropenem,<=0.12,S,S,True
+0066,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0066,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0066,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0066,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0066,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0066,Klebsiella pneumoniae complex,imipenem,8,R,R,True
+0066,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0067,Escherichia coli,cefotaxime,2,I,I,True
+0067,Escherichia coli,ceftazidime,4,S,S,True
+0067,Escherichia coli,ceftriaxone,<=1.0,S,S,True
+0067,Escherichia coli,doripenem,<=0.12,S,S,True
+0067,Escherichia coli,ertapenem,<=0.12,S,S,True
+0067,Escherichia coli,imipenem,<=0.5,S,S,True
+0067,Escherichia coli,meropenem,<=0.12,S,S,True
+0068,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0068,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0068,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0068,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0068,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0068,Klebsiella pneumoniae complex,imipenem,64,R,R,True
+0068,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0069,Escherichia coli,cefotaxime,>64,R,R,True
+0069,Escherichia coli,ceftazidime,>128,R,R,True
+0069,Escherichia coli,ceftriaxone,>32,R,R,True
+0069,Escherichia coli,doripenem,8,R,R,True
+0069,Escherichia coli,ertapenem,4,R,R,True
+0069,Escherichia coli,imipenem,8,R,R,True
+0069,Escherichia coli,meropenem,8,R,R,True
+0071,Klebsiella oxytoca complex,cefotaxime,>64,R,R,True
+0071,Klebsiella oxytoca complex,ceftazidime,8,I,I,True
+0071,Klebsiella oxytoca complex,ceftriaxone,>32,R,R,True
+0071,Klebsiella oxytoca complex,doripenem,2,I,I,True
+0071,Klebsiella oxytoca complex,ertapenem,8,R,R,True
+0071,Klebsiella oxytoca complex,imipenem,1,S,S,True
+0071,Klebsiella oxytoca complex,meropenem,8,R,R,True
+0072,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+0072,Enterobacter cloacae complex,ceftazidime,>128,R,R,True
+0072,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+0072,Enterobacter cloacae complex,doripenem,<=0.12,S,S,True
+0072,Enterobacter cloacae complex,ertapenem,1,I,I,True
+0072,Enterobacter cloacae complex,imipenem,<=0.5,S,S,True
+0072,Enterobacter cloacae complex,meropenem,<=0.12,S,S,True
+0073,Enterobacter cloacae complex,cefotaxime,64,R,R,True
+0073,Enterobacter cloacae complex,ceftazidime,32,R,R,True
+0073,Enterobacter cloacae complex,ceftriaxone,32,R,R,True
+0073,Enterobacter cloacae complex,doripenem,<=0.12,S,S,True
+0073,Enterobacter cloacae complex,ertapenem,<=0.12,S,S,True
+0073,Enterobacter cloacae complex,imipenem,<=0.5,S,S,True
+0073,Enterobacter cloacae complex,meropenem,<=0.12,S,S,True
+0074,Klebsiella aerogenes,cefotaxime,2,I,I,True
+0074,Klebsiella aerogenes,ceftazidime,<=1,S,S,True
+0074,Klebsiella aerogenes,ceftriaxone,<=1,S,S,True
+0074,Klebsiella aerogenes,doripenem,2,I,I,True
+0074,Klebsiella aerogenes,ertapenem,2,R,R,True
+0074,Klebsiella aerogenes,imipenem,4,R,R,True
+0074,Klebsiella aerogenes,meropenem,2,I,I,True
+0075,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0075,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0075,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0075,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0075,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0075,Klebsiella pneumoniae complex,imipenem,8,R,R,True
+0075,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0076,Klebsiella pneumoniae complex,cefotaxime,64,R,R,True
+0076,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0076,Klebsiella pneumoniae complex,ceftriaxone,32,R,R,True
+0076,Klebsiella pneumoniae complex,doripenem,4,R,R,True
+0076,Klebsiella pneumoniae complex,ertapenem,1,I,I,True
+0076,Klebsiella pneumoniae complex,imipenem,4,R,R,True
+0076,Klebsiella pneumoniae complex,meropenem,2,I,I,True
+0077,Escherichia coli,cefotaxime,<=0.5,S,S,True
+0077,Escherichia coli,ceftazidime,<=1.0,S,S,True
+0077,Escherichia coli,ceftriaxone,<=1.0,S,S,True
+0077,Escherichia coli,doripenem,<=0.12,S,S,True
+0077,Escherichia coli,ertapenem,<=0.12,S,S,True
+0077,Escherichia coli,imipenem,<=0.5,S,S,True
+0077,Escherichia coli,meropenem,<=0.12,S,S,True
+0079,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0079,Klebsiella pneumoniae complex,ceftazidime,128,R,R,True
+0079,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0079,Klebsiella pneumoniae complex,doripenem,8,R,R,True
+0079,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0079,Klebsiella pneumoniae complex,imipenem,16,R,R,True
+0079,Klebsiella pneumoniae complex,meropenem,8,R,R,True
+0080,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0080,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0080,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0080,Klebsiella pneumoniae complex,doripenem,8,R,R,True
+0080,Klebsiella pneumoniae complex,ertapenem,8,R,R,True
+0080,Klebsiella pneumoniae complex,imipenem,2,I,I,True
+0080,Klebsiella pneumoniae complex,meropenem,4,R,R,True
+0081,Escherichia coli,cefotaxime,16,R,R,True
+0081,Escherichia coli,ceftazidime,32,R,R,True
+0081,Escherichia coli,ceftriaxone,32,R,R,True
+0081,Escherichia coli,doripenem,<=0.12,S,S,True
+0081,Escherichia coli,ertapenem,<=0.12,S,S,True
+0081,Escherichia coli,imipenem,<=0.5,S,S,True
+0081,Escherichia coli,meropenem,<=0.12,S,S,True
+0082,Morganella / Providencia,cefotaxime,>64,R,R,True
+0082,Morganella / Providencia,ceftazidime,>128,R,R,True
+0082,Morganella / Providencia,ceftriaxone,>32,R,R,True
+0082,Morganella / Providencia,doripenem,>8,R,R,True
+0082,Morganella / Providencia,ertapenem,8,R,R,True
+0082,Morganella / Providencia,meropenem,4,I,R,False
+0084,Escherichia coli,cefotaxime,<=0.5,S,S,True
+0084,Escherichia coli,ceftazidime,16,R,R,True
+0084,Escherichia coli,ceftriaxone,<=1.0,S,S,True
+0084,Escherichia coli,doripenem,<=0.12,S,S,True
+0084,Escherichia coli,ertapenem,<=0.12,S,S,True
+0084,Escherichia coli,imipenem,<=0.5,S,S,True
+0084,Escherichia coli,meropenem,<=0.12,S,S,True
+0085,Escherichia coli,cefotaxime,32,R,R,True
+0085,Escherichia coli,ceftazidime,128,R,R,True
+0085,Escherichia coli,ceftriaxone,>32,R,R,True
+0085,Escherichia coli,doripenem,<=0.12,S,S,True
+0085,Escherichia coli,ertapenem,2,R,R,True
+0085,Escherichia coli,imipenem,<=0.5,S,S,True
+0085,Escherichia coli,meropenem,1,S,S,True
+0086,Escherichia coli,cefotaxime,>64,R,R,True
+0086,Escherichia coli,ceftazidime,4,S,S,True
+0086,Escherichia coli,ceftriaxone,>32,R,R,True
+0086,Escherichia coli,doripenem,<=0.12,S,S,True
+0086,Escherichia coli,ertapenem,1,I,I,True
+0086,Escherichia coli,imipenem,<=0.5,S,S,True
+0086,Escherichia coli,meropenem,<=0.12,S,S,True
+0087,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0087,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0087,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0087,Klebsiella pneumoniae complex,doripenem,<=0.12,S,S,True
+0087,Klebsiella pneumoniae complex,ertapenem,0.25,S,S,True
+0087,Klebsiella pneumoniae complex,imipenem,<=0.5,S,S,True
+0087,Klebsiella pneumoniae complex,meropenem,<=0.12,S,S,True
+0089,Escherichia coli,cefotaxime,32,R,R,True
+0089,Escherichia coli,ceftazidime,64,R,R,True
+0089,Escherichia coli,ceftriaxone,>32,R,R,True
+0089,Escherichia coli,doripenem,<=0.12,S,S,True
+0089,Escherichia coli,ertapenem,<=0.12,S,S,True
+0089,Escherichia coli,imipenem,<=0.5,S,S,True
+0089,Escherichia coli,meropenem,<=0.12,S,S,True
+0091,Serratia spp.,cefotaxime,<=0.5,S,S,True
+0091,Serratia spp.,ceftazidime,<=1.0,S,S,True
+0091,Serratia spp.,ceftriaxone,<=1.0,S,S,True
+0091,Serratia spp.,doripenem,>8,R,R,True
+0091,Serratia spp.,ertapenem,>8,R,R,True
+0091,Serratia spp.,imipenem,>64,R,R,True
+0091,Serratia spp.,meropenem,>8,R,R,True
+0093,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+0093,Enterobacter cloacae complex,ceftazidime,128,R,R,True
+0093,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+0093,Enterobacter cloacae complex,doripenem,2,I,I,True
+0093,Enterobacter cloacae complex,ertapenem,4,R,R,True
+0093,Enterobacter cloacae complex,imipenem,4,R,R,True
+0093,Enterobacter cloacae complex,meropenem,4,R,R,True
+0096,"Klebsiella, other",cefotaxime,>64,R,R,True
+0096,"Klebsiella, other",ceftazidime,>128,R,R,True
+0096,"Klebsiella, other",ceftriaxone,>32,R,R,True
+0096,"Klebsiella, other",doripenem,>8,R,R,True
+0096,"Klebsiella, other",ertapenem,>8,R,R,True
+0096,"Klebsiella, other",imipenem,>64,R,R,True
+0096,"Klebsiella, other",meropenem,>8,R,R,True
+0097,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0097,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0097,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0097,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0097,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0097,Klebsiella pneumoniae complex,imipenem,64,R,R,True
+0097,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0098,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0098,Klebsiella pneumoniae complex,ceftazidime,128,R,R,True
+0098,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0098,Klebsiella pneumoniae complex,doripenem,8,R,R,True
+0098,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0098,Klebsiella pneumoniae complex,imipenem,16,R,R,True
+0098,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0099,Serratia spp.,cefotaxime,<=0.5,S,S,True
+0099,Serratia spp.,ceftazidime,<=1,S,S,True
+0099,Serratia spp.,ceftriaxone,<=1,S,S,True
+0099,Serratia spp.,doripenem,>8,R,R,True
+0099,Serratia spp.,ertapenem,>8,R,R,True
+0099,Serratia spp.,imipenem,>64,R,R,True
+0099,Serratia spp.,meropenem,>8,R,R,True
+0104,Escherichia coli,cefotaxime,>64,R,R,True
+0104,Escherichia coli,ceftazidime,>128,R,R,True
+0104,Escherichia coli,ceftriaxone,>32,R,R,True
+0104,Escherichia coli,doripenem,0.5,S,S,True
+0104,Escherichia coli,ertapenem,2,R,R,True
+0104,Escherichia coli,imipenem,2,I,I,True
+0104,Escherichia coli,meropenem,0.5,S,S,True
+0106,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0106,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0106,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0106,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0106,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0106,Klebsiella pneumoniae complex,imipenem,>64,R,R,True
+0106,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0107,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0107,Klebsiella pneumoniae complex,ceftazidime,64,R,R,True
+0107,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0107,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0107,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0107,Klebsiella pneumoniae complex,imipenem,16,R,R,True
+0107,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0109,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0109,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0109,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0109,Klebsiella pneumoniae complex,doripenem,8,R,R,True
+0109,Klebsiella pneumoniae complex,ertapenem,>8,---,R,
+0109,Klebsiella pneumoniae complex,imipenem,2,I,I,True
+0109,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0112,Klebsiella pneumoniae complex,cefotaxime,>32,R,R,True
+0112,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0112,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0112,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0112,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0112,Klebsiella pneumoniae complex,imipenem,8,R,R,True
+0112,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0113,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0113,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0113,Klebsiella pneumoniae complex,ceftriaxone,>64,R,R,True
+0113,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0113,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0113,Klebsiella pneumoniae complex,imipenem,>64,R,R,True
+0113,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0114,Escherichia coli,cefotaxime,>64,R,R,True
+0114,Escherichia coli,ceftazidime,128,R,R,True
+0114,Escherichia coli,ceftriaxone,>32,R,R,True
+0114,Escherichia coli,doripenem,4,R,R,True
+0114,Escherichia coli,ertapenem,8,R,R,True
+0114,Escherichia coli,imipenem,4,R,R,True
+0114,Escherichia coli,meropenem,4,R,R,True
+0115,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0115,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0115,Klebsiella pneumoniae complex,ceftriaxone,>64,R,R,True
+0115,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0115,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0115,Klebsiella pneumoniae complex,imipenem,8,R,R,True
+0115,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0116,Citrobacter freundii complex,cefotaxime,>64,R,R,True
+0116,Citrobacter freundii complex,ceftazidime,>128,R,R,True
+0116,Citrobacter freundii complex,ceftriaxone,>64,R,R,True
+0116,Citrobacter freundii complex,doripenem,>8,R,R,True
+0116,Citrobacter freundii complex,ertapenem,>8,R,R,True
+0116,Citrobacter freundii complex,imipenem,16,R,R,True
+0116,Citrobacter freundii complex,meropenem,>8,R,R,True
+0117,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0117,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0117,Klebsiella pneumoniae complex,ceftriaxone,>64,R,R,True
+0117,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0117,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0117,Klebsiella pneumoniae complex,imipenem,16,R,R,True
+0117,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0118,Escherichia coli,cefotaxime,>64,R,R,True
+0118,Escherichia coli,ceftazidime,>128,R,R,True
+0118,Escherichia coli,ceftriaxone,>32,R,R,True
+0118,Escherichia coli,doripenem,>8,R,R,True
+0118,Escherichia coli,ertapenem,>8,R,R,True
+0118,Escherichia coli,imipenem,16,R,R,True
+0118,Escherichia coli,meropenem,>8,R,R,True
+0119,Escherichia coli,cefotaxime,>256,R,R,True
+0119,Escherichia coli,ceftazidime,>256,R,R,True
+0119,Escherichia coli,ceftriaxone,>64,R,R,True
+0119,Escherichia coli,doripenem,8,R,R,True
+0119,Escherichia coli,ertapenem,>16,R,R,True
+0119,Escherichia coli,imipenem,8,R,R,True
+0119,Escherichia coli,meropenem,>16,R,R,True
+0120,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0120,Klebsiella pneumoniae complex,ceftazidime,128,R,R,True
+0120,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0120,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0120,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0120,Klebsiella pneumoniae complex,imipenem,16,R,R,True
+0120,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0121,Serratia spp.,cefotaxime,<=0.5,S,S,True
+0121,Serratia spp.,ceftazidime,<=1,S,S,True
+0121,Serratia spp.,ceftriaxone,<=1,S,S,True
+0121,Serratia spp.,doripenem,>8,R,R,True
+0121,Serratia spp.,ertapenem,>8,R,R,True
+0121,Serratia spp.,imipenem,>64,R,R,True
+0121,Serratia spp.,meropenem,>8,R,R,True
+0122,Serratia spp.,cefotaxime,<=0.5,S,S,True
+0122,Serratia spp.,ceftazidime,1,S,S,True
+0122,Serratia spp.,ceftriaxone,<=1,S,S,True
+0122,Serratia spp.,doripenem,>8,R,R,True
+0122,Serratia spp.,ertapenem,>16,R,R,True
+0122,Serratia spp.,imipenem,>64,R,R,True
+0122,Serratia spp.,meropenem,>16,R,R,True
+0123,Serratia spp.,cefotaxime,<=0.5,S,S,True
+0123,Serratia spp.,ceftazidime,<=0.5,S,S,True
+0123,Serratia spp.,ceftriaxone,<=1,S,S,True
+0123,Serratia spp.,doripenem,>8,R,R,True
+0123,Serratia spp.,ertapenem,>16,R,R,True
+0123,Serratia spp.,imipenem,>64,R,R,True
+0123,Serratia spp.,meropenem,>16,R,R,True
+0124,Serratia spp.,cefotaxime,1,S,S,True
+0124,Serratia spp.,ceftazidime,<=0.5,S,S,True
+0124,Serratia spp.,ceftriaxone,<=1,S,S,True
+0124,Serratia spp.,ertapenem,>16,R,R,True
+0124,Serratia spp.,imipenem,>32,R,R,True
+0124,Serratia spp.,meropenem,>16,R,R,True
+0125,Klebsiella pneumoniae complex,cefotaxime,64,R,R,True
+0125,Klebsiella pneumoniae complex,ceftazidime,>256,R,R,True
+0125,Klebsiella pneumoniae complex,ceftriaxone,>64,R,R,True
+0125,Klebsiella pneumoniae complex,ertapenem,>16,R,R,True
+0125,Klebsiella pneumoniae complex,imipenem,16,R,R,True
+0125,Klebsiella pneumoniae complex,meropenem,>16,R,R,True
+0126,Klebsiella pneumoniae complex,cefotaxime,64,R,R,True
+0126,Klebsiella pneumoniae complex,ceftazidime,8,I,I,True
+0126,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0126,Klebsiella pneumoniae complex,doripenem,8,R,R,True
+0126,Klebsiella pneumoniae complex,ertapenem,8,R,R,True
+0126,Klebsiella pneumoniae complex,imipenem,16,R,R,True
+0126,Klebsiella pneumoniae complex,meropenem,8,R,R,True
+0127,Salmonella enterica,cefotaxime,>64,R,R,True
+0127,Salmonella enterica,ceftazidime,>256,R,R,True
+0127,Salmonella enterica,ceftriaxone,>32,R,R,True
+0127,Salmonella enterica,doripenem,8,R,R,True
+0127,Salmonella enterica,ertapenem,>8,R,R,True
+0127,Salmonella enterica,imipenem,4,R,R,True
+0127,Salmonella enterica,meropenem,8,R,R,True
+0128,Escherichia coli,cefotaxime,>64,R,R,True
+0128,Escherichia coli,ceftazidime,>64,R,R,True
+0128,Escherichia coli,ceftriaxone,>64,R,R,True
+0128,Escherichia coli,ertapenem,>16,R,R,True
+0128,Escherichia coli,imipenem,32,R,R,True
+0128,Escherichia coli,meropenem,>16,R,R,True
+0129,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0129,Klebsiella pneumoniae complex,ceftazidime,>256,R,R,True
+0129,Klebsiella pneumoniae complex,ceftriaxone,>64,R,R,True
+0129,Klebsiella pneumoniae complex,ertapenem,>16,R,R,True
+0129,Klebsiella pneumoniae complex,imipenem,8,R,R,True
+0129,Klebsiella pneumoniae complex,meropenem,16,R,R,True
+0130,Serratia spp.,cefotaxime,1,S,S,True
+0130,Serratia spp.,ceftazidime,1,S,S,True
+0130,Serratia spp.,ceftriaxone,<=1,S,S,True
+0130,Serratia spp.,ertapenem,>8,R,R,True
+0130,Serratia spp.,imipenem,>32,R,R,True
+0130,Serratia spp.,meropenem,>16,R,R,True
+0131,Serratia spp.,cefotaxime,<=0.5,S,S,True
+0131,Serratia spp.,ceftazidime,<=0.5,S,S,True
+0131,Serratia spp.,ceftriaxone,<=1,S,S,True
+0131,Serratia spp.,ertapenem,>16,R,R,True
+0131,Serratia spp.,imipenem,>32,R,R,True
+0131,Serratia spp.,meropenem,>16,R,R,True
+0132,Enterobacter cloacae complex,cefotaxime,<=0.5,S,S,True
+0132,Enterobacter cloacae complex,ceftazidime,<=1,S,S,True
+0132,Enterobacter cloacae complex,ceftriaxone,<=1,S,S,True
+0132,Enterobacter cloacae complex,ertapenem,16,R,R,True
+0132,Enterobacter cloacae complex,imipenem,>32,R,R,True
+0132,Enterobacter cloacae complex,meropenem,16,R,R,True
+0133,Morganella / Providencia,cefotaxime,>64,R,R,True
+0133,Morganella / Providencia,ceftazidime,16,R,R,True
+0133,Morganella / Providencia,ceftriaxone,>32,R,R,True
+0133,Morganella / Providencia,doripenem,4,R,R,True
+0133,Morganella / Providencia,ertapenem,8,R,R,True
+0133,Morganella / Providencia,meropenem,4,R,R,True
+0134,Other Enterobacterales,cefotaxime,4,R,R,True
+0134,Other Enterobacterales,ceftazidime,8,I,I,True
+0134,Other Enterobacterales,ceftriaxone,>32,R,R,True
+0134,Other Enterobacterales,doripenem,2,I,I,True
+0134,Other Enterobacterales,ertapenem,1,I,I,True
+0134,Other Enterobacterales,imipenem,4,R,R,True
+0134,Other Enterobacterales,meropenem,2,I,I,True
+0135,Klebsiella pneumoniae complex,cefotaxime,128,R,R,True
+0135,Klebsiella pneumoniae complex,ceftazidime,>256,R,R,True
+0135,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0135,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0135,Klebsiella pneumoniae complex,ertapenem,>4,R,R,True
+0135,Klebsiella pneumoniae complex,imipenem,8,R,R,True
+0135,Klebsiella pneumoniae complex,meropenem,8,R,R,True
+0136,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+0136,Enterobacter cloacae complex,ceftazidime,>128,R,R,True
+0136,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+0136,Enterobacter cloacae complex,doripenem,8,R,R,True
+0136,Enterobacter cloacae complex,ertapenem,>8,R,R,True
+0136,Enterobacter cloacae complex,imipenem,8,R,R,True
+0136,Enterobacter cloacae complex,meropenem,>8,R,R,True
+0137,Escherichia coli,cefotaxime,>128,R,R,True
+0137,Escherichia coli,ceftazidime,>128,R,R,True
+0137,Escherichia coli,ceftriaxone,>32,R,R,True
+0137,Escherichia coli,doripenem,>8,R,R,True
+0137,Escherichia coli,ertapenem,>8,R,R,True
+0137,Escherichia coli,imipenem,16,R,R,True
+0137,Escherichia coli,meropenem,>8,R,R,True
+0138,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0138,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0138,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0138,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0138,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0138,Klebsiella pneumoniae complex,imipenem,>64,R,R,True
+0138,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0139,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0139,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0139,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0139,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0139,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0139,Klebsiella pneumoniae complex,imipenem,8,R,R,True
+0139,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0140,Klebsiella pneumoniae complex,cefotaxime,>128,R,R,True
+0140,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0140,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0140,Klebsiella pneumoniae complex,doripenem,4,R,R,True
+0140,Klebsiella pneumoniae complex,ertapenem,8,R,R,True
+0140,Klebsiella pneumoniae complex,imipenem,2,I,I,True
+0140,Klebsiella pneumoniae complex,meropenem,2,I,I,True
+0141,Klebsiella pneumoniae complex,cefotaxime,>512,R,R,True
+0141,Klebsiella pneumoniae complex,ceftazidime,>256,R,R,True
+0141,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0141,Klebsiella pneumoniae complex,doripenem,4,R,R,True
+0141,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0141,Klebsiella pneumoniae complex,imipenem,4,R,R,True
+0141,Klebsiella pneumoniae complex,meropenem,4,R,R,True
+0142,Klebsiella pneumoniae complex,cefotaxime,>128,R,R,True
+0142,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0142,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0142,Klebsiella pneumoniae complex,doripenem,2,I,I,True
+0142,Klebsiella pneumoniae complex,ertapenem,8,R,R,True
+0142,Klebsiella pneumoniae complex,imipenem,4,R,R,True
+0142,Klebsiella pneumoniae complex,meropenem,2,I,I,True
+0143,Klebsiella pneumoniae complex,cefotaxime,>128,R,R,True
+0143,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0143,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0143,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0143,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0143,Klebsiella pneumoniae complex,imipenem,32,R,R,True
+0143,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0144,Other Enterobacterales,cefotaxime,>64,R,R,True
+0144,Other Enterobacterales,ceftazidime,>128,R,R,True
+0144,Other Enterobacterales,ceftriaxone,>32,R,R,True
+0144,Other Enterobacterales,doripenem,4,R,R,True
+0144,Other Enterobacterales,ertapenem,8,R,R,True
+0144,Other Enterobacterales,imipenem,4,R,R,True
+0144,Other Enterobacterales,meropenem,8,R,R,True
+0145,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0145,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0145,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0145,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0145,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0145,Klebsiella pneumoniae complex,imipenem,16,R,R,True
+0145,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0146,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0146,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0146,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0146,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0146,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0146,Klebsiella pneumoniae complex,imipenem,8,R,R,True
+0146,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0147,Klebsiella oxytoca complex,cefotaxime,1,S,S,True
+0147,Klebsiella oxytoca complex,ceftazidime,4,S,S,True
+0147,Klebsiella oxytoca complex,ceftriaxone,2,I,I,True
+0147,Klebsiella oxytoca complex,doripenem,2,I,I,True
+0147,Klebsiella oxytoca complex,ertapenem,1,I,I,True
+0147,Klebsiella oxytoca complex,imipenem,2,I,I,True
+0147,Klebsiella oxytoca complex,meropenem,0.5,S,S,True
+0148,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0148,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0148,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0148,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0148,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0148,Klebsiella pneumoniae complex,imipenem,16,R,R,True
+0148,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0149,Escherichia coli,cefotaxime,>64,R,R,True
+0149,Escherichia coli,ceftazidime,>128,R,R,True
+0149,Escherichia coli,ceftriaxone,>32,R,R,True
+0149,Escherichia coli,doripenem,>8,R,R,True
+0149,Escherichia coli,ertapenem,8,R,R,True
+0149,Escherichia coli,imipenem,8,R,R,True
+0149,Escherichia coli,meropenem,8,R,R,True
+0150,Escherichia coli,cefotaxime,>64,R,R,True
+0150,Escherichia coli,ceftazidime,>128,R,R,True
+0150,Escherichia coli,ceftriaxone,>32,R,R,True
+0150,Escherichia coli,doripenem,>8,R,R,True
+0150,Escherichia coli,ertapenem,>8,R,R,True
+0150,Escherichia coli,imipenem,16,R,R,True
+0150,Escherichia coli,meropenem,>8,R,R,True
+0151,Escherichia coli,cefotaxime,>64,R,R,True
+0151,Escherichia coli,ceftazidime,>128,R,R,True
+0151,Escherichia coli,ceftriaxone,>32,R,R,True
+0151,Escherichia coli,doripenem,>8,R,R,True
+0151,Escherichia coli,ertapenem,>8,R,R,True
+0151,Escherichia coli,imipenem,16,R,R,True
+0151,Escherichia coli,meropenem,>8,R,R,True
+0152,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0152,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0152,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0152,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0152,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0152,Klebsiella pneumoniae complex,imipenem,4,R,R,True
+0152,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0153,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0153,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0153,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0153,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0153,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0153,Klebsiella pneumoniae complex,imipenem,64,R,R,True
+0153,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0154,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+0154,Enterobacter cloacae complex,ceftazidime,>128,R,R,True
+0154,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+0154,Enterobacter cloacae complex,doripenem,4,R,R,True
+0154,Enterobacter cloacae complex,ertapenem,1,I,I,True
+0154,Enterobacter cloacae complex,imipenem,4,R,R,True
+0154,Enterobacter cloacae complex,meropenem,2,I,I,True
+0155,Morganella / Providencia,cefotaxime,>64,R,R,True
+0155,Morganella / Providencia,ceftazidime,8,R,I,False
+0155,Morganella / Providencia,ceftriaxone,>32,R,R,True
+0155,Morganella / Providencia,doripenem,2,I,I,True
+0155,Morganella / Providencia,ertapenem,2,R,R,True
+0155,Morganella / Providencia,meropenem,2,I,I,True
+0156,Morganella / Providencia,cefotaxime,<=0.5,S,S,True
+0156,Morganella / Providencia,ceftazidime,<=1,S,S,True
+0156,Morganella / Providencia,ceftriaxone,<=1,S,S,True
+0156,Morganella / Providencia,doripenem,0.5,S,S,True
+0156,Morganella / Providencia,ertapenem,0.25,S,S,True
+0156,Morganella / Providencia,meropenem,0.25,S,S,True
+0157,Citrobacter freundii complex,cefotaxime,>64,R,R,True
+0157,Citrobacter freundii complex,ceftazidime,>128,R,R,True
+0157,Citrobacter freundii complex,ceftriaxone,>32,R,R,True
+0157,Citrobacter freundii complex,doripenem,>8,R,R,True
+0157,Citrobacter freundii complex,ertapenem,>8,R,R,True
+0157,Citrobacter freundii complex,imipenem,16,R,R,True
+0157,Citrobacter freundii complex,meropenem,>8,R,R,True
+0158,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0158,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0158,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0158,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0158,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0158,Klebsiella pneumoniae complex,imipenem,16,R,R,True
+0158,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0159,Morganella / Providencia,cefotaxime,>64,R,R,True
+0159,Morganella / Providencia,ceftazidime,>128,R,R,True
+0159,Morganella / Providencia,ceftriaxone,>32,R,R,True
+0159,Morganella / Providencia,doripenem,>8,R,R,True
+0159,Morganella / Providencia,ertapenem,4,R,R,True
+0159,Morganella / Providencia,meropenem,4,R,R,True
+0160,Klebsiella pneumoniae complex,cefotaxime,8,R,R,True
+0160,Klebsiella pneumoniae complex,ceftazidime,<=1,S,S,True
+0160,Klebsiella pneumoniae complex,ceftriaxone,2,I,I,True
+0160,Klebsiella pneumoniae complex,doripenem,8,R,R,True
+0160,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0160,Klebsiella pneumoniae complex,imipenem,4,R,R,True
+0160,Klebsiella pneumoniae complex,meropenem,8,R,R,True
+0161,Klebsiella aerogenes,cefotaxime,>64,R,R,True
+0161,Klebsiella aerogenes,ceftazidime,128,R,R,True
+0161,Klebsiella aerogenes,ceftriaxone,>32,R,R,True
+0161,Klebsiella aerogenes,doripenem,4,R,R,True
+0161,Klebsiella aerogenes,ertapenem,2,R,R,True
+0161,Klebsiella aerogenes,imipenem,2,I,I,True
+0161,Klebsiella aerogenes,meropenem,2,I,I,True
+0162,Escherichia coli,cefotaxime,>64,R,R,True
+0162,Escherichia coli,ceftazidime,>128,R,R,True
+0162,Escherichia coli,ceftriaxone,>32,R,R,True
+0162,Escherichia coli,doripenem,>8,R,R,True
+0162,Escherichia coli,ertapenem,>8,R,R,True
+0162,Escherichia coli,imipenem,8,R,R,True
+0162,Escherichia coli,meropenem,>8,R,R,True
+0163,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+0163,Enterobacter cloacae complex,ceftazidime,128,R,R,True
+0163,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+0163,Enterobacter cloacae complex,doripenem,4,R,R,True
+0163,Enterobacter cloacae complex,ertapenem,>8,R,R,True
+0163,Enterobacter cloacae complex,imipenem,8,R,R,True
+0163,Enterobacter cloacae complex,meropenem,8,R,R,True
+0164,Enterobacter cloacae complex,cefotaxime,32,R,R,True
+0164,Enterobacter cloacae complex,ceftazidime,32,R,R,True
+0164,Enterobacter cloacae complex,ceftriaxone,16,R,R,True
+0164,Enterobacter cloacae complex,doripenem,>8,R,R,True
+0164,Enterobacter cloacae complex,ertapenem,>8,R,R,True
+0164,Enterobacter cloacae complex,imipenem,32,R,R,True
+0164,Enterobacter cloacae complex,meropenem,>8,R,R,True
+0215,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0215,Staphylococcus aureus,oxacillin,>16,R,R,True
+0216,Staphylococcus aureus,cefoxitin,16,R,R,True
+0216,Staphylococcus aureus,oxacillin,2,R,S,False
+0217,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0217,Staphylococcus aureus,oxacillin,8,R,R,True
+0218,Staphylococcus aureus,cefoxitin,16,R,R,True
+0218,Staphylococcus aureus,oxacillin,>16,R,R,True
+0219,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0219,Staphylococcus aureus,oxacillin,>16,R,R,True
+0220,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0220,Staphylococcus aureus,oxacillin,>16,R,R,True
+0221,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0221,Staphylococcus aureus,oxacillin,8,R,R,True
+0222,Staphylococcus aureus,cefoxitin,4,S,S,True
+0222,Staphylococcus aureus,oxacillin,<=0.25,S,S,True
+0223,Staphylococcus aureus,cefoxitin,16,R,R,True
+0223,Staphylococcus aureus,oxacillin,16,R,R,True
+0224,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0224,Staphylococcus aureus,oxacillin,>16,R,R,True
+0225,Staphylococcus aureus,cefoxitin,8,R,R,True
+0225,Staphylococcus aureus,oxacillin,8,R,R,True
+0226,Staphylococcus aureus,cefoxitin,16,R,R,True
+0226,Staphylococcus aureus,oxacillin,8,R,R,True
+0227,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0227,Staphylococcus aureus,oxacillin,16,R,R,True
+0228,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0228,Staphylococcus aureus,oxacillin,16,R,R,True
+0346,Escherichia coli,cefotaxime,>64,R,R,True
+0346,Escherichia coli,ceftazidime,>128,R,R,True
+0346,Escherichia coli,ceftriaxone,>32,R,R,True
+0346,Escherichia coli,doripenem,<=0.12,S,S,True
+0346,Escherichia coli,ertapenem,<=0.12,S,S,True
+0346,Escherichia coli,imipenem,<=0.5,S,S,True
+0346,Escherichia coli,meropenem,<=0.12,S,S,True
+0347,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0347,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0347,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0347,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0347,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0347,Klebsiella pneumoniae complex,imipenem,>64,R,R,True
+0347,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0348,Escherichia coli,cefotaxime,>64,R,R,True
+0348,Escherichia coli,ceftazidime,>128,R,R,True
+0348,Escherichia coli,ceftriaxone,>32,R,R,True
+0348,Escherichia coli,doripenem,>8,R,R,True
+0348,Escherichia coli,ertapenem,>8,R,R,True
+0348,Escherichia coli,imipenem,64,R,R,True
+0348,Escherichia coli,meropenem,>8,R,R,True
+0350,Escherichia coli,cefotaxime,8,R,R,True
+0350,Escherichia coli,ceftazidime,16,R,R,True
+0350,Escherichia coli,ceftriaxone,16,R,R,True
+0350,Escherichia coli,doripenem,<=0.12,S,S,True
+0350,Escherichia coli,ertapenem,<=0.12,S,S,True
+0350,Escherichia coli,imipenem,<=0.5,S,S,True
+0350,Escherichia coli,meropenem,<=0.12,S,S,True
+0361,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0361,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0361,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0361,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0361,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0361,Klebsiella pneumoniae complex,imipenem,16,R,R,True
+0361,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0362,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0362,Klebsiella pneumoniae complex,ceftazidime,128,R,R,True
+0362,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0362,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0362,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0362,Klebsiella pneumoniae complex,imipenem,16,R,R,True
+0362,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0363,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0363,Klebsiella pneumoniae complex,ceftazidime,128,R,R,True
+0363,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0363,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0363,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0363,Klebsiella pneumoniae complex,imipenem,16,R,R,True
+0363,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0364,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0364,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0364,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0364,Klebsiella pneumoniae complex,doripenem,4,R,R,True
+0364,Klebsiella pneumoniae complex,ertapenem,8,R,R,True
+0364,Klebsiella pneumoniae complex,imipenem,4,R,R,True
+0364,Klebsiella pneumoniae complex,meropenem,4,R,R,True
+0365,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+0365,Enterobacter cloacae complex,ceftazidime,>128,R,R,True
+0365,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+0365,Enterobacter cloacae complex,doripenem,4,R,R,True
+0365,Enterobacter cloacae complex,ertapenem,>8,R,R,True
+0365,Enterobacter cloacae complex,imipenem,4,R,R,True
+0365,Enterobacter cloacae complex,meropenem,8,R,R,True
+0366,Enterobacter cloacae complex,cefotaxime,16,R,R,True
+0366,Enterobacter cloacae complex,ceftazidime,16,R,R,True
+0366,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+0366,Enterobacter cloacae complex,doripenem,2,I,I,True
+0366,Enterobacter cloacae complex,ertapenem,>8,R,R,True
+0366,Enterobacter cloacae complex,imipenem,4,R,R,True
+0366,Enterobacter cloacae complex,meropenem,4,R,R,True
+0367,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+0367,Enterobacter cloacae complex,ceftazidime,>128,R,R,True
+0367,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+0367,Enterobacter cloacae complex,doripenem,1,S,S,True
+0367,Enterobacter cloacae complex,ertapenem,4,R,R,True
+0367,Enterobacter cloacae complex,imipenem,1,S,S,True
+0367,Enterobacter cloacae complex,meropenem,0.25,S,S,True
+0368,Escherichia coli,cefotaxime,<=0.5,S,S,True
+0368,Escherichia coli,ceftazidime,<=1.0,S,S,True
+0368,Escherichia coli,ceftriaxone,<=1.0,S,S,True
+0368,Escherichia coli,doripenem,<=0.12,S,S,True
+0368,Escherichia coli,ertapenem,<=0.12,S,S,True
+0368,Escherichia coli,imipenem,<=0.5,S,S,True
+0368,Escherichia coli,meropenem,<=0.12,S,S,True
+0369,Escherichia coli,cefotaxime,>64,R,R,True
+0369,Escherichia coli,ceftazidime,32,R,R,True
+0369,Escherichia coli,ceftriaxone,>32,R,R,True
+0369,Escherichia coli,doripenem,<=0.12,S,S,True
+0369,Escherichia coli,ertapenem,<=0.12,S,S,True
+0369,Escherichia coli,imipenem,<=0.5,S,S,True
+0369,Escherichia coli,meropenem,<=0.12,S,S,True
+0370,Escherichia coli,cefotaxime,>64,R,R,True
+0370,Escherichia coli,ceftazidime,128,R,R,True
+0370,Escherichia coli,ceftriaxone,>32,R,R,True
+0370,Escherichia coli,doripenem,<=0.12,S,S,True
+0370,Escherichia coli,ertapenem,0.25,S,S,True
+0370,Escherichia coli,imipenem,<=0.5,S,S,True
+0370,Escherichia coli,meropenem,<=0.12,S,S,True
+0371,Escherichia coli,cefotaxime,>64,R,R,True
+0371,Escherichia coli,ceftazidime,>128,R,R,True
+0371,Escherichia coli,ceftriaxone,>32,R,R,True
+0371,Escherichia coli,doripenem,<=0.12,S,S,True
+0371,Escherichia coli,ertapenem,0.25,S,S,True
+0371,Escherichia coli,imipenem,<=0.5,S,S,True
+0371,Escherichia coli,meropenem,<=0.12,S,S,True
+0372,Escherichia coli,cefotaxime,>64,R,R,True
+0372,Escherichia coli,ceftazidime,>128,R,R,True
+0372,Escherichia coli,ceftriaxone,>32,R,R,True
+0372,Escherichia coli,doripenem,<=0.12,S,S,True
+0372,Escherichia coli,ertapenem,0.5,S,S,True
+0372,Escherichia coli,imipenem,<=0.5,S,S,True
+0372,Escherichia coli,meropenem,<=0.12,S,S,True
+0373,Escherichia coli,cefotaxime,64,R,R,True
+0373,Escherichia coli,ceftazidime,128,R,R,True
+0373,Escherichia coli,ceftriaxone,32,R,R,True
+0373,Escherichia coli,doripenem,<=0.12,S,S,True
+0373,Escherichia coli,ertapenem,<=0.12,S,S,True
+0373,Escherichia coli,imipenem,<=0.5,S,S,True
+0373,Escherichia coli,meropenem,<=0.12,S,S,True
+0374,Escherichia coli,cefotaxime,16,R,R,True
+0374,Escherichia coli,ceftazidime,128,R,R,True
+0374,Escherichia coli,ceftriaxone,>32,R,R,True
+0374,Escherichia coli,doripenem,<=0.12,S,S,True
+0374,Escherichia coli,ertapenem,<=0.12,S,S,True
+0374,Escherichia coli,imipenem,<=0.5,S,S,True
+0374,Escherichia coli,meropenem,<=0.12,S,S,True
+0375,Klebsiella oxytoca complex,cefotaxime,16,R,R,True
+0375,Klebsiella oxytoca complex,ceftazidime,128,R,R,True
+0375,Klebsiella oxytoca complex,ceftriaxone,32,R,R,True
+0375,Klebsiella oxytoca complex,doripenem,<=0.12,S,S,True
+0375,Klebsiella oxytoca complex,ertapenem,<=0.12,S,S,True
+0375,Klebsiella oxytoca complex,imipenem,<=0.5,S,S,True
+0375,Klebsiella oxytoca complex,meropenem,<=0.12,S,S,True
+0376,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0376,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0376,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0376,Klebsiella pneumoniae complex,doripenem,<=0.12,S,S,True
+0376,Klebsiella pneumoniae complex,ertapenem,0.25,S,S,True
+0376,Klebsiella pneumoniae complex,imipenem,<=0.5,S,S,True
+0376,Klebsiella pneumoniae complex,meropenem,<=0.12,S,S,True
+0377,Morganella / Providencia,cefotaxime,4,R,R,True
+0377,Morganella / Providencia,ceftazidime,4,S,S,True
+0377,Morganella / Providencia,ceftriaxone,4,R,R,True
+0377,Morganella / Providencia,doripenem,2,I,I,True
+0377,Morganella / Providencia,ertapenem,4,R,R,True
+0377,Morganella / Providencia,meropenem,2,I,I,True
+0378,Escherichia coli,cefotaxime,<=0.5,S,S,True
+0378,Escherichia coli,ceftazidime,<=1.0,S,S,True
+0378,Escherichia coli,ceftriaxone,<=1.0,S,S,True
+0378,Escherichia coli,doripenem,<=0.12,S,S,True
+0378,Escherichia coli,ertapenem,<=0.12,S,S,True
+0378,Escherichia coli,imipenem,<=0.5,S,S,True
+0378,Escherichia coli,meropenem,<=0.12,S,S,True
+0379,Morganella / Providencia,cefotaxime,2,I,I,True
+0379,Morganella / Providencia,ceftazidime,8,I,I,True
+0379,Morganella / Providencia,ceftriaxone,<=1.0,S,S,True
+0379,Morganella / Providencia,doripenem,0.5,S,S,True
+0379,Morganella / Providencia,ertapenem,<=0.12,S,S,True
+0379,Morganella / Providencia,meropenem,<=0.12,S,S,True
+0380,Klebsiella oxytoca complex,cefotaxime,32,R,R,True
+0380,Klebsiella oxytoca complex,ceftazidime,4,S,S,True
+0380,Klebsiella oxytoca complex,ceftriaxone,>32,R,R,True
+0380,Klebsiella oxytoca complex,doripenem,0.5,S,S,True
+0380,Klebsiella oxytoca complex,ertapenem,4,R,R,True
+0380,Klebsiella oxytoca complex,imipenem,<=0.5,S,S,True
+0380,Klebsiella oxytoca complex,meropenem,1,S,S,True
+0401,Salmonella enterica,ceftriaxone,64,R,R,True
+0402,Salmonella enterica,ceftriaxone,16,R,R,True
+0403,Salmonella enterica,ceftriaxone,<=0.25,S,S,True
+0404,Salmonella enterica,ceftriaxone,16,R,R,True
+0405,Salmonella enterica,ceftriaxone,8,R,R,True
+0406,Salmonella enterica,ceftriaxone,<=0.25,S,S,True
+0407,Salmonella enterica,ceftriaxone,>64,R,R,True
+0408,Salmonella enterica,ceftriaxone,32,R,R,True
+0409,Salmonella enterica,ceftriaxone,<=0.25,S,S,True
+0410,Salmonella enterica,ceftriaxone,>64,R,R,True
+0421,Escherichia coli,ceftriaxone,16,R,R,True
+0422,Escherichia coli,ceftriaxone,<=0.25,S,S,True
+0423,Escherichia coli,ceftriaxone,<=0.25,S,S,True
+0424,Escherichia coli,ceftriaxone,<=0.25,S,S,True
+0425,Escherichia coli,ceftriaxone,<=0.25,S,S,True
+0426,Escherichia coli,ceftriaxone,<=0.25,S,S,True
+0427,Escherichia coli,ceftriaxone,<=0.25,S,S,True
+0428,Escherichia coli,ceftriaxone,<=0.25,S,S,True
+0429,Escherichia coli,ceftriaxone,16,R,R,True
+0430,Escherichia coli,ceftriaxone,32,R,R,True
+0431,Klebsiella aerogenes,cefotaxime,16,R,R,True
+0431,Klebsiella aerogenes,ceftazidime,128,R,R,True
+0431,Klebsiella aerogenes,ceftriaxone,>32,R,R,True
+0431,Klebsiella aerogenes,doripenem,<=0.12,S,S,True
+0431,Klebsiella aerogenes,ertapenem,<=0.12,S,S,True
+0431,Klebsiella aerogenes,imipenem,<=0.5,S,S,True
+0431,Klebsiella aerogenes,meropenem,<=0.12,S,S,True
+0432,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+0432,Enterobacter cloacae complex,ceftazidime,>128,R,R,True
+0432,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+0432,Enterobacter cloacae complex,doripenem,0.5,S,S,True
+0432,Enterobacter cloacae complex,ertapenem,0.5,S,S,True
+0432,Enterobacter cloacae complex,imipenem,<=0.5,S,S,True
+0432,Enterobacter cloacae complex,meropenem,<=0.12,S,S,True
+0433,Escherichia coli,cefotaxime,>64,R,R,True
+0433,Escherichia coli,ceftazidime,>128,R,R,True
+0433,Escherichia coli,ceftriaxone,>32,R,R,True
+0433,Escherichia coli,doripenem,<=0.12,S,S,True
+0433,Escherichia coli,ertapenem,<=0.12,S,S,True
+0433,Escherichia coli,imipenem,<=0.5,S,S,True
+0433,Escherichia coli,meropenem,<=0.12,S,S,True
+0434,Escherichia coli,cefotaxime,>64,R,R,True
+0434,Escherichia coli,ceftazidime,>128,R,R,True
+0434,Escherichia coli,ceftriaxone,>32,R,R,True
+0434,Escherichia coli,doripenem,<=0.12,S,S,True
+0434,Escherichia coli,ertapenem,<=0.12,S,S,True
+0434,Escherichia coli,imipenem,<=0.5,S,S,True
+0434,Escherichia coli,meropenem,<=0.12,S,S,True
+0435,Escherichia coli,cefotaxime,>64,R,R,True
+0435,Escherichia coli,ceftazidime,>128,R,R,True
+0435,Escherichia coli,ceftriaxone,>32,R,R,True
+0435,Escherichia coli,doripenem,>8,R,R,True
+0435,Escherichia coli,ertapenem,>8,R,R,True
+0435,Escherichia coli,imipenem,4,R,R,True
+0435,Escherichia coli,meropenem,>8,R,R,True
+0436,Escherichia coli,cefotaxime,32,R,R,True
+0436,Escherichia coli,ceftazidime,128,R,R,True
+0436,Escherichia coli,ceftriaxone,>32,R,R,True
+0436,Escherichia coli,doripenem,<=0.12,S,S,True
+0436,Escherichia coli,ertapenem,<=0.12,S,S,True
+0436,Escherichia coli,imipenem,<=0.5,S,S,True
+0436,Escherichia coli,meropenem,<=0.12,S,S,True
+0437,Escherichia coli,cefotaxime,>64,R,R,True
+0437,Escherichia coli,ceftazidime,>128,R,R,True
+0437,Escherichia coli,ceftriaxone,>32,R,R,True
+0437,Escherichia coli,doripenem,<=0.12,S,S,True
+0437,Escherichia coli,ertapenem,0.5,S,S,True
+0437,Escherichia coli,imipenem,<=0.5,S,S,True
+0437,Escherichia coli,meropenem,<=0.12,S,S,True
+0438,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0438,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0438,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0438,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0438,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0438,Klebsiella pneumoniae complex,imipenem,64,R,R,True
+0438,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0448,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+0448,Enterobacter cloacae complex,ceftazidime,>128,R,R,True
+0448,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+0448,Enterobacter cloacae complex,doripenem,>8,R,R,True
+0448,Enterobacter cloacae complex,ertapenem,>8,R,R,True
+0448,Enterobacter cloacae complex,imipenem,16,R,R,True
+0448,Enterobacter cloacae complex,meropenem,>8,R,R,True
+0450,Escherichia coli,cefotaxime,>64,R,R,True
+0450,Escherichia coli,ceftazidime,>128,R,R,True
+0450,Escherichia coli,ceftriaxone,>32,R,R,True
+0450,Escherichia coli,doripenem,8,R,R,True
+0450,Escherichia coli,ertapenem,>8,R,R,True
+0450,Escherichia coli,imipenem,32,R,R,True
+0450,Escherichia coli,meropenem,>8,R,R,True
+0451,Escherichia coli,cefotaxime,>64,R,R,True
+0451,Escherichia coli,ceftazidime,64,R,R,True
+0451,Escherichia coli,ceftriaxone,>32,R,R,True
+0451,Escherichia coli,doripenem,1,S,S,True
+0451,Escherichia coli,ertapenem,1,I,I,True
+0451,Escherichia coli,imipenem,2,I,I,True
+0451,Escherichia coli,meropenem,0.5,S,S,True
+0452,Escherichia coli,cefotaxime,>64,R,R,True
+0452,Escherichia coli,ceftazidime,>128,R,R,True
+0452,Escherichia coli,ceftriaxone,>32,R,R,True
+0452,Escherichia coli,doripenem,>8,R,R,True
+0452,Escherichia coli,ertapenem,>8,R,R,True
+0452,Escherichia coli,imipenem,4,R,R,True
+0452,Escherichia coli,meropenem,8,R,R,True
+0453,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0453,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0453,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0453,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0453,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0453,Klebsiella pneumoniae complex,imipenem,>64,R,R,True
+0453,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0461,Staphylococcus aureus,cefoxitin,8,R,R,True
+0461,Staphylococcus aureus,oxacillin,<=0.25,S,S,True
+0462,Staphylococcus aureus,cefoxitin,8,R,R,True
+0462,Staphylococcus aureus,oxacillin,<=0.25,S,S,True
+0463,Staphylococcus aureus,cefoxitin,8,R,R,True
+0463,Staphylococcus aureus,oxacillin,0.5,S,S,True
+0464,Staphylococcus aureus,cefoxitin,4,S,S,True
+0464,Staphylococcus aureus,oxacillin,0.5,S,S,True
+0465,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0465,Staphylococcus aureus,oxacillin,1,S,S,True
+0466,Staphylococcus aureus,cefoxitin,8,R,R,True
+0466,Staphylococcus aureus,oxacillin,1,S,S,True
+0467,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0467,Staphylococcus aureus,oxacillin,2,S,S,True
+0468,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0468,Staphylococcus aureus,oxacillin,2,S,S,True
+0469,Staphylococcus aureus,cefoxitin,16,R,R,True
+0469,Staphylococcus aureus,oxacillin,2,S,S,True
+0470,Staphylococcus aureus,cefoxitin,16,R,R,True
+0470,Staphylococcus aureus,oxacillin,2,S,S,True
+0471,Staphylococcus aureus,cefoxitin,8,R,R,True
+0471,Staphylococcus aureus,oxacillin,2,S,S,True
+0472,Staphylococcus aureus,cefoxitin,8,R,R,True
+0472,Staphylococcus aureus,oxacillin,4,R,R,True
+0473,Staphylococcus aureus,cefoxitin,8,R,R,True
+0473,Staphylococcus aureus,oxacillin,4,R,R,True
+0474,Staphylococcus aureus,cefoxitin,8,R,R,True
+0474,Staphylococcus aureus,oxacillin,4,R,R,True
+0475,Staphylococcus aureus,cefoxitin,16,R,R,True
+0475,Staphylococcus aureus,oxacillin,4,R,R,True
+0476,Staphylococcus aureus,cefoxitin,16,R,R,True
+0476,Staphylococcus aureus,oxacillin,4,R,R,True
+0477,Staphylococcus aureus,cefoxitin,16,R,R,True
+0477,Staphylococcus aureus,oxacillin,4,R,R,True
+0478,Staphylococcus aureus,cefoxitin,16,R,R,True
+0478,Staphylococcus aureus,oxacillin,4,R,R,True
+0479,Staphylococcus aureus,cefoxitin,16,R,R,True
+0479,Staphylococcus aureus,oxacillin,4,R,R,True
+0480,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0480,Staphylococcus aureus,oxacillin,16,R,R,True
+0481,Staphylococcus aureus,cefoxitin,16,R,R,True
+0481,Staphylococcus aureus,oxacillin,16,R,R,True
+0482,Staphylococcus aureus,cefoxitin,16,R,R,True
+0482,Staphylococcus aureus,oxacillin,16,R,R,True
+0483,Staphylococcus aureus,cefoxitin,16,R,R,True
+0483,Staphylococcus aureus,oxacillin,16,R,R,True
+0484,Staphylococcus aureus,cefoxitin,4,S,S,True
+0484,Staphylococcus aureus,oxacillin,0.5,S,S,True
+0485,Staphylococcus aureus,cefoxitin,4,S,S,True
+0485,Staphylococcus aureus,oxacillin,0.5,S,S,True
+0486,Staphylococcus aureus,cefoxitin,4,S,S,True
+0486,Staphylococcus aureus,oxacillin,1,S,S,True
+0487,Staphylococcus aureus,cefoxitin,4,S,S,True
+0487,Staphylococcus aureus,oxacillin,1,S,S,True
+0488,Staphylococcus aureus,cefoxitin,4,S,S,True
+0488,Staphylococcus aureus,oxacillin,1,S,S,True
+0489,Staphylococcus aureus,cefoxitin,4,S,S,True
+0489,Staphylococcus aureus,oxacillin,0.5,S,S,True
+0490,Staphylococcus aureus,cefoxitin,4,S,S,True
+0490,Staphylococcus aureus,oxacillin,2,S,S,True
+0491,Staphylococcus aureus,cefoxitin,4,S,S,True
+0491,Staphylococcus aureus,oxacillin,2,S,S,True
+0492,Staphylococcus aureus,cefoxitin,4,S,S,True
+0492,Staphylococcus aureus,oxacillin,2,S,S,True
+0493,Escherichia coli,cefotaxime,32,R,R,True
+0493,Escherichia coli,ceftazidime,128,R,R,True
+0493,Escherichia coli,ceftriaxone,16,R,R,True
+0493,Escherichia coli,doripenem,<=0.12,S,S,True
+0493,Escherichia coli,ertapenem,<=0.12,S,S,True
+0493,Escherichia coli,imipenem,<=0.5,S,S,True
+0493,Escherichia coli,meropenem,<=0.12,S,S,True
+0494,Escherichia coli,cefotaxime,<=0.5,S,S,True
+0494,Escherichia coli,ceftazidime,<=1.0,S,S,True
+0494,Escherichia coli,ceftriaxone,<=1.0,S,S,True
+0494,Escherichia coli,doripenem,<=0.12,S,S,True
+0494,Escherichia coli,ertapenem,<=0.12,S,S,True
+0494,Escherichia coli,imipenem,<=0.5,S,S,True
+0494,Escherichia coli,meropenem,<=0.12,S,S,True
+0495,Escherichia coli,cefotaxime,>64,R,R,True
+0495,Escherichia coli,ceftazidime,64,R,R,True
+0495,Escherichia coli,ceftriaxone,>32,R,R,True
+0495,Escherichia coli,doripenem,<=0.12,S,S,True
+0495,Escherichia coli,ertapenem,<=0.12,S,S,True
+0495,Escherichia coli,imipenem,<=0.5,S,S,True
+0495,Escherichia coli,meropenem,<=0.12,S,S,True
+0496,Salmonella enterica,cefotaxime,<=0.5,S,S,True
+0496,Salmonella enterica,ceftazidime,<=1.0,S,S,True
+0496,Salmonella enterica,ceftriaxone,<=1.0,S,S,True
+0496,Salmonella enterica,doripenem,<=0.12,S,S,True
+0496,Salmonella enterica,ertapenem,<=0.12,S,S,True
+0496,Salmonella enterica,imipenem,<=0.5,S,S,True
+0496,Salmonella enterica,meropenem,<=0.12,S,S,True
+0497,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0497,Klebsiella pneumoniae complex,ceftazidime,64,R,R,True
+0497,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0497,Klebsiella pneumoniae complex,doripenem,<=0.12,S,S,True
+0497,Klebsiella pneumoniae complex,ertapenem,0.25,S,S,True
+0497,Klebsiella pneumoniae complex,imipenem,<=0.5,S,S,True
+0497,Klebsiella pneumoniae complex,meropenem,<=0.12,S,S,True
+0500,Enterococcus faecium,vancomycin,1,S,S,True
+0501,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+0501,Enterobacter cloacae complex,ceftazidime,>128,R,R,True
+0501,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+0501,Enterobacter cloacae complex,doripenem,4,R,R,True
+0501,Enterobacter cloacae complex,ertapenem,2,R,R,True
+0501,Enterobacter cloacae complex,imipenem,4,R,R,True
+0501,Enterobacter cloacae complex,meropenem,2,I,I,True
+0502,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+0502,Enterobacter cloacae complex,ceftazidime,>128,R,R,True
+0502,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+0502,Enterobacter cloacae complex,doripenem,4,R,R,True
+0502,Enterobacter cloacae complex,ertapenem,4,R,R,True
+0502,Enterobacter cloacae complex,imipenem,4,R,R,True
+0502,Enterobacter cloacae complex,meropenem,2,I,I,True
+0504,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0504,Klebsiella pneumoniae complex,ceftazidime,16,R,R,True
+0504,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0504,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0504,Klebsiella pneumoniae complex,ertapenem,4,R,R,True
+0504,Klebsiella pneumoniae complex,imipenem,16,R,R,True
+0504,Klebsiella pneumoniae complex,meropenem,2,I,I,True
+0505,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0505,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0505,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0505,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0505,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0505,Klebsiella pneumoniae complex,imipenem,8,R,R,True
+0505,Klebsiella pneumoniae complex,meropenem,8,R,R,True
+0506,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0506,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0506,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0506,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0506,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0506,Klebsiella pneumoniae complex,imipenem,16,R,R,True
+0506,Klebsiella pneumoniae complex,meropenem,8,R,R,True
+0507,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0507,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0507,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0507,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0507,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0507,Klebsiella pneumoniae complex,imipenem,>64,R,R,True
+0507,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0517,Serratia spp.,cefotaxime,>64,R,R,True
+0517,Serratia spp.,ceftazidime,64,R,R,True
+0517,Serratia spp.,ceftriaxone,>32,R,R,True
+0517,Serratia spp.,doripenem,>8,R,R,True
+0517,Serratia spp.,ertapenem,>8,R,R,True
+0517,Serratia spp.,imipenem,>64,R,R,True
+0517,Serratia spp.,meropenem,>8,R,R,True
+0519,Morganella / Providencia,cefotaxime,>64,R,R,True
+0519,Morganella / Providencia,ceftazidime,>128,R,R,True
+0519,Morganella / Providencia,ceftriaxone,>32,R,R,True
+0519,Morganella / Providencia,doripenem,>8,R,R,True
+0519,Morganella / Providencia,ertapenem,>8,R,R,True
+0519,Morganella / Providencia,meropenem,8,R,R,True
+0520,Serratia spp.,cefotaxime,16,R,R,True
+0520,Serratia spp.,ceftazidime,32,R,R,True
+0520,Serratia spp.,ceftriaxone,8,R,R,True
+0520,Serratia spp.,doripenem,0.5,S,S,True
+0520,Serratia spp.,ertapenem,<=0.12,S,S,True
+0520,Serratia spp.,imipenem,2,I,I,True
+0520,Serratia spp.,meropenem,<=0.12,S,S,True
+0521,Serratia spp.,cefotaxime,>64,R,R,True
+0521,Serratia spp.,ceftazidime,>128,R,R,True
+0521,Serratia spp.,ceftriaxone,>32,R,R,True
+0521,Serratia spp.,doripenem,0.5,S,S,True
+0521,Serratia spp.,ertapenem,0.25,S,S,True
+0521,Serratia spp.,imipenem,2,I,I,True
+0521,Serratia spp.,meropenem,0.5,S,S,True
+0522,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0522,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0522,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0522,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0522,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0522,Klebsiella pneumoniae complex,imipenem,32,R,R,True
+0522,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0523,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0523,Klebsiella pneumoniae complex,ceftazidime,128,R,R,True
+0523,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0523,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0523,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0523,Klebsiella pneumoniae complex,imipenem,32,R,R,True
+0523,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0524,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0524,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0524,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0524,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0524,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0524,Klebsiella pneumoniae complex,imipenem,16,R,R,True
+0524,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0525,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0525,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0525,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0525,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0525,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0525,Klebsiella pneumoniae complex,imipenem,8,R,R,True
+0525,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0538,Escherichia coli,cefotaxime,<=0.5,S,S,True
+0538,Escherichia coli,ceftazidime,<=1.0,S,S,True
+0538,Escherichia coli,ceftriaxone,<=1.0,S,S,True
+0538,Escherichia coli,doripenem,<=0.12,S,S,True
+0538,Escherichia coli,ertapenem,<=0.12,S,S,True
+0538,Escherichia coli,imipenem,<=0.5,S,S,True
+0538,Escherichia coli,meropenem,<=0.12,S,S,True
+0539,Salmonella enterica,cefotaxime,>64,R,R,True
+0539,Salmonella enterica,ceftazidime,128,R,R,True
+0539,Salmonella enterica,ceftriaxone,>32,R,R,True
+0539,Salmonella enterica,doripenem,<=0.12,S,S,True
+0539,Salmonella enterica,ertapenem,<=0.12,S,S,True
+0539,Salmonella enterica,imipenem,<=0.5,S,S,True
+0539,Salmonella enterica,meropenem,<=0.12,S,S,True
+0541,Escherichia coli,cefotaxime,>64,R,R,True
+0541,Escherichia coli,ceftazidime,>128,R,R,True
+0541,Escherichia coli,ceftriaxone,>32,R,R,True
+0541,Escherichia coli,doripenem,1,S,S,True
+0541,Escherichia coli,ertapenem,1,I,I,True
+0541,Escherichia coli,imipenem,2,I,I,True
+0541,Escherichia coli,meropenem,1,S,S,True
+0542,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0542,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0542,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0542,Klebsiella pneumoniae complex,doripenem,2,I,I,True
+0542,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0542,Klebsiella pneumoniae complex,imipenem,2,I,I,True
+0542,Klebsiella pneumoniae complex,meropenem,2,I,I,True
+0543,Escherichia coli,cefotaxime,>64,R,R,True
+0543,Escherichia coli,ceftazidime,64,R,R,True
+0543,Escherichia coli,ceftriaxone,>32,R,R,True
+0543,Escherichia coli,doripenem,2,I,I,True
+0543,Escherichia coli,ertapenem,>8,R,R,True
+0543,Escherichia coli,imipenem,1,S,S,True
+0543,Escherichia coli,meropenem,2,I,I,True
+0544,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+0544,Enterobacter cloacae complex,ceftazidime,>128,R,R,True
+0544,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+0544,Enterobacter cloacae complex,doripenem,8,R,R,True
+0544,Enterobacter cloacae complex,ertapenem,>8,R,R,True
+0544,Enterobacter cloacae complex,imipenem,16,R,R,True
+0544,Enterobacter cloacae complex,meropenem,8,R,R,True
+0545,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+0545,Enterobacter cloacae complex,ceftazidime,64,R,R,True
+0545,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+0545,Enterobacter cloacae complex,doripenem,1,S,S,True
+0545,Enterobacter cloacae complex,ertapenem,2,R,R,True
+0545,Enterobacter cloacae complex,imipenem,2,I,I,True
+0545,Enterobacter cloacae complex,meropenem,0.5,S,S,True
+0546,Escherichia coli,cefotaxime,>64,R,R,True
+0546,Escherichia coli,ceftazidime,>128,R,R,True
+0546,Escherichia coli,ceftriaxone,>32,R,R,True
+0546,Escherichia coli,doripenem,8,R,R,True
+0546,Escherichia coli,ertapenem,>8,R,R,True
+0546,Escherichia coli,imipenem,8,R,R,True
+0546,Escherichia coli,meropenem,8,R,R,True
+0547,Klebsiella aerogenes,cefotaxime,64,R,R,True
+0547,Klebsiella aerogenes,ceftazidime,>128,R,R,True
+0547,Klebsiella aerogenes,ceftriaxone,>32,R,R,True
+0547,Klebsiella aerogenes,doripenem,4,R,R,True
+0547,Klebsiella aerogenes,ertapenem,>8,R,R,True
+0547,Klebsiella aerogenes,imipenem,16,R,R,True
+0547,Klebsiella aerogenes,meropenem,8,R,R,True
+0549,Escherichia coli,cefotaxime,>64,R,R,True
+0549,Escherichia coli,ceftazidime,>128,R,R,True
+0549,Escherichia coli,ceftriaxone,>32,R,R,True
+0549,Escherichia coli,doripenem,4,R,R,True
+0549,Escherichia coli,ertapenem,>8,R,R,True
+0549,Escherichia coli,imipenem,2,I,I,True
+0549,Escherichia coli,meropenem,8,R,R,True
+0550,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0550,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0550,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0550,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0550,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0550,Klebsiella pneumoniae complex,imipenem,>64,R,R,True
+0550,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0551,Escherichia coli,cefotaxime,>64,R,R,True
+0551,Escherichia coli,ceftazidime,128,R,R,True
+0551,Escherichia coli,ceftriaxone,>32,R,R,True
+0551,Escherichia coli,doripenem,<=0.12,S,S,True
+0551,Escherichia coli,ertapenem,<=0.12,S,S,True
+0551,Escherichia coli,imipenem,<=0.5,S,S,True
+0551,Escherichia coli,meropenem,<=0.12,S,S,True
+0552,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0552,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0552,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0552,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0552,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0552,Klebsiella pneumoniae complex,imipenem,64,R,R,True
+0552,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0553,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0553,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0553,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0553,Klebsiella pneumoniae complex,doripenem,4,R,R,True
+0553,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0553,Klebsiella pneumoniae complex,imipenem,4,R,R,True
+0553,Klebsiella pneumoniae complex,meropenem,2,I,I,True
+0554,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0554,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0554,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0554,Klebsiella pneumoniae complex,doripenem,8,R,R,True
+0554,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0554,Klebsiella pneumoniae complex,imipenem,4,R,R,True
+0554,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0555,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0555,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0555,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0555,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0555,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0555,Klebsiella pneumoniae complex,imipenem,32,R,R,True
+0555,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0556,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0556,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0556,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0556,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0556,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0556,Klebsiella pneumoniae complex,imipenem,8,R,R,True
+0556,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0557,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0557,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0557,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0557,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0557,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0557,Klebsiella pneumoniae complex,imipenem,32,R,R,True
+0557,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0558,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0558,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0558,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0558,Klebsiella pneumoniae complex,doripenem,4,R,R,True
+0558,Klebsiella pneumoniae complex,ertapenem,8,R,R,True
+0558,Klebsiella pneumoniae complex,imipenem,4,R,R,True
+0558,Klebsiella pneumoniae complex,meropenem,2,I,I,True
+0559,Escherichia coli,cefotaxime,>64,R,R,True
+0559,Escherichia coli,ceftazidime,>128,R,R,True
+0559,Escherichia coli,ceftriaxone,>32,R,R,True
+0559,Escherichia coli,doripenem,>8,R,R,True
+0559,Escherichia coli,ertapenem,>8,R,R,True
+0559,Escherichia coli,imipenem,2,I,I,True
+0559,Escherichia coli,meropenem,>8,R,R,True
+0560,Klebsiella pneumoniae complex,cefotaxime,>128,R,R,True
+0560,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0560,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0560,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0560,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0560,Klebsiella pneumoniae complex,imipenem,64,R,R,True
+0560,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0561,Staphylococcus aureus,cefoxitin,16,R,R,True
+0561,Staphylococcus aureus,oxacillin,16,R,R,True
+0562,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0562,Staphylococcus aureus,oxacillin,>16,R,R,True
+0563,Staphylococcus aureus,cefoxitin,16,R,R,True
+0563,Staphylococcus aureus,oxacillin,8,R,R,True
+0564,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0564,Staphylococcus aureus,oxacillin,>16,R,R,True
+0565,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0565,Staphylococcus aureus,oxacillin,>16,R,R,True
+0566,Staphylococcus aureus,cefoxitin,16,R,R,True
+0566,Staphylococcus aureus,oxacillin,>16,R,R,True
+0567,Staphylococcus aureus,cefoxitin,16,R,R,True
+0567,Staphylococcus aureus,oxacillin,8,R,R,True
+0568,Staphylococcus aureus,cefoxitin,4,S,S,True
+0568,Staphylococcus aureus,oxacillin,<=0.25,S,S,True
+0569,Staphylococcus aureus,cefoxitin,4,S,S,True
+0569,Staphylococcus aureus,oxacillin,0.5,S,S,True
+0570,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0570,Staphylococcus aureus,oxacillin,>16,R,R,True
+0572,Enterococcus faecium,vancomycin,512,R,R,True
+0573,Enterococcus faecalis,vancomycin,1,S,S,True
+0574,Enterococcus faecium,vancomycin,0.5,S,S,True
+0575,Enterococcus faecium,vancomycin,512,R,R,True
+0576,Enterococcus faecium,vancomycin,1,S,S,True
+0577,Enterococcus faecalis,vancomycin,1,S,S,True
+0578,Enterococcus faecium,vancomycin,0.5,S,S,True
+0579,Enterococcus faecium,vancomycin,0.5,S,S,True
+0580,Enterococcus faecalis,vancomycin,2,S,S,True
+0641,Enterobacter cloacae complex,cefotaxime,<=0.5,S,S,True
+0641,Enterobacter cloacae complex,ceftazidime,<=0.5,S,S,True
+0641,Enterobacter cloacae complex,ceftriaxone,<=1.0,S,S,True
+0641,Enterobacter cloacae complex,doripenem,<=0.12,S,S,True
+0641,Enterobacter cloacae complex,ertapenem,<=0.12,S,S,True
+0641,Enterobacter cloacae complex,imipenem,<=0.5,S,S,True
+0641,Enterobacter cloacae complex,meropenem,<=0.12,S,S,True
+0642,Enterobacter cloacae complex,cefotaxime,64,R,R,True
+0642,Enterobacter cloacae complex,ceftazidime,128,R,R,True
+0642,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+0642,Enterobacter cloacae complex,doripenem,<=0.12,S,S,True
+0642,Enterobacter cloacae complex,ertapenem,<=0.12,S,S,True
+0642,Enterobacter cloacae complex,imipenem,<=0.5,S,S,True
+0642,Enterobacter cloacae complex,meropenem,<=0.12,S,S,True
+0643,Enterobacter cloacae complex,cefotaxime,<=0.5,S,S,True
+0643,Enterobacter cloacae complex,ceftazidime,<=1.0,S,S,True
+0643,Enterobacter cloacae complex,ceftriaxone,<=1.0,S,S,True
+0643,Enterobacter cloacae complex,doripenem,<=0.12,S,S,True
+0643,Enterobacter cloacae complex,ertapenem,<=0.12,S,S,True
+0643,Enterobacter cloacae complex,imipenem,<=0.5,S,S,True
+0643,Enterobacter cloacae complex,meropenem,<=0.12,S,S,True
+0644,Enterobacter cloacae complex,cefotaxime,<=0.5,S,S,True
+0644,Enterobacter cloacae complex,ceftazidime,<=1.0,S,S,True
+0644,Enterobacter cloacae complex,ceftriaxone,<=1.0,S,S,True
+0644,Enterobacter cloacae complex,doripenem,<=0.12,S,S,True
+0644,Enterobacter cloacae complex,ertapenem,<=0.12,S,S,True
+0644,Enterobacter cloacae complex,imipenem,<=0.5,S,S,True
+0644,Enterobacter cloacae complex,meropenem,<=0.12,S,S,True
+0645,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+0645,Enterobacter cloacae complex,ceftazidime,64,R,R,True
+0645,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+0645,Enterobacter cloacae complex,doripenem,<=0.12,S,S,True
+0645,Enterobacter cloacae complex,ertapenem,<=0.12,S,S,True
+0645,Enterobacter cloacae complex,imipenem,<=0.5,S,S,True
+0645,Enterobacter cloacae complex,meropenem,<=0.12,S,S,True
+0646,Escherichia coli,cefotaxime,<=0.5,S,S,True
+0646,Escherichia coli,ceftazidime,<=1.0,S,S,True
+0646,Escherichia coli,ceftriaxone,<=1.0,S,S,True
+0646,Escherichia coli,doripenem,<=0.12,S,S,True
+0646,Escherichia coli,ertapenem,<=0.12,S,S,True
+0646,Escherichia coli,imipenem,<=0.5,S,S,True
+0646,Escherichia coli,meropenem,<=0.12,S,S,True
+0647,Escherichia coli,cefotaxime,<=0.5,S,S,True
+0647,Escherichia coli,ceftazidime,<=1.0,S,S,True
+0647,Escherichia coli,ceftriaxone,<=1.0,S,S,True
+0647,Escherichia coli,doripenem,<=0.12,S,S,True
+0647,Escherichia coli,ertapenem,<=0.12,S,S,True
+0647,Escherichia coli,imipenem,<=0.5,S,S,True
+0647,Escherichia coli,meropenem,<=0.12,S,S,True
+0648,Escherichia coli,cefotaxime,>64,R,R,True
+0648,Escherichia coli,ceftazidime,16,R,R,True
+0648,Escherichia coli,ceftriaxone,>32,R,R,True
+0648,Escherichia coli,doripenem,<=0.12,S,S,True
+0648,Escherichia coli,ertapenem,<=0.12,S,S,True
+0648,Escherichia coli,imipenem,<=0.5,S,S,True
+0648,Escherichia coli,meropenem,<=0.12,S,S,True
+0649,Escherichia coli,cefotaxime,8,R,R,True
+0649,Escherichia coli,ceftazidime,8,I,I,True
+0649,Escherichia coli,ceftriaxone,16,R,R,True
+0649,Escherichia coli,doripenem,<=0.12,S,S,True
+0649,Escherichia coli,ertapenem,<=0.12,S,S,True
+0649,Escherichia coli,imipenem,<=0.5,S,S,True
+0649,Escherichia coli,meropenem,<=0.12,S,S,True
+0650,Escherichia coli,cefotaxime,<=0.5,S,S,True
+0650,Escherichia coli,ceftazidime,<=1.0,S,S,True
+0650,Escherichia coli,ceftriaxone,<=1.0,S,S,True
+0650,Escherichia coli,doripenem,<=0.12,S,S,True
+0650,Escherichia coli,ertapenem,<=0.12,S,S,True
+0650,Escherichia coli,imipenem,<=0.5,S,S,True
+0650,Escherichia coli,meropenem,<=0.12,S,S,True
+0651,Escherichia coli,cefotaxime,<=0.5,S,S,True
+0651,Escherichia coli,ceftazidime,<=1.0,S,S,True
+0651,Escherichia coli,ceftriaxone,<=1.0,S,S,True
+0651,Escherichia coli,doripenem,<=0.12,S,S,True
+0651,Escherichia coli,ertapenem,<=0.12,S,S,True
+0651,Escherichia coli,imipenem,<=0.5,S,S,True
+0651,Escherichia coli,meropenem,<=0.12,S,S,True
+0652,Escherichia coli,cefotaxime,>64,R,R,True
+0652,Escherichia coli,ceftazidime,16,R,R,True
+0652,Escherichia coli,ceftriaxone,>32,R,R,True
+0652,Escherichia coli,doripenem,<=0.12,S,S,True
+0652,Escherichia coli,ertapenem,<=0.12,S,S,True
+0652,Escherichia coli,imipenem,<=0.5,S,S,True
+0652,Escherichia coli,meropenem,<=0.12,S,S,True
+0653,Escherichia coli,cefotaxime,<=0.5,S,S,True
+0653,Escherichia coli,ceftazidime,<=1.0,S,S,True
+0653,Escherichia coli,ceftriaxone,<=1.0,S,S,True
+0653,Escherichia coli,doripenem,<=0.12,S,S,True
+0653,Escherichia coli,ertapenem,<=0.12,S,S,True
+0653,Escherichia coli,imipenem,<=0.5,S,S,True
+0653,Escherichia coli,meropenem,<=0.12,S,S,True
+0654,Escherichia coli,cefotaxime,<=0.5,S,S,True
+0654,Escherichia coli,ceftazidime,<=1.0,S,S,True
+0654,Escherichia coli,ceftriaxone,<=1.0,S,S,True
+0654,Escherichia coli,doripenem,<=0.12,S,S,True
+0654,Escherichia coli,ertapenem,<=0.12,S,S,True
+0654,Escherichia coli,imipenem,<=0.5,S,S,True
+0654,Escherichia coli,meropenem,<=0.12,S,S,True
+0655,Escherichia coli,cefotaxime,<=0.5,S,S,True
+0655,Escherichia coli,ceftazidime,<=1.0,S,S,True
+0655,Escherichia coli,ceftriaxone,<=1.0,S,S,True
+0655,Escherichia coli,doripenem,<=0.12,S,S,True
+0655,Escherichia coli,ertapenem,<=0.12,S,S,True
+0655,Escherichia coli,imipenem,<=0.5,S,S,True
+0655,Escherichia coli,meropenem,<=0.12,S,S,True
+0656,Klebsiella pneumoniae complex,cefotaxime,<=0.5,S,S,True
+0656,Klebsiella pneumoniae complex,ceftazidime,<=1.0,S,S,True
+0656,Klebsiella pneumoniae complex,ceftriaxone,<=1.0,S,S,True
+0656,Klebsiella pneumoniae complex,doripenem,<=0.12,S,S,True
+0656,Klebsiella pneumoniae complex,ertapenem,<=0.12,S,S,True
+0656,Klebsiella pneumoniae complex,imipenem,<=0.5,S,S,True
+0656,Klebsiella pneumoniae complex,meropenem,<=0.12,S,S,True
+0657,Klebsiella pneumoniae complex,cefotaxime,<=0.5,S,S,True
+0657,Klebsiella pneumoniae complex,ceftazidime,<=1.0,S,S,True
+0657,Klebsiella pneumoniae complex,ceftriaxone,<=1.0,S,S,True
+0657,Klebsiella pneumoniae complex,doripenem,<=0.12,S,S,True
+0657,Klebsiella pneumoniae complex,ertapenem,<=0.12,S,S,True
+0657,Klebsiella pneumoniae complex,imipenem,<=0.5,S,S,True
+0657,Klebsiella pneumoniae complex,meropenem,<=0.12,S,S,True
+0658,Klebsiella pneumoniae complex,cefotaxime,<=0.5,S,S,True
+0658,Klebsiella pneumoniae complex,ceftazidime,<=1.0,S,S,True
+0658,Klebsiella pneumoniae complex,ceftriaxone,<=1.0,S,S,True
+0658,Klebsiella pneumoniae complex,doripenem,<=0.12,S,S,True
+0658,Klebsiella pneumoniae complex,ertapenem,<=0.12,S,S,True
+0658,Klebsiella pneumoniae complex,imipenem,<=0.5,S,S,True
+0658,Klebsiella pneumoniae complex,meropenem,<=0.12,S,S,True
+0659,Klebsiella pneumoniae complex,cefotaxime,32,R,R,True
+0659,Klebsiella pneumoniae complex,ceftazidime,<=1.0,S,S,True
+0659,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0659,Klebsiella pneumoniae complex,doripenem,<=0.12,S,S,True
+0659,Klebsiella pneumoniae complex,ertapenem,<=0.12,S,S,True
+0659,Klebsiella pneumoniae complex,imipenem,<=0.5,S,S,True
+0659,Klebsiella pneumoniae complex,meropenem,<=0.12,S,S,True
+0660,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0660,Klebsiella pneumoniae complex,ceftazidime,128,R,R,True
+0660,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0660,Klebsiella pneumoniae complex,doripenem,<=0.12,S,S,True
+0660,Klebsiella pneumoniae complex,ertapenem,<=0.12,S,S,True
+0660,Klebsiella pneumoniae complex,imipenem,<=0.5,S,S,True
+0660,Klebsiella pneumoniae complex,meropenem,<=0.12,S,S,True
+0671,Enterococcus faecalis,vancomycin,1,S,S,True
+0672,Enterococcus faecalis,vancomycin,1,S,S,True
+0673,Enterococcus faecalis,vancomycin,2,S,S,True
+0674,Enterococcus faecalis,vancomycin,1,S,S,True
+0675,Enterococcus faecalis,vancomycin,1,S,S,True
+0676,Enterococcus faecalis,vancomycin,1,S,S,True
+0677,Enterococcus faecalis,vancomycin,2,S,S,True
+0678,Enterococcus faecalis,vancomycin,1,S,S,True
+0679,Enterococcus faecalis,vancomycin,1,S,S,True
+0680,Enterococcus faecalis,vancomycin,1,S,S,True
+0681,Staphylococcus aureus,cefoxitin,4,S,S,True
+0681,Staphylococcus aureus,oxacillin,<=0.25,S,S,True
+0682,Staphylococcus aureus,cefoxitin,4,S,S,True
+0682,Staphylococcus aureus,oxacillin,<=0.25,S,S,True
+0683,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0683,Staphylococcus aureus,oxacillin,>16,R,R,True
+0684,Staphylococcus aureus,cefoxitin,16,R,R,True
+0684,Staphylococcus aureus,oxacillin,16,R,R,True
+0685,Staphylococcus aureus,cefoxitin,<=2,S,S,True
+0685,Staphylococcus aureus,oxacillin,<=0.25,S,S,True
+0686,Staphylococcus aureus,cefoxitin,4,S,S,True
+0686,Staphylococcus aureus,oxacillin,<=0.25,S,S,True
+0687,Staphylococcus aureus,cefoxitin,8,R,R,True
+0687,Staphylococcus aureus,oxacillin,0.5,S,S,True
+0688,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0688,Staphylococcus aureus,oxacillin,>16,R,R,True
+0689,Staphylococcus aureus,cefoxitin,<=2,S,S,True
+0689,Staphylococcus aureus,oxacillin,<=0.25,S,S,True
+0690,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0690,Staphylococcus aureus,oxacillin,>16,R,R,True
+0691,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0691,Staphylococcus aureus,oxacillin,16,R,R,True
+0692,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0692,Staphylococcus aureus,oxacillin,16,R,R,True
+0693,Staphylococcus aureus,cefoxitin,4,S,S,True
+0693,Staphylococcus aureus,oxacillin,<=0.25,S,S,True
+0694,Staphylococcus aureus,cefoxitin,4,S,S,True
+0694,Staphylococcus aureus,oxacillin,0.5,S,S,True
+0695,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0695,Staphylococcus aureus,oxacillin,>16,R,R,True
+0696,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0696,Staphylococcus aureus,oxacillin,>16,R,R,True
+0701,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0701,Staphylococcus aureus,oxacillin,>16,R,R,True
+0702,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0702,Staphylococcus aureus,oxacillin,>16,R,R,True
+0703,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0703,Staphylococcus aureus,oxacillin,>16,R,R,True
+0704,Staphylococcus aureus,cefoxitin,16,R,R,True
+0704,Staphylococcus aureus,oxacillin,4,R,R,True
+0705,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0705,Staphylococcus aureus,oxacillin,>16,R,R,True
+0706,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0706,Staphylococcus aureus,oxacillin,>16,R,R,True
+0707,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0707,Staphylococcus aureus,oxacillin,>16,R,R,True
+0708,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0708,Staphylococcus aureus,oxacillin,>16,R,R,True
+0709,Staphylococcus aureus,cefoxitin,16,R,R,True
+0709,Staphylococcus aureus,oxacillin,16,R,R,True
+0710,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0710,Staphylococcus aureus,oxacillin,16,R,R,True
+0711,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0711,Staphylococcus aureus,oxacillin,>16,R,R,True
+0712,Staphylococcus aureus,cefoxitin,16,R,R,True
+0712,Staphylococcus aureus,oxacillin,16,R,R,True
+0713,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0713,Staphylococcus aureus,oxacillin,>16,R,R,True
+0714,Staphylococcus aureus,cefoxitin,16,R,R,True
+0714,Staphylococcus aureus,oxacillin,8,R,R,True
+0715,Staphylococcus aureus,cefoxitin,8,R,R,True
+0715,Staphylococcus aureus,oxacillin,8,R,R,True
+0716,Staphylococcus aureus,cefoxitin,4,S,S,True
+0716,Staphylococcus aureus,oxacillin,<=0.25,S,S,True
+0717,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0717,Staphylococcus aureus,oxacillin,>16,R,R,True
+0718,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0718,Staphylococcus aureus,oxacillin,>16,R,R,True
+0719,Staphylococcus aureus,cefoxitin,16,R,R,True
+0719,Staphylococcus aureus,oxacillin,>16,R,R,True
+0720,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0720,Staphylococcus aureus,oxacillin,>16,R,R,True
+0721,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0721,Staphylococcus aureus,oxacillin,>16,R,R,True
+0722,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0722,Staphylococcus aureus,oxacillin,>16,R,R,True
+0723,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0723,Staphylococcus aureus,oxacillin,>16,R,R,True
+0724,Staphylococcus aureus,cefoxitin,>16,R,R,True
+0724,Staphylococcus aureus,oxacillin,>16,R,R,True
+0725,Staphylococcus aureus,cefoxitin,4,S,S,True
+0725,Staphylococcus aureus,oxacillin,0.5,S,S,True
+0831,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0831,Klebsiella pneumoniae complex,ceftazidime,64,R,R,True
+0831,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0831,Klebsiella pneumoniae complex,doripenem,<=0.12,S,S,True
+0831,Klebsiella pneumoniae complex,ertapenem,0.25,S,S,True
+0831,Klebsiella pneumoniae complex,imipenem,<=0.5,S,S,True
+0831,Klebsiella pneumoniae complex,meropenem,<=0.12,S,S,True
+0832,Citrobacter freundii complex,cefotaxime,16,R,R,True
+0832,Citrobacter freundii complex,ceftazidime,2,S,S,True
+0832,Citrobacter freundii complex,ceftriaxone,4,R,R,True
+0832,Citrobacter freundii complex,doripenem,2,I,I,True
+0832,Citrobacter freundii complex,ertapenem,8,R,R,True
+0832,Citrobacter freundii complex,imipenem,4,R,R,True
+0832,Citrobacter freundii complex,meropenem,4,R,R,True
+0861,Escherichia coli,cefotaxime,>64,R,R,True
+0861,Escherichia coli,ceftazidime,>128,R,R,True
+0861,Escherichia coli,ceftriaxone,>32,R,R,True
+0861,Escherichia coli,doripenem,>8,R,R,True
+0861,Escherichia coli,ertapenem,>8,R,R,True
+0861,Escherichia coli,imipenem,16,R,R,True
+0861,Escherichia coli,meropenem,>8,R,R,True
+0833,Escherichia coli,cefotaxime,>64,R,R,True
+0833,Escherichia coli,ceftazidime,>128,R,R,True
+0833,Escherichia coli,ceftriaxone,>32,R,R,True
+0833,Escherichia coli,doripenem,<=0.12,S,S,True
+0833,Escherichia coli,ertapenem,<=0.12,S,S,True
+0833,Escherichia coli,imipenem,<=0.5,S,S,True
+0833,Escherichia coli,meropenem,<=0.12,S,S,True
+0834,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+0834,Enterobacter cloacae complex,ceftazidime,>128,R,R,True
+0834,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+0834,Enterobacter cloacae complex,doripenem,2,I,I,True
+0834,Enterobacter cloacae complex,ertapenem,0.5,S,S,True
+0834,Enterobacter cloacae complex,imipenem,2,I,I,True
+0834,Enterobacter cloacae complex,meropenem,1,S,S,True
+0835,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+0835,Enterobacter cloacae complex,ceftazidime,64,R,R,True
+0835,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+0835,Enterobacter cloacae complex,doripenem,<=0.12,S,S,True
+0835,Enterobacter cloacae complex,ertapenem,<=0.12,S,S,True
+0835,Enterobacter cloacae complex,imipenem,<=0.5,S,S,True
+0835,Enterobacter cloacae complex,meropenem,<=0.12,S,S,True
+0836,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0836,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0836,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0836,Klebsiella pneumoniae complex,doripenem,8,R,R,True
+0836,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0836,Klebsiella pneumoniae complex,imipenem,8,R,R,True
+0836,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0837,Klebsiella oxytoca complex,cefotaxime,>64,R,R,True
+0837,Klebsiella oxytoca complex,ceftazidime,64,R,R,True
+0837,Klebsiella oxytoca complex,ceftriaxone,>32,R,R,True
+0837,Klebsiella oxytoca complex,doripenem,2,I,I,True
+0837,Klebsiella oxytoca complex,ertapenem,4,R,R,True
+0837,Klebsiella oxytoca complex,imipenem,2,I,I,True
+0837,Klebsiella oxytoca complex,meropenem,4,R,R,True
+0838,Enterobacter cloacae complex,cefotaxime,32,R,R,True
+0838,Enterobacter cloacae complex,ceftazidime,128,R,R,True
+0838,Enterobacter cloacae complex,ceftriaxone,32,R,R,True
+0838,Enterobacter cloacae complex,doripenem,<=0.12,S,S,True
+0838,Enterobacter cloacae complex,ertapenem,0.25,S,S,True
+0838,Enterobacter cloacae complex,imipenem,1,S,S,True
+0838,Enterobacter cloacae complex,meropenem,<=0.12,S,S,True
+0839,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+0839,Enterobacter cloacae complex,ceftazidime,>128,R,R,True
+0839,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+0839,Enterobacter cloacae complex,doripenem,<=0.12,S,S,True
+0839,Enterobacter cloacae complex,ertapenem,2,R,R,True
+0839,Enterobacter cloacae complex,imipenem,<=0.5,S,S,True
+0839,Enterobacter cloacae complex,meropenem,<=0.12,S,S,True
+0840,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0840,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0840,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0840,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0840,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0840,Klebsiella pneumoniae complex,imipenem,16,R,R,True
+0840,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0841,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+0841,Enterobacter cloacae complex,ceftazidime,128,R,R,True
+0841,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+0841,Enterobacter cloacae complex,doripenem,4,R,R,True
+0841,Enterobacter cloacae complex,ertapenem,8,R,R,True
+0841,Enterobacter cloacae complex,imipenem,8,R,R,True
+0841,Enterobacter cloacae complex,meropenem,4,R,R,True
+0842,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0842,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0842,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0842,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0842,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0842,Klebsiella pneumoniae complex,imipenem,64,R,R,True
+0842,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0843,Escherichia coli,cefotaxime,>64,R,R,True
+0843,Escherichia coli,ceftazidime,32,R,R,True
+0843,Escherichia coli,ceftriaxone,>32,R,R,True
+0843,Escherichia coli,doripenem,<=0.12,S,S,True
+0843,Escherichia coli,ertapenem,<=0.12,S,S,True
+0843,Escherichia coli,imipenem,<=0.5,S,S,True
+0843,Escherichia coli,meropenem,<=0.12,S,S,True
+0844,Morganella / Providencia,cefotaxime,<=0.5,S,S,True
+0844,Morganella / Providencia,ceftazidime,<=1.0,S,S,True
+0844,Morganella / Providencia,ceftriaxone,<=1.0,S,S,True
+0844,Morganella / Providencia,doripenem,0.25,S,S,True
+0844,Morganella / Providencia,ertapenem,<=0.12,S,S,True
+0844,Morganella / Providencia,meropenem,<=0.12,S,S,True
+0845,Escherichia coli,cefotaxime,>64,R,R,True
+0845,Escherichia coli,ceftazidime,64,R,R,True
+0845,Escherichia coli,ceftriaxone,>32,R,R,True
+0845,Escherichia coli,doripenem,<=0.12,S,S,True
+0845,Escherichia coli,ertapenem,<=0.12,S,S,True
+0845,Escherichia coli,imipenem,<=0.5,S,S,True
+0845,Escherichia coli,meropenem,<=0.12,S,S,True
+0846,Escherichia coli,cefotaxime,8,R,R,True
+0846,Escherichia coli,ceftazidime,16,R,R,True
+0846,Escherichia coli,ceftriaxone,16,R,R,True
+0846,Escherichia coli,doripenem,<=0.12,S,S,True
+0846,Escherichia coli,ertapenem,<=0.12,S,S,True
+0846,Escherichia coli,imipenem,<=0.5,S,S,True
+0846,Escherichia coli,meropenem,<=0.12,S,S,True
+0847,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0847,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0847,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0847,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0847,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0847,Klebsiella pneumoniae complex,imipenem,64,R,R,True
+0847,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0848,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0848,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0848,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0848,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0848,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0848,Klebsiella pneumoniae complex,imipenem,>64,R,R,True
+0848,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0849,Morganella / Providencia,cefotaxime,<=0.5,S,S,True
+0849,Morganella / Providencia,ceftazidime,<=1.0,S,S,True
+0849,Morganella / Providencia,ceftriaxone,<=1.0,S,S,True
+0849,Morganella / Providencia,doripenem,0.5,S,S,True
+0849,Morganella / Providencia,ertapenem,<=0.12,S,S,True
+0849,Morganella / Providencia,meropenem,<=0.12,S,S,True
+0850,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0850,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0850,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0850,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0850,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0850,Klebsiella pneumoniae complex,imipenem,>64,R,R,True
+0850,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0851,Klebsiella pneumoniae complex,cefotaxime,<=0.5,S,S,True
+0851,Klebsiella pneumoniae complex,ceftazidime,<=1.0,S,S,True
+0851,Klebsiella pneumoniae complex,ceftriaxone,<=1.0,S,S,True
+0851,Klebsiella pneumoniae complex,doripenem,<=0.12,S,S,True
+0851,Klebsiella pneumoniae complex,ertapenem,<=0.12,S,S,True
+0851,Klebsiella pneumoniae complex,imipenem,1,S,S,True
+0851,Klebsiella pneumoniae complex,meropenem,<=0.12,S,S,True
+0852,Morganella / Providencia,cefotaxime,<=0.5,S,S,True
+0852,Morganella / Providencia,ceftazidime,<=1.0,S,S,True
+0852,Morganella / Providencia,ceftriaxone,<=1.0,S,S,True
+0852,Morganella / Providencia,doripenem,<=0.12,S,S,True
+0852,Morganella / Providencia,ertapenem,<=0.12,S,S,True
+0852,Morganella / Providencia,meropenem,<=0.12,S,S,True
+0853,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0853,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0853,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0853,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0853,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0853,Klebsiella pneumoniae complex,imipenem,16,R,R,True
+0853,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0854,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0854,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0854,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0854,Klebsiella pneumoniae complex,doripenem,<=0.12,S,S,True
+0854,Klebsiella pneumoniae complex,ertapenem,1,I,I,True
+0854,Klebsiella pneumoniae complex,imipenem,<=0.5,S,S,True
+0854,Klebsiella pneumoniae complex,meropenem,<=0.12,S,S,True
+0855,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0855,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0855,Klebsiella pneumoniae complex,ceftriaxone,16,R,R,True
+0855,Klebsiella pneumoniae complex,doripenem,8,R,R,True
+0855,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0855,Klebsiella pneumoniae complex,imipenem,8,R,R,True
+0855,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0856,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0856,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0856,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0856,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0856,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0856,Klebsiella pneumoniae complex,imipenem,64,R,R,True
+0856,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0857,Morganella / Providencia,cefotaxime,<=0.5,S,S,True
+0857,Morganella / Providencia,ceftazidime,<=1.0,S,S,True
+0857,Morganella / Providencia,ceftriaxone,<=1.0,S,S,True
+0857,Morganella / Providencia,doripenem,0.25,S,S,True
+0857,Morganella / Providencia,ertapenem,<=0.12,S,S,True
+0857,Morganella / Providencia,meropenem,<=0.12,S,S,True
+0858,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+0858,Enterobacter cloacae complex,ceftazidime,>128,R,R,True
+0858,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+0858,Enterobacter cloacae complex,doripenem,>8,R,R,True
+0858,Enterobacter cloacae complex,ertapenem,>8,R,R,True
+0858,Enterobacter cloacae complex,imipenem,16,R,R,True
+0858,Enterobacter cloacae complex,meropenem,>8,R,R,True
+0859,Escherichia coli,cefotaxime,>64,R,R,True
+0859,Escherichia coli,ceftazidime,8,I,I,True
+0859,Escherichia coli,ceftriaxone,>32,R,R,True
+0859,Escherichia coli,doripenem,<=0.12,S,S,True
+0859,Escherichia coli,ertapenem,<=0.12,S,S,True
+0859,Escherichia coli,imipenem,<=0.5,S,S,True
+0859,Escherichia coli,meropenem,<=0.12,S,S,True
+0860,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0860,Klebsiella pneumoniae complex,ceftazidime,64,R,R,True
+0860,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0860,Klebsiella pneumoniae complex,doripenem,4,R,R,True
+0860,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0860,Klebsiella pneumoniae complex,imipenem,2,I,I,True
+0860,Klebsiella pneumoniae complex,meropenem,8,R,R,True
+0637,Citrobacter freundii complex,cefotaxime,<=0.5,S,S,True
+0637,Citrobacter freundii complex,ceftazidime,<=1.0,S,S,True
+0637,Citrobacter freundii complex,ceftriaxone,<=1.0,S,S,True
+0637,Citrobacter freundii complex,doripenem,<=0.12,S,S,True
+0637,Citrobacter freundii complex,ertapenem,<=0.12,S,S,True
+0637,Citrobacter freundii complex,imipenem,1,S,S,True
+0637,Citrobacter freundii complex,meropenem,<=0.12,S,S,True
+0591,Escherichia coli,cefotaxime,>64,R,R,True
+0591,Escherichia coli,ceftazidime,>128,R,R,True
+0591,Escherichia coli,ceftriaxone,>32,R,R,True
+0591,Escherichia coli,doripenem,,S,NI,
+0591,Escherichia coli,ertapenem,1,I,I,True
+0591,Escherichia coli,imipenem,<=0.5,S,S,True
+0591,Escherichia coli,meropenem,<=0.12,S,S,True
+0592,Escherichia coli,cefotaxime,>64,R,R,True
+0592,Escherichia coli,ceftazidime,>128,R,R,True
+0592,Escherichia coli,ceftriaxone,>32,R,R,True
+0592,Escherichia coli,doripenem,<=0.12,S,S,True
+0592,Escherichia coli,ertapenem,0.5,S,S,True
+0592,Escherichia coli,imipenem,1,S,S,True
+0592,Escherichia coli,meropenem,<=0.12,S,S,True
+0593,Escherichia coli,cefotaxime,>64,R,R,True
+0593,Escherichia coli,ceftazidime,>128,R,R,True
+0593,Escherichia coli,ceftriaxone,>32,R,R,True
+0593,Escherichia coli,doripenem,<=0.12,S,S,True
+0593,Escherichia coli,ertapenem,0.5,S,S,True
+0593,Escherichia coli,imipenem,<=0.5,S,S,True
+0593,Escherichia coli,meropenem,<=0.12,S,S,True
+0594,Escherichia coli,cefotaxime,>64,R,R,True
+0594,Escherichia coli,ceftazidime,>128,R,R,True
+0594,Escherichia coli,ceftriaxone,>32,R,R,True
+0594,Escherichia coli,doripenem,<=0.12,S,S,True
+0594,Escherichia coli,ertapenem,0.25,S,S,True
+0594,Escherichia coli,imipenem,<=0.5,S,S,True
+0594,Escherichia coli,meropenem,<=0.12,S,S,True
+0595,Escherichia coli,cefotaxime,>64,R,R,True
+0595,Escherichia coli,ceftazidime,>128,R,R,True
+0595,Escherichia coli,ceftriaxone,>32,R,R,True
+0595,Escherichia coli,doripenem,<=0.12,S,S,True
+0595,Escherichia coli,ertapenem,1,I,I,True
+0595,Escherichia coli,imipenem,1,S,S,True
+0595,Escherichia coli,meropenem,<=0.12,S,S,True
+0596,Escherichia coli,cefotaxime,>64,R,R,True
+0596,Escherichia coli,ceftazidime,>128,R,R,True
+0596,Escherichia coli,ceftriaxone,>32,R,R,True
+0596,Escherichia coli,doripenem,<=0.12,S,S,True
+0596,Escherichia coli,ertapenem,0.5,S,S,True
+0596,Escherichia coli,imipenem,<=0.5,S,S,True
+0596,Escherichia coli,meropenem,<=0.12,S,S,True
+0597,Escherichia coli,cefotaxime,>64,R,R,True
+0597,Escherichia coli,ceftazidime,>128,R,R,True
+0597,Escherichia coli,ceftriaxone,>32,R,R,True
+0597,Escherichia coli,doripenem,<=0.12,S,S,True
+0597,Escherichia coli,ertapenem,0.25,S,S,True
+0597,Escherichia coli,imipenem,<=0.5,S,S,True
+0597,Escherichia coli,meropenem,<=0.12,S,S,True
+0598,Escherichia coli,cefotaxime,>64,R,R,True
+0598,Escherichia coli,ceftazidime,>128,R,R,True
+0598,Escherichia coli,ceftriaxone,>32,R,R,True
+0598,Escherichia coli,doripenem,8,R,R,True
+0598,Escherichia coli,ertapenem,>8,R,R,True
+0598,Escherichia coli,imipenem,8,R,R,True
+0598,Escherichia coli,meropenem,>8,R,R,True
+0599,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0599,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0599,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0599,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0599,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0599,Klebsiella pneumoniae complex,imipenem,32,R,R,True
+0599,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0600,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0600,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0600,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0600,Klebsiella pneumoniae complex,doripenem,0.5,S,S,True
+0600,Klebsiella pneumoniae complex,ertapenem,8,R,R,True
+0600,Klebsiella pneumoniae complex,imipenem,<=0.5,S,S,True
+0600,Klebsiella pneumoniae complex,meropenem,1,S,S,True
+0601,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0601,Klebsiella pneumoniae complex,ceftazidime,32,R,R,True
+0601,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0601,Klebsiella pneumoniae complex,doripenem,<=0.12,S,S,True
+0601,Klebsiella pneumoniae complex,ertapenem,0.25,S,S,True
+0601,Klebsiella pneumoniae complex,imipenem,<=0.5,S,S,True
+0601,Klebsiella pneumoniae complex,meropenem,<=0.12,S,S,True
+0602,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0602,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0602,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0602,Klebsiella pneumoniae complex,doripenem,<=0.12,S,S,True
+0602,Klebsiella pneumoniae complex,ertapenem,0.5,S,S,True
+0602,Klebsiella pneumoniae complex,imipenem,<=0.5,S,S,True
+0602,Klebsiella pneumoniae complex,meropenem,<=0.12,S,S,True
+0603,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0603,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0603,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0603,Klebsiella pneumoniae complex,doripenem,<=0.12,S,S,True
+0603,Klebsiella pneumoniae complex,ertapenem,0.5,S,S,True
+0603,Klebsiella pneumoniae complex,imipenem,<=0.5,S,S,True
+0603,Klebsiella pneumoniae complex,meropenem,<=0.12,S,S,True
+0604,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0604,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0604,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0604,Klebsiella pneumoniae complex,doripenem,<=0.12,S,S,True
+0604,Klebsiella pneumoniae complex,ertapenem,1,I,I,True
+0604,Klebsiella pneumoniae complex,imipenem,<=0.5,S,S,True
+0604,Klebsiella pneumoniae complex,meropenem,<=0.12,S,S,True
+0605,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0605,Klebsiella pneumoniae complex,ceftazidime,32,R,R,True
+0605,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0605,Klebsiella pneumoniae complex,doripenem,<=0.12,S,S,True
+0605,Klebsiella pneumoniae complex,ertapenem,0.5,S,S,True
+0605,Klebsiella pneumoniae complex,imipenem,<=0.5,S,S,True
+0605,Klebsiella pneumoniae complex,meropenem,<=0.12,S,S,True
+0606,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0606,Klebsiella pneumoniae complex,ceftazidime,128,R,R,True
+0606,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0606,Klebsiella pneumoniae complex,doripenem,4,R,R,True
+0606,Klebsiella pneumoniae complex,ertapenem,8,R,R,True
+0606,Klebsiella pneumoniae complex,imipenem,8,R,R,True
+0606,Klebsiella pneumoniae complex,meropenem,8,R,R,True
+0607,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+0607,Enterobacter cloacae complex,ceftazidime,>128,R,R,True
+0607,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+0607,Enterobacter cloacae complex,doripenem,<=0.12,S,S,True
+0607,Enterobacter cloacae complex,ertapenem,2,R,R,True
+0607,Enterobacter cloacae complex,imipenem,<=0.25,S,S,True
+0607,Enterobacter cloacae complex,meropenem,<=0.12,S,S,True
+0608,Serratia spp.,cefotaxime,>64,R,R,True
+0608,Serratia spp.,ceftazidime,>128,R,R,True
+0608,Serratia spp.,ceftriaxone,>32,R,R,True
+0608,Serratia spp.,doripenem,<=0.12,S,S,True
+0608,Serratia spp.,ertapenem,0.25,S,S,True
+0608,Serratia spp.,imipenem,<=0.5,S,S,True
+0608,Serratia spp.,meropenem,<=0.12,S,S,True
+0612,Escherichia coli,cefotaxime,>64,R,R,True
+0612,Escherichia coli,ceftazidime,>128,R,R,True
+0612,Escherichia coli,ceftriaxone,>32,R,R,True
+0612,Escherichia coli,doripenem,>8,R,R,True
+0612,Escherichia coli,ertapenem,>8,R,R,True
+0612,Escherichia coli,imipenem,16,R,R,True
+0612,Escherichia coli,meropenem,>8,R,R,True
+0614,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0614,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0614,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0614,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0614,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0614,Klebsiella pneumoniae complex,imipenem,8,R,R,True
+0614,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0615,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0615,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+0615,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0615,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0615,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0615,Klebsiella pneumoniae complex,imipenem,16,R,R,True
+0615,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0616,Escherichia coli,cefotaxime,>64,R,R,True
+0616,Escherichia coli,ceftazidime,>128,R,R,True
+0616,Escherichia coli,ceftriaxone,>32,R,R,True
+0616,Escherichia coli,doripenem,>8,R,R,True
+0616,Escherichia coli,ertapenem,>8,R,R,True
+0616,Escherichia coli,imipenem,8,R,R,True
+0616,Escherichia coli,meropenem,>8,R,R,True
+0617,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+0617,Klebsiella pneumoniae complex,ceftazidime,128,R,R,True
+0617,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+0617,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+0617,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+0617,Klebsiella pneumoniae complex,imipenem,64,R,R,True
+0617,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+0618,Morganella / Providencia,cefotaxime,>64,R,R,True
+0618,Morganella / Providencia,ceftazidime,>128,R,R,True
+0618,Morganella / Providencia,ceftriaxone,>32,R,R,True
+0618,Morganella / Providencia,doripenem,8,R,R,True
+0618,Morganella / Providencia,ertapenem,4,R,R,True
+0618,Morganella / Providencia,meropenem,4,R,R,True
+0781,Enterococcus faecalis,vancomycin,>64,R,R,True
+0782,Enterococcus faecalis,vancomycin,32,R,R,True
+0783,Enterococcus faecium,vancomycin,64,R,R,True
+0785,Enterococcus faecalis,vancomycin,2,S,S,True
+0786,Enterococcus faecalis,vancomycin,32,R,R,True
+0787,Enterococcus faecium,vancomycin,>64,R,R,True
+0789,Enterococcus faecium,vancomycin,>64,R,R,True
+0790,Enterococcus faecium,vancomycin,>64,R,R,True
+0791,Enterococcus faecalis,vancomycin,1,S,S,True
+0792,Enterococcus faecium,vancomycin,>64,R,R,True
+0793,Enterococcus faecalis,vancomycin,1,S,S,True
+0794,Enterococcus faecium,vancomycin,>64,R,R,True
+0795,Enterococcus faecalis,vancomycin,32,R,R,True
+0799,Enterococcus faecalis,vancomycin,>64,R,R,True
+0800,Enterococcus faecalis,vancomycin,64,R,R,True
+0802,Enterococcus faecium,vancomycin,>64,R,R,True
+0803,Enterococcus faecium,vancomycin,>64,R,R,True
+0804,Enterococcus faecalis,vancomycin,16,I,I,True
+0805,Enterococcus faecalis,vancomycin,1,S,S,True
+0806,Enterococcus faecium,vancomycin,0.5,S,S,True
+0807,Enterococcus faecium,vancomycin,>64,R,R,True
+0809,Enterococcus faecalis,vancomycin,>64,R,R,True
+0810,Enterococcus faecalis,vancomycin,1,S,S,True
+0872,Escherichia coli,ceftriaxone,<=1,S,S,True
+0873,Escherichia coli,ceftriaxone,<=1,S,S,True
+0874,Escherichia coli,ceftriaxone,<=1,S,S,True
+0875,Escherichia coli,ceftriaxone,<=1,S,S,True
+0876,Escherichia coli,ceftriaxone,<=1,S,S,True
+0877,Escherichia coli,ceftriaxone,<=1,S,S,True
+0878,Escherichia coli,ceftriaxone,<=1,S,S,True
+0879,Escherichia coli,ceftriaxone,<=1,S,S,True
+0880,Escherichia coli,ceftriaxone,<=1,S,S,True
+0881,Escherichia coli,ceftriaxone,<=1,S,S,True
+0882,Escherichia coli,ceftriaxone,<=1,S,S,True
+0883,Escherichia coli,ceftriaxone,<=1,S,S,True
+0884,Escherichia coli,ceftriaxone,<=1,S,S,True
+0885,Escherichia coli,ceftriaxone,<=1,S,S,True
+0886,Escherichia coli,ceftriaxone,<=1,S,S,True
+0887,Escherichia coli,ceftriaxone,<=1,S,S,True
+0888,Escherichia coli,ceftriaxone,<=1,S,S,True
+0889,Escherichia coli,ceftriaxone,<=1,S,S,True
+0890,Escherichia coli,ceftriaxone,<=1,S,S,True
+0891,Escherichia coli,ceftriaxone,<=1,S,S,True
+0892,Escherichia coli,ceftriaxone,<=1,S,S,True
+0893,Escherichia coli,ceftriaxone,<=1,S,S,True
+0894,Escherichia coli,ceftriaxone,<=1,S,S,True
+0895,Escherichia coli,ceftriaxone,<=1,S,S,True
+0896,Escherichia coli,ceftriaxone,<=1,S,S,True
+0897,Escherichia coli,ceftriaxone,<=1,S,S,True
+0898,Escherichia coli,ceftriaxone,<=1,S,S,True
+0899,Escherichia coli,ceftriaxone,<=1,S,S,True
+0900,Escherichia coli,ceftriaxone,<=1,S,S,True
+0919,Salmonella enterica,cefotaxime,32,R,R,True
+0919,Salmonella enterica,ceftazidime,4,S,S,True
+0919,Salmonella enterica,ceftriaxone,64,R,R,True
+0919,Salmonella enterica,imipenem,0.25,S,S,True
+0920,Salmonella enterica,ceftriaxone,64,R,R,True
+0920,Salmonella enterica,meropenem,0.06,S,S,True
+0921,Salmonella enterica,ceftriaxone,>64,R,R,True
+0921,Salmonella enterica,meropenem,<=0.06,S,S,True
+0922,Salmonella enterica,ceftriaxone,64,R,R,True
+0922,Salmonella enterica,meropenem,<=0.06,S,S,True
+0924,Salmonella enterica,ceftriaxone,>64,R,R,True
+0924,Salmonella enterica,meropenem,<=0.06,S,S,True
+0925,Salmonella enterica,ceftriaxone,<=0.25,S,S,True
+0925,Salmonella enterica,meropenem,<=0.06,S,S,True
+0926,Salmonella enterica,ceftriaxone,<=0.25,S,S,True
+0926,Salmonella enterica,meropenem,<=0.06,S,S,True
+0978,Staphylococcus aureus,cefoxitin,16,R,R,True
+0978,Staphylococcus aureus,oxacillin,16,R,R,True
+0979,Staphylococcus aureus,cefoxitin,8,R,R,True
+0979,Staphylococcus aureus,oxacillin,8,R,R,True
+0980,Staphylococcus aureus,cefoxitin,8,R,R,True
+0980,Staphylococcus aureus,oxacillin,0.5,S,S,True
+0981,Staphylococcus aureus,cefoxitin,4,S,S,True
+0981,Staphylococcus aureus,oxacillin,<=0.25,S,S,True
+0982,Staphylococcus aureus,cefoxitin,8,R,R,True
+0982,Staphylococcus aureus,oxacillin,0.5,S,S,True
+0983,Staphylococcus aureus,cefoxitin,8,R,R,True
+0983,Staphylococcus aureus,oxacillin,1,S,S,True
+0984,Staphylococcus aureus,cefoxitin,8,R,R,True
+0984,Staphylococcus aureus,oxacillin,0.5,S,S,True
+0985,Staphylococcus aureus,cefoxitin,8,R,R,True
+0985,Staphylococcus aureus,oxacillin,2,S,S,True
+0986,Staphylococcus aureus,cefoxitin,8,R,R,True
+0986,Staphylococcus aureus,oxacillin,0.5,S,S,True
+0987,Staphylococcus aureus,cefoxitin,8,R,R,True
+0987,Staphylococcus aureus,oxacillin,0.5,S,S,True
+0988,Staphylococcus aureus,cefoxitin,8,R,R,True
+0988,Staphylococcus aureus,oxacillin,1,S,S,True
+0989,Staphylococcus aureus,cefoxitin,8,R,R,True
+0989,Staphylococcus aureus,oxacillin,0.5,S,S,True
+0990,Staphylococcus aureus,cefoxitin,8,R,R,True
+0990,Staphylococcus aureus,oxacillin,0.5,S,S,True
+0991,Staphylococcus aureus,cefoxitin,4,S,S,True
+0991,Staphylococcus aureus,oxacillin,1,S,S,True
+0992,Staphylococcus aureus,cefoxitin,4,S,S,True
+0992,Staphylococcus aureus,oxacillin,1,S,S,True
+0993,Staphylococcus aureus,cefoxitin,8,R,R,True
+0993,Staphylococcus aureus,oxacillin,4,R,R,True
+0994,Staphylococcus aureus,cefoxitin,8,R,R,True
+0994,Staphylococcus aureus,oxacillin,1,S,S,True
+0995,Staphylococcus aureus,cefoxitin,16,R,R,True
+0995,Staphylococcus aureus,oxacillin,0.5,S,S,True
+0996,Staphylococcus aureus,cefoxitin,8,R,R,True
+0996,Staphylococcus aureus,oxacillin,0.5,S,S,True
+0997,Staphylococcus aureus,cefoxitin,16,R,R,True
+0997,Staphylococcus aureus,oxacillin,16,R,R,True
+0998,Staphylococcus aureus,cefoxitin,4,S,S,True
+0998,Staphylococcus aureus,oxacillin,<=0.25,S,S,True
+0999,Staphylococcus aureus,cefoxitin,8,R,R,True
+0999,Staphylococcus aureus,oxacillin,0.5,S,S,True
+1000,Staphylococcus aureus,cefoxitin,16,R,R,True
+1000,Staphylococcus aureus,oxacillin,2,S,S,True
+1001,Staphylococcus aureus,cefoxitin,8,R,R,True
+1001,Staphylococcus aureus,oxacillin,4,R,R,True
+1002,Staphylococcus aureus,cefoxitin,8,R,R,True
+1002,Staphylococcus aureus,oxacillin,2,S,S,True
+1003,Staphylococcus aureus,cefoxitin,4,S,S,True
+1003,Staphylococcus aureus,oxacillin,0.5,S,S,True
+1004,Staphylococcus aureus,cefoxitin,8,R,R,True
+1004,Staphylococcus aureus,oxacillin,2,S,S,True
+1005,Staphylococcus aureus,cefoxitin,8,R,R,True
+1005,Staphylococcus aureus,oxacillin,2,S,S,True
+1006,Staphylococcus aureus,cefoxitin,>16,R,R,True
+1006,Staphylococcus aureus,oxacillin,16,R,R,True
+1007,Escherichia coli,cefotaxime,>64,R,R,True
+1007,Escherichia coli,ceftazidime,16,R,R,True
+1007,Escherichia coli,ceftriaxone,>32,R,R,True
+1007,Escherichia coli,doripenem,<=0.12,S,S,True
+1007,Escherichia coli,ertapenem,<=0.12,S,S,True
+1007,Escherichia coli,imipenem,<=0.5,S,S,True
+1007,Escherichia coli,meropenem,<=0.12,S,S,True
+1008,Klebsiella oxytoca complex,cefotaxime,>64,R,R,True
+1008,Klebsiella oxytoca complex,ceftazidime,16,R,R,True
+1008,Klebsiella oxytoca complex,ceftriaxone,>32,R,R,True
+1008,Klebsiella oxytoca complex,doripenem,<=0.12,S,S,True
+1008,Klebsiella oxytoca complex,ertapenem,<=0.12,S,S,True
+1008,Klebsiella oxytoca complex,imipenem,<=0.5,S,S,True
+1008,Klebsiella oxytoca complex,meropenem,<=0.12,S,S,True
+1009,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1009,Klebsiella pneumoniae complex,ceftazidime,32,R,R,True
+1009,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+1009,Klebsiella pneumoniae complex,doripenem,<=0.12,S,S,True
+1009,Klebsiella pneumoniae complex,ertapenem,<=0.12,S,S,True
+1009,Klebsiella pneumoniae complex,imipenem,<=0.5,S,S,True
+1009,Klebsiella pneumoniae complex,meropenem,<=0.12,S,S,True
+1010,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1010,Klebsiella pneumoniae complex,ceftazidime,128,R,R,True
+1010,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+1010,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+1010,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+1010,Klebsiella pneumoniae complex,imipenem,>64,R,R,True
+1010,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+1011,Enterobacter cloacae complex,cefotaxime,16,R,R,True
+1011,Enterobacter cloacae complex,ceftazidime,8,R,I,False
+1011,Enterobacter cloacae complex,ceftriaxone,32,R,R,True
+1011,Enterobacter cloacae complex,doripenem,2,I,I,True
+1011,Enterobacter cloacae complex,ertapenem,>8,R,R,True
+1011,Enterobacter cloacae complex,imipenem,2,I,I,True
+1011,Enterobacter cloacae complex,meropenem,2,I,I,True
+1012,Escherichia coli,cefotaxime,>64,R,R,True
+1012,Escherichia coli,ceftazidime,<=1,S,S,True
+1012,Escherichia coli,ceftriaxone,>32,R,R,True
+1012,Escherichia coli,doripenem,<=0.12,S,S,True
+1012,Escherichia coli,ertapenem,<=0.12,S,S,True
+1012,Escherichia coli,imipenem,<=0.5,S,S,True
+1012,Escherichia coli,meropenem,<=0.12,S,S,True
+1013,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1013,Klebsiella pneumoniae complex,ceftazidime,128,R,R,True
+1013,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+1013,Klebsiella pneumoniae complex,doripenem,<=0.12,S,S,True
+1013,Klebsiella pneumoniae complex,ertapenem,<=0.12,S,S,True
+1013,Klebsiella pneumoniae complex,imipenem,<=0.5,S,S,True
+1013,Klebsiella pneumoniae complex,meropenem,<=0.12,S,S,True
+1014,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1014,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+1014,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+1014,Klebsiella pneumoniae complex,doripenem,8,R,R,True
+1014,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+1014,Klebsiella pneumoniae complex,imipenem,16,R,R,True
+1014,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+1015,Escherichia coli,cefotaxime,>64,R,R,True
+1015,Escherichia coli,ceftazidime,8,I,I,True
+1015,Escherichia coli,ceftriaxone,>32,R,R,True
+1015,Escherichia coli,doripenem,<=0.12,S,S,True
+1015,Escherichia coli,ertapenem,<=0.12,S,S,True
+1015,Escherichia coli,imipenem,<=0.5,S,S,True
+1015,Escherichia coli,meropenem,<=0.12,S,S,True
+1016,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1016,Klebsiella pneumoniae complex,ceftazidime,64,R,R,True
+1016,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+1016,Klebsiella pneumoniae complex,doripenem,<=0.12,S,S,True
+1016,Klebsiella pneumoniae complex,ertapenem,0.25,S,S,True
+1016,Klebsiella pneumoniae complex,imipenem,<=0.5,S,S,True
+1016,Klebsiella pneumoniae complex,meropenem,<=0.12,S,S,True
+1017,Escherichia coli,cefotaxime,>64,R,R,True
+1017,Escherichia coli,ceftazidime,32,R,R,True
+1017,Escherichia coli,ceftriaxone,>32,R,R,True
+1017,Escherichia coli,doripenem,<=0.12,S,S,True
+1017,Escherichia coli,ertapenem,<=0.12,S,S,True
+1017,Escherichia coli,imipenem,<=0.5,S,S,True
+1017,Escherichia coli,meropenem,<=0.12,S,S,True
+1018,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1018,Klebsiella pneumoniae complex,ceftazidime,16,R,R,True
+1018,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+1018,Klebsiella pneumoniae complex,doripenem,<=0.12,S,S,True
+1018,Klebsiella pneumoniae complex,ertapenem,<=0.12,S,S,True
+1018,Klebsiella pneumoniae complex,imipenem,<=0.5,S,S,True
+1018,Klebsiella pneumoniae complex,meropenem,<=0.12,S,S,True
+1019,Escherichia coli,cefotaxime,>64,R,R,True
+1019,Escherichia coli,ceftazidime,2,S,S,True
+1019,Escherichia coli,ceftriaxone,>32,R,R,True
+1019,Escherichia coli,doripenem,<=0.12,S,S,True
+1019,Escherichia coli,ertapenem,<=0.12,S,S,True
+1019,Escherichia coli,imipenem,<=0.5,S,S,True
+1019,Escherichia coli,meropenem,<=0.12,S,S,True
+1020,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1020,Klebsiella pneumoniae complex,ceftazidime,16,R,R,True
+1020,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+1020,Klebsiella pneumoniae complex,doripenem,<=0.12,S,S,True
+1020,Klebsiella pneumoniae complex,ertapenem,<=0.12,S,S,True
+1020,Klebsiella pneumoniae complex,imipenem,<=0.5,S,S,True
+1020,Klebsiella pneumoniae complex,meropenem,<=0.12,S,S,True
+1022,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1022,Klebsiella pneumoniae complex,ceftazidime,4,S,S,True
+1022,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+1022,Klebsiella pneumoniae complex,doripenem,<=0.12,S,S,True
+1022,Klebsiella pneumoniae complex,ertapenem,<=0.12,S,S,True
+1022,Klebsiella pneumoniae complex,imipenem,<=0.5,S,S,True
+1022,Klebsiella pneumoniae complex,meropenem,<=0.12,S,S,True
+1023,Escherichia coli,cefotaxime,64,R,R,True
+1023,Escherichia coli,ceftazidime,<=1,S,S,True
+1023,Escherichia coli,ceftriaxone,>32,R,R,True
+1023,Escherichia coli,doripenem,<=0.12,S,S,True
+1023,Escherichia coli,ertapenem,<=0.12,S,S,True
+1023,Escherichia coli,imipenem,<=0.5,S,S,True
+1023,Escherichia coli,meropenem,<=0.12,S,S,True
+1024,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1024,Klebsiella pneumoniae complex,ceftazidime,16,R,R,True
+1024,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+1024,Klebsiella pneumoniae complex,doripenem,<=0.12,S,S,True
+1024,Klebsiella pneumoniae complex,ertapenem,<=0.12,S,S,True
+1024,Klebsiella pneumoniae complex,imipenem,<=0.5,S,S,True
+1024,Klebsiella pneumoniae complex,meropenem,<=0.12,S,S,True
+1025,Escherichia coli,cefotaxime,>64,R,R,True
+1025,Escherichia coli,ceftazidime,2,S,S,True
+1025,Escherichia coli,ceftriaxone,>32,R,R,True
+1025,Escherichia coli,doripenem,<=0.12,S,S,True
+1025,Escherichia coli,ertapenem,<=0.12,S,S,True
+1025,Escherichia coli,imipenem,<=0.5,S,S,True
+1025,Escherichia coli,meropenem,<=0.12,S,S,True
+1026,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1026,Klebsiella pneumoniae complex,ceftazidime,16,R,R,True
+1026,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+1026,Klebsiella pneumoniae complex,doripenem,<=0.12,S,S,True
+1026,Klebsiella pneumoniae complex,ertapenem,<=0.12,S,S,True
+1026,Klebsiella pneumoniae complex,imipenem,<=0.5,S,S,True
+1026,Klebsiella pneumoniae complex,meropenem,<=0.12,S,S,True
+1027,Escherichia coli,cefotaxime,>64,R,R,True
+1027,Escherichia coli,ceftazidime,2,S,S,True
+1027,Escherichia coli,ceftriaxone,>32,R,R,True
+1027,Escherichia coli,doripenem,<=0.12,S,S,True
+1027,Escherichia coli,ertapenem,<=0.12,S,S,True
+1027,Escherichia coli,imipenem,<=0.5,S,S,True
+1027,Escherichia coli,meropenem,<=0.12,S,S,True
+1028,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1028,Klebsiella pneumoniae complex,ceftazidime,64,R,R,True
+1028,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+1028,Klebsiella pneumoniae complex,doripenem,<=0.12,S,S,True
+1028,Klebsiella pneumoniae complex,ertapenem,<=0.12,S,S,True
+1028,Klebsiella pneumoniae complex,imipenem,<=0.5,S,S,True
+1028,Klebsiella pneumoniae complex,meropenem,<=0.12,S,S,True
+1029,Escherichia coli,cefotaxime,>64,R,R,True
+1029,Escherichia coli,ceftazidime,4,S,S,True
+1029,Escherichia coli,ceftriaxone,>32,R,R,True
+1029,Escherichia coli,doripenem,<=0.12,S,S,True
+1029,Escherichia coli,ertapenem,<=0.12,S,S,True
+1029,Escherichia coli,imipenem,<=0.5,S,S,True
+1029,Escherichia coli,meropenem,<=0.12,S,S,True
+1030,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1030,Klebsiella pneumoniae complex,ceftazidime,<1,S,S,True
+1030,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+1030,Klebsiella pneumoniae complex,doripenem,<=0.12,S,S,True
+1030,Klebsiella pneumoniae complex,ertapenem,<=0.12,S,S,True
+1030,Klebsiella pneumoniae complex,imipenem,<=0.5,S,S,True
+1030,Klebsiella pneumoniae complex,meropenem,<=0.12,S,S,True
+1031,Escherichia coli,cefotaxime,>64,R,R,True
+1031,Escherichia coli,ceftazidime,4,S,S,True
+1031,Escherichia coli,ceftriaxone,>32,R,R,True
+1031,Escherichia coli,doripenem,<=0.12,S,S,True
+1031,Escherichia coli,ertapenem,<=0.12,S,S,True
+1031,Escherichia coli,imipenem,<=0.5,S,S,True
+1031,Escherichia coli,meropenem,<=0.12,S,S,True
+1032,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1032,Klebsiella pneumoniae complex,ceftazidime,8,I,I,True
+1032,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+1032,Klebsiella pneumoniae complex,doripenem,<=0.12,S,S,True
+1032,Klebsiella pneumoniae complex,ertapenem,<=0.12,S,S,True
+1032,Klebsiella pneumoniae complex,imipenem,<=0.5,S,S,True
+1032,Klebsiella pneumoniae complex,meropenem,<=0.12,S,S,True
+1033,Escherichia coli,cefotaxime,>64,R,R,True
+1033,Escherichia coli,ceftazidime,64,R,R,True
+1033,Escherichia coli,ceftriaxone,>32,R,R,True
+1033,Escherichia coli,doripenem,<=0.12,S,S,True
+1033,Escherichia coli,ertapenem,<=0.12,S,S,True
+1033,Escherichia coli,imipenem,<=0.5,S,S,True
+1033,Escherichia coli,meropenem,<=0.12,S,S,True
+1034,Escherichia coli,cefotaxime,64,R,R,True
+1034,Escherichia coli,ceftazidime,>128,R,R,True
+1034,Escherichia coli,ceftriaxone,>32,R,R,True
+1034,Escherichia coli,doripenem,<=0.12,S,S,True
+1034,Escherichia coli,ertapenem,<=0.12,S,S,True
+1034,Escherichia coli,imipenem,<=0.5,S,S,True
+1034,Escherichia coli,meropenem,<=0.12,S,S,True
+1035,Escherichia coli,cefotaxime,>64,R,R,True
+1035,Escherichia coli,ceftazidime,64,R,R,True
+1035,Escherichia coli,ceftriaxone,>32,R,R,True
+1035,Escherichia coli,doripenem,<=0.12,S,S,True
+1035,Escherichia coli,ertapenem,<=0.12,S,S,True
+1035,Escherichia coli,imipenem,<=0.5,S,S,True
+1035,Escherichia coli,meropenem,<=0.12,S,S,True
+1036,Escherichia coli,cefotaxime,>64,R,R,True
+1036,Escherichia coli,ceftazidime,4,S,S,True
+1036,Escherichia coli,ceftriaxone,>32,R,R,True
+1036,Escherichia coli,doripenem,<=0.12,S,S,True
+1036,Escherichia coli,ertapenem,<=0.12,S,S,True
+1036,Escherichia coli,imipenem,<=0.5,S,S,True
+1036,Escherichia coli,meropenem,<=0.12,S,S,True
+1037,Escherichia coli,cefotaxime,>64,R,R,True
+1037,Escherichia coli,ceftazidime,4,S,S,True
+1037,Escherichia coli,ceftriaxone,>32,R,R,True
+1037,Escherichia coli,doripenem,<=0.12,S,S,True
+1037,Escherichia coli,ertapenem,<=0.12,S,S,True
+1037,Escherichia coli,imipenem,<=0.5,S,S,True
+1037,Escherichia coli,meropenem,<=0.12,S,S,True
+1038,Escherichia coli,cefotaxime,>64,R,R,True
+1038,Escherichia coli,ceftazidime,4,S,S,True
+1038,Escherichia coli,ceftriaxone,>32,R,R,True
+1038,Escherichia coli,doripenem,<=0.12,S,S,True
+1038,Escherichia coli,ertapenem,<=0.12,S,S,True
+1038,Escherichia coli,imipenem,<=0.5,S,S,True
+1038,Escherichia coli,meropenem,<=0.12,S,S,True
+1039,Escherichia coli,cefotaxime,>64,R,R,True
+1039,Escherichia coli,ceftazidime,32,R,R,True
+1039,Escherichia coli,ceftriaxone,>32,R,R,True
+1039,Escherichia coli,doripenem,<=0.12,S,S,True
+1039,Escherichia coli,ertapenem,<=0.12,S,S,True
+1039,Escherichia coli,imipenem,<=0.5,S,S,True
+1039,Escherichia coli,meropenem,<=0.12,S,S,True
+1040,Escherichia coli,cefotaxime,>64,R,R,True
+1040,Escherichia coli,ceftazidime,64,R,R,True
+1040,Escherichia coli,ceftriaxone,>32,R,R,True
+1040,Escherichia coli,doripenem,8,R,R,True
+1040,Escherichia coli,ertapenem,>8,R,R,True
+1040,Escherichia coli,imipenem,16,R,R,True
+1040,Escherichia coli,meropenem,8,R,R,True
+1041,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1041,Klebsiella pneumoniae complex,ceftazidime,16,R,R,True
+1041,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+1041,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+1041,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+1041,Klebsiella pneumoniae complex,imipenem,8,R,R,True
+1041,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+1042,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+1042,Enterobacter cloacae complex,ceftazidime,>128,R,R,True
+1042,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+1042,Enterobacter cloacae complex,doripenem,>8,R,R,True
+1042,Enterobacter cloacae complex,ertapenem,>8,R,R,True
+1042,Enterobacter cloacae complex,imipenem,>64,R,R,True
+1042,Enterobacter cloacae complex,meropenem,>8,R,R,True
+1043,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1043,Klebsiella pneumoniae complex,ceftazidime,64,R,R,True
+1043,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+1043,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+1043,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+1043,Klebsiella pneumoniae complex,imipenem,64,R,R,True
+1043,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+1044,Escherichia coli,cefotaxime,>64,R,R,True
+1044,Escherichia coli,ceftazidime,>128,R,R,True
+1044,Escherichia coli,ceftriaxone,>32,R,R,True
+1044,Escherichia coli,doripenem,4,R,R,True
+1044,Escherichia coli,ertapenem,>8,R,R,True
+1044,Escherichia coli,imipenem,8,R,R,True
+1044,Escherichia coli,meropenem,8,R,R,True
+1045,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1045,Klebsiella pneumoniae complex,ceftazidime,128,R,R,True
+1045,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+1045,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+1045,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+1045,Klebsiella pneumoniae complex,imipenem,16,R,R,True
+1045,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+1046,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+1046,Enterobacter cloacae complex,ceftazidime,>128,R,R,True
+1046,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+1046,Enterobacter cloacae complex,doripenem,8,R,R,True
+1046,Enterobacter cloacae complex,ertapenem,>8,R,R,True
+1046,Enterobacter cloacae complex,imipenem,8,R,R,True
+1046,Enterobacter cloacae complex,meropenem,8,R,R,True
+1047,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1047,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+1047,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+1047,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+1047,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+1047,Klebsiella pneumoniae complex,imipenem,64,R,R,True
+1047,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+1048,Escherichia coli,cefotaxime,>64,R,R,True
+1048,Escherichia coli,ceftazidime,64,R,R,True
+1048,Escherichia coli,ceftriaxone,>32,R,R,True
+1048,Escherichia coli,doripenem,>8,R,R,True
+1048,Escherichia coli,ertapenem,>8,R,R,True
+1048,Escherichia coli,imipenem,>64,R,R,True
+1048,Escherichia coli,meropenem,>8,R,R,True
+1049,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1049,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+1049,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+1049,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+1049,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+1049,Klebsiella pneumoniae complex,imipenem,>64,R,R,True
+1049,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+1050,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+1050,Enterobacter cloacae complex,ceftazidime,128,R,R,True
+1050,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+1050,Enterobacter cloacae complex,doripenem,2,I,I,True
+1050,Enterobacter cloacae complex,ertapenem,8,R,R,True
+1050,Enterobacter cloacae complex,imipenem,2,I,I,True
+1050,Enterobacter cloacae complex,meropenem,4,R,R,True
+1051,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1051,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+1051,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+1051,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+1051,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+1051,Klebsiella pneumoniae complex,imipenem,64,R,R,True
+1051,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+1052,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1052,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+1052,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+1052,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+1052,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+1052,Klebsiella pneumoniae complex,imipenem,>64,R,R,True
+1052,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+1053,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+1053,Enterobacter cloacae complex,ceftazidime,>128,R,R,True
+1053,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+1053,Enterobacter cloacae complex,doripenem,>8,R,R,True
+1053,Enterobacter cloacae complex,ertapenem,>8,R,R,True
+1053,Enterobacter cloacae complex,imipenem,8,R,R,True
+1053,Enterobacter cloacae complex,meropenem,8,R,R,True
+1054,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1054,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+1054,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+1054,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+1054,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+1054,Klebsiella pneumoniae complex,imipenem,32,R,R,True
+1054,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+1055,Escherichia coli,cefotaxime,>64,R,R,True
+1055,Escherichia coli,ceftazidime,>128,R,R,True
+1055,Escherichia coli,ceftriaxone,>32,R,R,True
+1055,Escherichia coli,doripenem,>8,R,R,True
+1055,Escherichia coli,ertapenem,>8,R,R,True
+1055,Escherichia coli,imipenem,64,R,R,True
+1055,Escherichia coli,meropenem,>8,R,R,True
+1056,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1056,Klebsiella pneumoniae complex,ceftazidime,128,R,R,True
+1056,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+1056,Klebsiella pneumoniae complex,doripenem,4,R,R,True
+1056,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+1056,Klebsiella pneumoniae complex,imipenem,16,R,R,True
+1056,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+1057,Escherichia coli,cefotaxime,>64,R,R,True
+1057,Escherichia coli,ceftazidime,>128,R,R,True
+1057,Escherichia coli,ceftriaxone,>32,R,R,True
+1057,Escherichia coli,doripenem,8,R,R,True
+1057,Escherichia coli,ertapenem,>8,R,R,True
+1057,Escherichia coli,imipenem,4,R,R,True
+1057,Escherichia coli,meropenem,8,R,R,True
+1058,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1058,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+1058,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+1058,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+1058,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+1058,Klebsiella pneumoniae complex,imipenem,>64,R,R,True
+1058,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+1059,Escherichia coli,cefotaxime,>64,R,R,True
+1059,Escherichia coli,ceftazidime,>128,R,R,True
+1059,Escherichia coli,ceftriaxone,>32,R,R,True
+1059,Escherichia coli,doripenem,4,R,R,True
+1059,Escherichia coli,ertapenem,>8,R,R,True
+1059,Escherichia coli,imipenem,8,R,R,True
+1059,Escherichia coli,meropenem,4,R,R,True
+1060,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1060,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+1060,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+1060,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+1060,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+1060,Klebsiella pneumoniae complex,imipenem,64,R,R,True
+1060,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+1061,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1061,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+1061,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+1061,Klebsiella pneumoniae complex,doripenem,8,R,R,True
+1061,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+1061,Klebsiella pneumoniae complex,imipenem,16,R,R,True
+1061,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+1062,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1062,Klebsiella pneumoniae complex,ceftazidime,64,R,R,True
+1062,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+1062,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+1062,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+1062,Klebsiella pneumoniae complex,imipenem,32,R,R,True
+1062,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+1063,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1063,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+1063,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+1063,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+1063,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+1063,Klebsiella pneumoniae complex,imipenem,64,R,R,True
+1063,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+1065,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1065,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+1065,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+1065,Klebsiella pneumoniae complex,doripenem,>8,R,R,True
+1065,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+1065,Klebsiella pneumoniae complex,imipenem,16,R,R,True
+1065,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+1109,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+1109,Enterobacter cloacae complex,ceftazidime,>128,R,R,True
+1109,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+1109,Enterobacter cloacae complex,ertapenem,4,R,R,True
+1109,Enterobacter cloacae complex,imipenem,<=0.5,S,S,True
+1109,Enterobacter cloacae complex,meropenem,0.25,S,S,True
+1110,Enterobacter cloacae complex,cefotaxime,64,R,R,True
+1110,Enterobacter cloacae complex,ceftazidime,>128,R,R,True
+1110,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+1110,Enterobacter cloacae complex,ertapenem,2,R,R,True
+1110,Enterobacter cloacae complex,imipenem,2,I,I,True
+1110,Enterobacter cloacae complex,meropenem,1,S,S,True
+1111,Morganella / Providencia,cefotaxime,8,R,R,True
+1111,Morganella / Providencia,ertapenem,4,R,R,True
+1111,Morganella / Providencia,meropenem,2,I,I,True
+1113,Morganella / Providencia,cefotaxime,16,R,R,True
+1113,Morganella / Providencia,ceftazidime,4,S,S,True
+1113,Morganella / Providencia,ceftriaxone,8,R,R,True
+1113,Morganella / Providencia,ertapenem,2,R,R,True
+1113,Morganella / Providencia,meropenem,2,S,I,False
+1117,Morganella / Providencia,ceftazidime,2,S,S,True
+1117,Morganella / Providencia,ertapenem,8,R,R,True
+1117,Morganella / Providencia,meropenem,4,R,R,True
+1149,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1149,Klebsiella pneumoniae complex,ceftazidime,128,R,R,True
+1149,Klebsiella pneumoniae complex,imipenem,8,R,R,True
+1149,Klebsiella pneumoniae complex,meropenem,8,R,R,True
+1150,Enterobacter cloacae complex,cefotaxime,32,R,R,True
+1150,Enterobacter cloacae complex,ceftazidime,64,R,R,True
+1150,Enterobacter cloacae complex,imipenem,4,R,R,True
+1150,Enterobacter cloacae complex,meropenem,1,S,S,True
+1151,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+1151,Enterobacter cloacae complex,ceftazidime,>128,R,R,True
+1151,Enterobacter cloacae complex,imipenem,8,R,R,True
+1151,Enterobacter cloacae complex,meropenem,>8,R,R,True
+1152,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+1152,Enterobacter cloacae complex,ceftazidime,>128,R,R,True
+1152,Enterobacter cloacae complex,imipenem,64,R,R,True
+1152,Enterobacter cloacae complex,meropenem,>8,R,R,True
+1153,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1153,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+1153,Klebsiella pneumoniae complex,imipenem,64,R,R,True
+1153,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+1158,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1158,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+1158,Klebsiella pneumoniae complex,imipenem,>64,R,R,True
+1158,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+1160,Enterobacter cloacae complex,cefotaxime,>64,R,R,True
+1160,Enterobacter cloacae complex,ceftazidime,>128,R,R,True
+1160,Enterobacter cloacae complex,meropenem,>8,R,R,True
+1162,Escherichia coli,cefotaxime,>64,R,R,True
+1162,Escherichia coli,ceftazidime,>128,R,R,True
+1162,Escherichia coli,imipenem,8,R,R,True
+1162,Escherichia coli,meropenem,>8,R,R,True
+1163,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1163,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+1163,Klebsiella pneumoniae complex,imipenem,64,R,R,True
+1163,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+1297,Klebsiella pneumoniae complex,cefotaxime,>64,R,R,True
+1297,Klebsiella pneumoniae complex,ceftazidime,>128,R,R,True
+1297,Klebsiella pneumoniae complex,ceftriaxone,>32,R,R,True
+1297,Klebsiella pneumoniae complex,ertapenem,>8,R,R,True
+1297,Klebsiella pneumoniae complex,imipenem,16,R,R,True
+1297,Klebsiella pneumoniae complex,meropenem,>8,R,R,True
+1305,Escherichia coli,cefotaxime,>64,R,R,True
+1305,Escherichia coli,ceftazidime,>128,R,R,True
+1305,Escherichia coli,ceftriaxone,>32,R,R,True
+1305,Escherichia coli,ertapenem,>8,R,R,True
+1305,Escherichia coli,imipenem,>16,R,R,True
+1305,Escherichia coli,meropenem,>8,R,R,True
+1306,Staphylococcus aureus,cefoxitin,16,R,R,True
+1306,Staphylococcus aureus,oxacillin,2,S,S,True
+1307,Staphylococcus aureus,cefoxitin,16,R,R,True
+1307,Staphylococcus aureus,oxacillin,0.5,S,S,True
+1329,Enterobacter cloacae complex,ceftazidime,128,R,R,True
+1329,Enterobacter cloacae complex,ceftriaxone,>32,R,R,True
+1329,Enterobacter cloacae complex,ertapenem,1,I,I,True
+1329,Enterobacter cloacae complex,imipenem,1,S,S,True
+1331,Enterobacter cloacae complex,cefotaxime,<=0.5,S,S,True
+1331,Enterobacter cloacae complex,ceftazidime,<=1,S,S,True
+1331,Enterobacter cloacae complex,ceftriaxone,<=1,S,S,True
